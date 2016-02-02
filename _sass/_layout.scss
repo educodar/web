@@ -240,3 +240,35 @@
         }
     }
 }
+
+#menu {
+    float: right;
+    ul {
+      padding:0px;
+    	margin:0px;
+    	list-style:none;
+
+        li {
+          display: inline;
+            a {
+              padding: 2px 10px;
+            	display: inline-block;
+            	color: #333;
+            	text-decoration: none;
+            }
+        }
+    }
+}
+
+#logo {
+  float: left;
+  img {
+    width: $logo-size;
+  }
+}
+
+.container {
+  width: $content-width;
+  height: 100%;
+  margin: $spacing-unit auto;
+}
