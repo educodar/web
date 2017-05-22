@@ -26,7 +26,7 @@ body {
 /* Home Page Carousel */
 
 header.carousel {
-    height: 50%;
+    height: 60%;
 }
 
 header.carousel .item,
@@ -72,6 +72,10 @@ header.carousel .fill {
 footer {
     margin: 50px 0;
 }
+
+.logo { text-align: center; }
+.logo img { padding-top: 10px; padding-bottom: 10px; }
+#logo_title { color: #FFF; }
 
 /* Responsive Styles */
 
