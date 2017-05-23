@@ -74,8 +74,8 @@ footer {
 }
 
 .logo { text-align: center; }
-.logo img { padding-top: 10px; padding-bottom: 10px; }
-#logo_title { color: #FFF; }
+.logo img { padding-top: 5px; padding-bottom: 5px; }
+#logo_title { color: #FFF; font-size: 16px;}
 
 /* Responsive Styles */
 
