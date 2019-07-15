@@ -9,7 +9,9 @@
 
 # THANKS
 
-  <name>
+Maria Simas
+Nayara Souza
+Vagner dos Santos
 
 # TECHNOLOGY COLOPHON
 
