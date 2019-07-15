@@ -4,6 +4,8 @@
 # TEAM
 
   Inajara Leppa
+  Jimmy Andrade
+  Lucas Carvalhais
 
 # THANKS
 
@@ -11,4 +13,4 @@
 
 # TECHNOLOGY COLOPHON
 
-  HTML & CSS
+  HTML, CSS, JavaScript, React, Gatsby, Netlify

@@ -1,2 +1,1 @@
-# educodar.github.io
-Live
+# Educodar
