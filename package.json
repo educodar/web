@@ -10,7 +10,9 @@
     "react-dom-server": "0.0.5"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gatsby develop",
+    "build": "gatsby build"
   },
   "repository": {
     "type": "git",
