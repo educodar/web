@@ -1,0 +1,27 @@
+{
+  "name": "educodar",
+  "version": "1.0.0",
+  "description": "Educodar Gatsby website",
+  "main": "index.js",
+  "devDependencies": {
+    "netlify": "^2.4.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/educodar/educodar.github.io.git"
+  },
+  "keywords": [
+    "educodar",
+    "gatsby",
+    "react"
+  ],
+  "author": "ThoughtWorks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/educodar/educodar.github.io/issues"
+  },
+  "homepage": "https://github.com/educodar/educodar.github.io#readme"
+}
