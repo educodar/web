@@ -4,7 +4,9 @@
   "description": "Educodar Gatsby website",
   "main": "index.js",
   "devDependencies": {
-    "netlify": "^2.4.6"
+    "gatsby": "^2.13.23",
+    "netlify": "^2.4.6",
+    "react-dom-server": "0.0.5"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/educodar/educodar.github.io/issues"
   },
-  "homepage": "https://github.com/educodar/educodar.github.io#readme"
+  "homepage": "https://github.com/educodar/educodar.github.io#readme",
+  "dependencies": {
+    "react-dom": "^16.8.6"
+  }
 }

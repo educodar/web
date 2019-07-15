@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+  Inajara Leppa
+  Jimmy Andrade
+  Lucas Carvalhais
+
+# THANKS
+
+Maria Simas
+Nayara Souza
+Vagner dos Santos
+
+# TECHNOLOGY COLOPHON
+
+  HTML, CSS, JavaScript, React, Gatsby, Netlify
