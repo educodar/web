@@ -1,5 +1,7 @@
 # Educodar
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c9a59a91-8853-4246-944b-a5d9ec66c2c7/deploy-status)](https://app.netlify.com/sites/educodar/deploys)
+
 ## Como utilizar este repositório
 
 ### 1. Clone este repositório em sua máquina
