@@ -3,15 +3,22 @@
 
 # TEAM
 
-  Inajara Leppa
-  Jimmy Andrade
-  Lucas Carvalhais
+  Daniel Nascimento (Belo Horizonte)
+  Inajara Leppa (Porto Alegre)
+  Jimmy Andrade (Belo Horizonte)
+  Lucas Carvalhais (Belo Horizonte)
 
 # THANKS
 
-Maria Simas
-Nayara Souza
-Vagner dos Santos
+  André Araújo (Belo Horizonte)
+  Bruno Castelo (Belo Horizonte)
+  Leandro Victor (Belo Horizonte)
+  Luciano Borges (Belo Horizonte)
+  Maria Simas (Belo Horizonte)
+  Nayara Souza (Belo Horizonte)
+  Paulo Gama (Recife)
+  Thais Nunes (Belo Horizonte)
+  Vagner dos Santos (Belo Horizonte)
 
 # TECHNOLOGY COLOPHON
 
