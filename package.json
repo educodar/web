@@ -18,12 +18,13 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "serve": "gatsby serve",
     "start": "npm run develop",
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/educodar/educodar.github.io.git"
+    "url": "git+https://github.com/educodar/website.git"
   },
   "keywords": [
     "educodar",
@@ -33,10 +34,12 @@
   "author": "ThoughtWorks",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/educodar/educodar.github.io/issues"
+    "url": "https://github.com/educodar/website/issues"
   },
-  "homepage": "https://github.com/educodar/educodar.github.io#readme",
+  "homepage": "https://github.com/educodar/website#readme",
   "dependencies": {
-    "react": "^16.8.6"
+    "gatsby-plugin-react-helmet": "^3.1.2",
+    "react": "^16.8.6",
+    "react-helmet": "^5.2.1"
   }
 }

@@ -1,7 +1,7 @@
 import React from "react"
 import renderer from "react-test-renderer"
 
-import HomePage from "../index.js"
+import HomePage from "."
 
 describe("Home page", () => {
     it("renders correctly", () => {
