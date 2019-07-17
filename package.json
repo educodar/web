@@ -6,6 +6,7 @@
   "devDependencies": {
     "babel-jest": "^24.8.0",
     "babel-preset-gatsby": "^0.2.6",
+    "cypress": "^3.4.0",
     "eslint": "^6.0.1",
     "gatsby": "^2.13.23",
     "identity-obj-proxy": "^3.0.0",
@@ -13,14 +14,17 @@
     "netlify": "^2.4.6",
     "react-dom": "^16.8.6",
     "react-dom-server": "0.0.5",
-    "react-test-renderer": "^16.8.6"
+    "react-test-renderer": "^16.8.6",
+    "start-server-and-test": "^1.9.1"
   },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
     "serve": "gatsby serve",
     "start": "npm run develop",
-    "test": "jest"
+    "test": "jest",
+    "cy:open": "cypress open",
+    "test:e2e": "start-server-and-test develop http://localhost:8000 cy:open"
   },
   "repository": {
     "type": "git",
