@@ -1,3 +1,3 @@
 module.exports = {
-    plugins: [`gatsby-plugin-react-helmet`, `gatsby-plugin-layout`]
-}
+  plugins: [`gatsby-plugin-react-helmet`, `gatsby-plugin-layout`]
+};
