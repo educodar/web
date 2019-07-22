@@ -16,3 +16,6 @@ COPY package.json /usr/src/app/package.json
 
 # Copy app dependencies cache...
 COPY package-lock.json /usr/src/app/package-lock.json
+
+# Install dependencies for production
+RUN npm install --only=production
