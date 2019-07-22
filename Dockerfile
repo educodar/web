@@ -19,3 +19,6 @@ COPY package-lock.json /usr/src/app/package-lock.json
 
 # Install dependencies for production
 RUN npm install --only=production
+
+# Bundle app source files...
+COPY / /usr/src/app
