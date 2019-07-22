@@ -5,4 +5,4 @@ stop: ##@application Stop all container.
 	docker-compose -f "docker-compose.yml" down
 
 run:
-	docker run -it -p 8000:8000 educodar:latest
+	docker run -p 8000:8000 website
