@@ -10,3 +10,6 @@ ENV PATH /usr/src/app/node_modules/.bin:$PATH
 
 # Setting Node loglevel...
 ENV NPM_CONFIG_LOGLEVEL warn
+
+# Copy app package manifest...
+COPY package.json /usr/src/app/package.json
