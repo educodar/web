@@ -1,11 +1,11 @@
-import React from "react";
-import renderer from "react-test-renderer";
+import React from "react"
+import renderer from "react-test-renderer"
 
-import TeamPage from "../equipe";
+import TeamPage from "../equipe"
 
 describe("Team page", () => {
   it("renders correctly", () => {
-    const tree = renderer.create(<TeamPage />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-});
+    const tree = renderer.create(<TeamPage />).toJSON()
+    expect(tree).toMatchSnapshot()
+  })
+})

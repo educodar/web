@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 export default () => (
   <article>
@@ -28,4 +28,4 @@ export default () => (
       <li>Paulo Gama (Recife)</li>
     </ul>
   </article>
-);
+)
