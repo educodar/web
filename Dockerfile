@@ -25,3 +25,6 @@ COPY / /usr/src/app
 
 # Exposing :8000 port
 EXPOSE 8000
+
+# Starting app...
+CMD ["npm", "start"]
