@@ -2,22 +2,30 @@
   "name": "educodar",
   "version": "1.0.0",
   "description": "Educodar Gatsby website",
-  "main": "index.js",
+  "main": "n/a",
+  "dependencies": {
+    "react": "^16.8.6"
+  },
   "devDependencies": {
     "babel-jest": "^24.8.0",
     "babel-preset-gatsby": "^0.2.6",
     "eslint": "^6.0.1",
     "gatsby": "^2.13.23",
+    "gatsby-plugin-layout": "^1.1.2",
+    "gatsby-plugin-react-helmet": "^3.1.2",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^24.8.0",
     "netlify": "^2.4.6",
+    "prettier": "1.18.2",
     "react-dom": "^16.8.6",
     "react-dom-server": "0.0.5",
+    "react-helmet": "^5.2.1",
     "react-test-renderer": "^16.8.6"
   },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
     "serve": "gatsby serve",
     "start": "npm run develop",
     "test": "jest"
@@ -36,11 +44,5 @@
   "bugs": {
     "url": "https://github.com/educodar/website/issues"
   },
-  "homepage": "https://github.com/educodar/website#readme",
-  "dependencies": {
-    "gatsby-plugin-layout": "^1.1.2",
-    "gatsby-plugin-react-helmet": "^3.1.2",
-    "react": "^16.8.6",
-    "react-helmet": "^5.2.1"
-  }
+  "homepage": "https://github.com/educodar/website#readme"
 }
