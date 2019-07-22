@@ -6,3 +6,5 @@ develop:
 	npm run develop
 build:
 	npm run build
+serve:
+	npm run serve
