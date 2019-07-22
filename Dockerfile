@@ -4,3 +4,6 @@ FROM node:alpine as node-alpine-build
 # Using -p because mkdir isn't recursive by default
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
+
+# Configuring Node modules path...
+ENV PATH /usr/src/app/node_modules/.bin:$PATH
