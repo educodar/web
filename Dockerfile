@@ -13,3 +13,6 @@ ENV NPM_CONFIG_LOGLEVEL warn
 
 # Copy app package manifest...
 COPY package.json /usr/src/app/package.json
+
+# Copy app dependencies cache...
+COPY package-lock.json /usr/src/app/package-lock.json
