@@ -22,3 +22,6 @@ RUN npm install --only=production
 
 # Bundle app source files...
 COPY / /usr/src/app
+
+# Exposing :8000 port
+EXPOSE 8000
