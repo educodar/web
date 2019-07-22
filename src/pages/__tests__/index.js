@@ -4,10 +4,8 @@ import renderer from "react-test-renderer"
 import HomePage from ".."
 
 describe("Home page", () => {
-    it("renders correctly", () => {
-        const tree = renderer
-            .create(<HomePage />)
-            .toJSON()
-        expect(tree).toMatchSnapshot()
-    })
+  it("renders correctly", () => {
+    const tree = renderer.create(<HomePage />).toJSON()
+    expect(tree).toMatchSnapshot()
+  })
 })
