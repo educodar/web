@@ -1,14 +1,14 @@
-version: "3.7"
+version: '3.7'
+
 services:
-  webapp:
+  website:
+    image: website
     build:
       context: .
       dockerfile: Dockerfile
-    image: educodar:latest
-    container_name: "educodar_webapp"
-    volumes:
-      - ./:/usr/src/app
-    ports:
-      - "8000:8000"
     environment:
-      - NODE_ENV=development
+      NODE_ENV: production
+    ports:
+      - 8000:8000
+    volumes:
+    - ./:/usr/src/app

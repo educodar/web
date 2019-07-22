@@ -1,11 +1,8 @@
-build: ##@application Creates Docker container.
-	docker-compose build
-
-start: ##@application Starts Web App Locally.
-	docker-compose up -d webapp
+run-local: ##@application Creates Docker container.
+	docker-compose -f "docker-compose.yml" up -d --build
 
 stop: ##@application Stop all container.
-	docker-compose down
+	docker-compose -f "docker-compose.yml" down
 
 run:
-	docker run -p 8000:8000 educodar:latest
+	docker run -it -p 8000:8000 educodar:latest

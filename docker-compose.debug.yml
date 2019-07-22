@@ -1,0 +1,12 @@
+version: '2.1'
+
+services:
+  website:
+    image: website
+    build: .
+    environment:
+      NODE_ENV: development
+    ports:
+      - 8000:8000
+      - 9229:9229
+    command: npm start
