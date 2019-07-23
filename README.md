@@ -2,6 +2,19 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c9a59a91-8853-4246-944b-a5d9ec66c2c7/deploy-status)](https://app.netlify.com/sites/educodar/deploys)
 
+## Sobre os objetivos do negócio
+
+Este site está sendo desenvolvido com o objetivo de ajudar o Educodar a se tornar um projeto de impacto nas cidades onde há escritórios da ThoughtWorks,
+levando o conhecimento de Tecnologia da Informação para o maior número de mais estudantes, principalmente a partir do ano de 2020.
+
+O site é pensado para três públicos: a pessoa voluntária, a pessoa estudante e escola.
+As pessoas precisam entender que o projeto está ativo e como fazer parte.
+
+## Sobre as tecnologias
+
+Este projeto é desenvolvido em React utilizando o toolchain Gatsby (para construção de websites estáticos).
+O site gerado por este projeto é hospedado no Netlify, uma ferramenta gratuita que também é utilizada para CI/CD.
+
 ## Como utilizar este repositório
 
 ### 1. Clone este repositório em sua máquina
