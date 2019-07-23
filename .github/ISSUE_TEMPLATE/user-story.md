@@ -7,28 +7,23 @@ assignees: ''
 
 ---
 
-**👥 User story**
+**Context**
 
-As a (who are we building for?)
+- ❓ What is happening in Educodar that makes it necessary to create this story?
+- ❓ Why is important to implement this user story?
+- ❓ How this user story is gonna create value for Educodar?
+
+**Value delivery**
+As a (👥 who are we building for?)
 I want (what do they want to do?)
 So that
 
-**❓ Why is important to implement this user story?**
-Answer it.
+**Scope**
+Do I need to create some new page, UI or another thing?
+Is this story linked to another story? Does it have any dependency?
+Mention all related issues using # here.
 
-**❓ How this user story is gonna create value for Educodar?**
-Answer it.
-
-**🎨 Additional context (like visual mockups)**
-
-**✅ Checklist**
-
-- [ ] This user story is independent: has no overlap, order is ok;
-- [ ] This user story is negotiable: has no contract, nor spec, details can change;
-- [ ] This user story is valuable for Educodar: has incremental benefit to someone;
-- [ ] This user story is estimable: has relative size to other stories;
-- [ ] This user story is small and scalable: it's not bigger than an interation;
-- [ ] This user story is testable: we can tell if it's done.
+---
 
 **Acceptance criterias**
 
@@ -53,3 +48,22 @@ Answer it.
 **Given** (context)
 **When** (action)
 **Then** (expectation)
+
+---
+
+**🎨 Additional context (like visual mockups)**
+
+Add prototypes, mockups and another designs as attachments.
+
+<details>
+  <summary>INVEST checklist</summary>
+  
+  **✅ Checklist**
+
+  - [ ] This user story is independent: has no overlap, order is ok;
+  - [ ] This user story is negotiable: has no contract, nor spec, details can change;
+  - [ ] This user story is valuable for Educodar: has incremental benefit to someone;
+  - [ ] This user story is estimable: has relative size to other stories;
+  - [ ] This user story is small and scalable: it's not bigger than an interation;
+  - [ ] This user story is testable: we can tell if it's done.
+</details>
