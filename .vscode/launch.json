@@ -7,7 +7,7 @@
       "request": "launch",
       "protocol": "inspector",
       "program": "${workspaceRoot}/node_modules/gatsby/dist/bin/gatsby",
-      "args": ["develop"],
+      "args": ["develop", "-H", "0.0.0.0", "--port", "8000"],
       "stopOnEntry": false,
       "runtimeArgs": ["--nolazy"],
       "sourceMaps": false
