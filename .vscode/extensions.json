@@ -1,5 +1,15 @@
 {
-    "recommendations": [
-        "esbenp.prettier-vscode"
-    ]
+  "recommendations": [
+    "ms-azuretools.vscode-docker",
+    "ms-vscode-remote.remote-containers",
+    "ms-vsliveshare.vsliveshare",
+    "orta.vscode-jest",
+    "davidanson.vscode-markdownlint",
+    "eg2.vscode-npm-script",
+    "msjsdiag.debugger-for-chrome",
+    "christian-kohler.npm-intellisense",
+    "esbenp.prettier-vscode",
+    "redhat.vscode-yaml",
+    "editorconfig.editorconfig"
+  ]
 }
