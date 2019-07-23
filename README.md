@@ -4,8 +4,10 @@
 
 ## Sobre os objetivos do negócio
 
-Este site está sendo desenvolvido com o objetivo de ajudar o Educodar a se tornar um projeto de impacto nas cidades onde há escritórios da ThoughtWorks,
-levando o conhecimento de Tecnologia da Informação para o maior número de mais estudantes, principalmente a partir do ano de 2020.
+Este site está sendo desenvolvido com o objetivo de ajudar o Educodar a se tornar um 
+projeto de impacto nas cidades onde há escritórios da ThoughtWorks, levando o 
+conhecimento de Tecnologia da Informação para o maior número de estudantes, 
+principalmente a partir do ano de 2020.
 
 O site é pensado para três públicos: a pessoa voluntária, a pessoa estudante e escola.
 As pessoas precisam entender que o projeto está ativo e como fazer parte.
