@@ -9,7 +9,7 @@
 Você precisa ter o Git instalado em seu Windows, macOS ou Linux.
 Então, execute o seguinte comando no terminal de sua máquina:
 
-```bash
+```shell
 git clone https://github.com/educodar/educodar.github.io.git
 ```
 
@@ -19,7 +19,7 @@ Aguarde a clonagem ser finalizada.
 
 Execute o seguinte comando em seu terminal do Windows, macOS ou Linux.
 
-```bash
+```shell
 git checkout nomedobranch
 git pull
 ```
@@ -31,13 +31,13 @@ Então execute o comando `ls` para verificar os arquivos.
 Você precisa ter o Node instalado em seu Windows, macOS ou Linux.
 Então, execute o seguinte comando no macOS ou Linux.
 
-```bash
+```shell
 make install
 ```
 
 No Windows, você deve executar o seguinte comando para instalar:
 
-```bash
+```shell
 npm install
 ```
 
@@ -49,13 +49,13 @@ Se, durante o processo de instalação, você encontrar algum warning sobre paco
 
 No macOS ou Linux, execute o seguinte comando em seu terminal:
 
-```bash
+```shell
 make develop
 ```
 
 No Windows, você deve executar o seguinte:
 
-```
+```shell
 npm start
 ```
 

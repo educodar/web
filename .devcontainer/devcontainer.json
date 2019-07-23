@@ -1,7 +1,7 @@
 {
   "name": "Educodar Website Dev Container",
   "dockerFile": "../Dockerfile",
-  "appPort": "8000",
+  "appPort": ["8000:8000"],
   "extensions": [
     "orta.vscode-jest",
     "davidanson.vscode-markdownlint",
