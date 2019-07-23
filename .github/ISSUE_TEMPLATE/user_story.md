@@ -13,10 +13,13 @@ assignees: ''
 - ❓ Why is important to implement this user story?
 - ❓ How this user story is gonna create value for Educodar?
 
-**Value delivery**
-As a (👥 who are we building for?)
-I want (what do they want to do?)
-So that
+---
+
+**Business value**
+
+**As a** (👥 who are we building for?)
+**I want** (what do they want to do?)
+**So that** (...)
 
 **Scope**
 Do I need to create some new page, UI or another thing?
