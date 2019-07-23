@@ -4,23 +4,21 @@
   "description": "Educodar Gatsby website",
   "main": "n/a",
   "dependencies": {
-    "react": "^16.8.6"
+    "gatsby": "2.13.35",
+    "gatsby-image": "2.2.6",
+    "gatsby-plugin-layout": "1.1.2",
+    "gatsby-plugin-react-helmet": "3.1.2",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-helmet": "5.2.1"
   },
   "devDependencies": {
     "babel-jest": "24.8.0",
-    "babel-preset-gatsby": "0.2.6",
     "cypress": "3.4.0",
-    "eslint": "6.1.0",
-    "gatsby": "2.13.25",
-    "gatsby-plugin-layout": "1.1.2",
-    "gatsby-plugin-react-helmet": "3.1.2",
     "identity-obj-proxy": "3.0.0",
     "jest": "24.8.0",
     "netlify": "2.4.7",
     "prettier": "1.18.2",
-    "react-dom": "16.8.6",
-    "react-dom-server": "0.0.5",
-    "react-helmet": "5.2.1",
     "react-test-renderer": "16.8.6",
     "start-server-and-test": "1.9.1"
   },
