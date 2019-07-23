@@ -29,25 +29,25 @@ Mention all related issues using # here.
 
 😄 Happy path
 
-**Given** (context)
-**When** (action)
-**Then** (expectation)
+- **Given** (context)
+- **When** (action)
+- **Then** (expectation)
 
 **🔀 Alternative paths**
 
-**Given** (context)
-**When** (action)
-**Then** (expectation)
+- **Given** (context)
+- **When** (action)
+- **Then** (expectation)
 
-**Given** (context)
-**When** (action)
-**Then** (expectation)
+- **Given** (context)
+- **When** (action)
+- **Then** (expectation)
 
 **😢 Sad path**
 
-**Given** (context)
-**When** (action)
-**Then** (expectation)
+- **Given** (context)
+- **When** (action)
+- **Then** (expectation)
 
 ---
 
