@@ -57,7 +57,7 @@ No Windows, você deve executar o seguinte:
 
 ```
 npm start
-````
+```
 
 Se tudo correr bem, o Gatsby executará pela primeira vez. Então, você pode acessar http://localhost:8000.
 A porta `8000` é utilizada durante o desenvolvimento (e não a porta 3000, que costuma ser usada na maioria dos projetos em React).

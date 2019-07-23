@@ -1,0 +1,15 @@
+version: '2.1'
+
+services:
+  website:
+    image: website
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      NODE_ENV: development
+    ports:
+      - 8000:8000
+      - 9229:9229
+    volumes:
+    - ./:/usr/src/app
