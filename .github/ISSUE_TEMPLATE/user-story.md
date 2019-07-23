@@ -27,27 +27,27 @@ Mention all related issues using # here.
 
 **Acceptance criterias**
 
-😄 Happy path
+😄 Happy path (required)
 
-- **Given** (context)
-- **When** (action)
-- **Then** (expectation)
+**Given** (context)
+**When** (action)
+**Then** (expectation)
 
-**🔀 Alternative paths**
+🔀 Alternative paths (optional)
 
-- **Given** (context)
-- **When** (action)
-- **Then** (expectation)
+**Given** (context)
+**When** (action)
+**Then** (expectation)
 
-- **Given** (context)
-- **When** (action)
-- **Then** (expectation)
+**Given** (context)
+**When** (action)
+**Then** (expectation)
 
-**😢 Sad path**
+😢 Sad path (optional, e.g. form submitting failure)
 
-- **Given** (context)
-- **When** (action)
-- **Then** (expectation)
+**Given** (context)
+**When** (action)
+**Then** (expectation)
 
 ---
 
@@ -55,15 +55,11 @@ Mention all related issues using # here.
 
 Add prototypes, mockups and another designs as attachments.
 
-<details>
-  <summary>INVEST checklist</summary>
-  
-  **✅ Checklist**
+**INVEST ✅ checklist**
 
-  - [ ] This user story is independent: has no overlap, order is ok;
-  - [ ] This user story is negotiable: has no contract, nor spec, details can change;
-  - [ ] This user story is valuable for Educodar: has incremental benefit to someone;
-  - [ ] This user story is estimable: has relative size to other stories;
-  - [ ] This user story is small and scalable: it's not bigger than an interation;
-  - [ ] This user story is testable: we can tell if it's done.
-</details>
+- [ ] This user story is independent: has no overlap, order is ok;
+- [ ] This user story is negotiable: has no contract, nor spec, details can change;
+- [ ] This user story is valuable for Educodar: has incremental benefit to someone;
+- [ ] This user story is estimable: has relative size to other stories;
+- [ ] This user story is small and scalable: it's not bigger than an interation;
+- [ ] This user story is testable: we can tell if it's done.
