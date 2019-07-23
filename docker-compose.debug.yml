@@ -3,10 +3,13 @@ version: '2.1'
 services:
   website:
     image: website
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile
     environment:
       NODE_ENV: development
     ports:
       - 8000:8000
       - 9229:9229
-    command: npm start
+    volumes:
+    - ./:/usr/src/app

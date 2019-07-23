@@ -1,18 +1,34 @@
+# Node nmodules
 node_modules
+
+# NPM logs
 npm-debug.log
+
+# Docker files
 Dockerfile*
 docker-compose*
 .dockerignore
+
+# Git
 .git
 .gitignore
+
+# Misc
 .env
 */bin
 */obj
-README.md
+
+# Docs
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
 LICENSE
-.vscode
+README.md
+
+# Gatsby-generated files
 .cache
-.netlify
 public
-CNAME
+
+# GitHub Pages, Netlify & other publishing-specific configs
+.netlify
 netlify.toml
+CNAME
