@@ -35,6 +35,7 @@ module.exports = {
         headers: {
           "/*": [
             "Content-Security-Policy: base-uri 'self'; default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; object-src 'none'; form-action 'self'; font-src 'self' data:; connect-src 'self'; img-src 'self' data:;",
+            "Feature-Policy: camera 'none'; fullscreen 'none'; geolocation 'self'; gyroscope 'self'; magnetometer 'none'; microphone 'none'; midi 'none'; notifications 'self'; payment 'none'; push 'self'; speaker 'self'; sync-xhr 'self'; usermedia 'self'; vibrate 'self'",
             "Referrer-Policy: no-referrer",
             "X-Content-Type-Options: nosniff",
             "X-Frame-Options: DENY",
