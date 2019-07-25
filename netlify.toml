@@ -7,12 +7,3 @@
   command = "npm start"
   port = 8000
   publish = "public"
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-  Content-Security-Policy = "default-src 'self'; base-uri 'self'; font-src 'self'; form-action 'self'; frame-ancestors 'none'; img-src 'self'; object-src 'none'; plugin-types 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'"
-  Referrer-Policy = "no-referrer"
-  X-Content-Type-Options = "nosniff"
-  X-Frame-Options = "DENY"
-  X-XSS-Protection = "1; mode=block"
