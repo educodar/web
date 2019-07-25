@@ -34,11 +34,11 @@ module.exports = {
       options: {
         headers: {
           "/*": [
-            "Content-Security-Policy = base-uri 'self'; default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; object-src 'none'; form-action 'self'; font-src 'self' data:; connect-src 'self'; img-src 'self' data:;",
-            "Referrer-Policy = no-referrer",
-            "X-Content-Type-Options = nosniff",
-            "X-Frame-Options = DENY",
-            "X-XSS-Protection = 1; mode=block",
+            "Content-Security-Policy: base-uri 'self'; default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; object-src 'none'; form-action 'self'; font-src 'self' data:; connect-src 'self'; img-src 'self' data:;",
+            "Referrer-Policy: no-referrer",
+            "X-Content-Type-Options: nosniff",
+            "X-Frame-Options: DENY",
+            "X-XSS-Protection: 1; mode=block",
           ],
         },
       },
