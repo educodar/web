@@ -14,6 +14,6 @@ module.exports = {
         display: `minimal-ui`,
         scope: `/`,
       },
-    },
+    }
   ],
 }
