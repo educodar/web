@@ -21,6 +21,12 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-csp`,
+      options: {
+        disableOnDev: false,
+        directives: {
+          "style-src": "'self' 'unsafe-inline'",
+        },
+      },
     },
   ],
 }
