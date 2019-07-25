@@ -24,6 +24,7 @@ module.exports = {
       options: {
         disableOnDev: false,
         directives: {
+          "script-src": "'self' 'unsafe-inline'",
           "style-src": "'self' 'unsafe-inline'",
         },
       },
