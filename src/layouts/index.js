@@ -2,7 +2,7 @@ import React from "react"
 import { Helmet } from "react-helmet"
 
 export default ({ children }) => (
-  <>
+  <React.Fragment>
     <Helmet
       meta={[
         {
@@ -12,5 +12,5 @@ export default ({ children }) => (
       ]}
     />
     {children}
-  </>
+  </React.Fragment>
 )
