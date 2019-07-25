@@ -1,7 +1,11 @@
 module.exports = {
   plugins: [
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-layout`,
+    {
+      resolve: `gatsby-plugin-react-helmet`,
+    },
+    {
+      resolve: `gatsby-plugin-layout`,
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -14,6 +18,9 @@ module.exports = {
         display: `minimal-ui`,
         scope: `/`,
       },
-    }
+    },
+    {
+      resolve: `gatsby-plugin-csp`,
+    },
   ],
 }
