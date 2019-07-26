@@ -1,16 +1,11 @@
 import React from "react"
-import { Helmet } from "react-helmet"
 
 export default ({ children }) => (
-  <React.Fragment>
-    <Helmet
-      meta={[
-        {
-          name: "google-site-verification",
-          content: "d56gI8ef4vlvD5c60_X2KNMV7KNNlgEalpcH84eWbs8",
-        },
-      ]}
-    />
-    {children}
-  </React.Fragment>
+  <>
+    <header>
+      <h1>Educodar</h1>
+    </header>
+    <main>{children}</main>
+    <footer></footer>
+  </>
 )
