@@ -1,7 +1,20 @@
 module.exports = {
   plugins: [
     {
-      resolve: `gatsby-plugin-react-helmet`,
+      resolve: `gatsby-plugin-csp`,
+      options: {
+        disableOnDev: false,
+        directives: {
+          "script-src": "'self' 'unsafe-inline'",
+          "style-src": "'self' 'unsafe-inline'",
+        },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-html-attributes`,
+      options: {
+        lang: `pt-br`,
+      },
     },
     {
       resolve: `gatsby-plugin-layout`,
@@ -20,16 +33,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-csp`,
-      options: {
-        disableOnDev: false,
-        directives: {
-          "script-src": "'self' 'unsafe-inline'",
-          "style-src": "'self' 'unsafe-inline'",
-        },
-      },
-    },
-    {
       resolve: `gatsby-plugin-netlify`,
       options: {
         headers: {
@@ -43,6 +46,9 @@ module.exports = {
           ],
         },
       },
+    },
+    {
+      resolve: `gatsby-plugin-react-helmet`,
     },
   ],
 }
