@@ -8,16 +8,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-csp`,
-      options: {
-        disableOnDev: false,
-        directives: {
-          "script-src": "'self' 'unsafe-inline'",
-          "style-src": "'self' 'unsafe-inline'",
-        },
-      },
-    },
-    {
       resolve: `gatsby-plugin-html-attributes`,
       options: {
         lang: `pt-br`,
@@ -52,6 +42,12 @@ module.exports = {
             "X-XSS-Protection: 1; mode=block",
           ],
         },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [{ family: `Nunito`, subsets: [`latin`] }],
       },
     },
     {
