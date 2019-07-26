@@ -58,7 +58,7 @@ module.exports = {
       resolve: `gatsby-plugin-react-helmet`,
     },
     {
-      resolve: `gatsby-plugin-robots-txt`
+      resolve: `gatsby-plugin-robots-txt`,
     },
     {
       resolve: `gatsby-plugin-sitemap`,
