@@ -29,3 +29,6 @@ coverage
 
 # Compiled binary addons
 build/Release
+
+# Environment variables
+.env*
