@@ -7,7 +7,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 ## English or Portuguese?
 
 Use English for code & bug issues.
-Use Portuguese (Brazil) for user stories
+Use Portuguese (Brazil) for user stories.
 
 ## Pull Request Process
 
