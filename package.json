@@ -4,10 +4,10 @@
   "description": "Educodar Gatsby website",
   "main": "n/a",
   "dependencies": {
-    "gatsby": "2.13.44",
-    "gatsby-image": "2.2.7",
+    "gatsby": "2.13.51",
+    "gatsby-image": "2.2.8",
     "gatsby-plugin-layout": "1.1.2",
-    "gatsby-plugin-react-helmet": "3.1.2",
+    "gatsby-plugin-react-helmet": "3.1.3",
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-helmet": "5.2.1"
