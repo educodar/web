@@ -1,5 +1,6 @@
 import React from "react"
-import ArticleTemplate from "../components/article-template"
+import ArticleTemplate from "./article-template"
+import "./styles.css"
 
 const ArticlesSection = () => (
   <div>

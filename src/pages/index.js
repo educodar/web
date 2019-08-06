@@ -1,12 +1,12 @@
 import React from "react"
 import SEO from "../components/SEO"
-import Jumbotron from "../components/jumbotron"
-import ArticlesSection from "../components/articles-section"
+import Hero from "../components/Hero/hero"
+import ArticlesSection from "../components/Articles/articles-section"
 
 const HomePage = () => (
   <>
     <SEO />
-    <Jumbotron />
+    <Hero />
     <ArticlesSection />
   </>
 )

@@ -1,8 +1,9 @@
 import React from "react"
-import Button from "./button"
+import Button from "../Button/button"
+import "./styles.css"
 
-const Jumbotron = () => (
-  <div className="jumbotron">
+const Hero = () => (
+  <div className="hero">
     <h1>Aulas de programação grátis para jovens</h1>
     <p>
       <Button buttonText="Button 1" />
@@ -11,4 +12,4 @@ const Jumbotron = () => (
   </div>
 )
 
-export default Jumbotron
+export default Hero

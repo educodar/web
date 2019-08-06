@@ -4,7 +4,7 @@ exports[`Default layout renders correctly 1`] = `
 Array [
   <header>
     <h1
-      id="logo"
+      className="logo"
     >
       <a
         href="/"
