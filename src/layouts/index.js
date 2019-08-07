@@ -1,12 +1,11 @@
 import React from "react"
+import Header from "../components/Header/header"
+import Footer from "../components/Footer/footer"
 
 export default ({ children }) => (
   <>
-    <header>
-      <h1>Educodar</h1>
-      <p>Aulas de programação grátis para jovens</p>
-    </header>
+    <Header siteTitle={"Educod@r"} />
     <main>{children}</main>
-    <footer></footer>
+    <Footer />
   </>
 )
