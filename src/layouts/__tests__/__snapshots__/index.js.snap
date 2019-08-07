@@ -1,3 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Default layout renders correctly 1`] = `null`;
+exports[`Default layout renders correctly 1`] = `
+Array [
+  <header>
+    <h1>
+      Educodar
+    </h1>
+    <p>
+      Aulas de programação grátis para jovens
+    </p>
+  </header>,
+  <main />,
+  <footer />,
+]
+`;

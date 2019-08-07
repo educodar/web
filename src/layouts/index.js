@@ -1,16 +1,12 @@
 import React from "react"
-import { Helmet } from "react-helmet"
 
 export default ({ children }) => (
   <>
-    <Helmet
-      meta={[
-        {
-          name: "google-site-verification",
-          content: "d56gI8ef4vlvD5c60_X2KNMV7KNNlgEalpcH84eWbs8",
-        },
-      ]}
-    />
-    {children}
+    <header>
+      <h1>Educodar</h1>
+      <p>Aulas de programação grátis para jovens</p>
+    </header>
+    <main>{children}</main>
+    <footer></footer>
   </>
 )

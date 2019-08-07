@@ -1,7 +1,3 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Home page renders correctly 1`] = `
-<h1>
-  Educodar
-</h1>
-`;
+exports[`Home page renders correctly 1`] = `null`;

@@ -23,7 +23,8 @@ RUN apt-get update \
     # Clean up
     && apt-get autoremove -y \
     && apt-get clean -y \
-    && rm -rf /var/lib/apt/lists/*
+    && rm -rf /var/lib/apt/lists/* \
+    && npm install -g npm
 
 ENV \
     # Switch back to dialog for any ad-hoc use of apt-get
