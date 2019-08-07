@@ -7,10 +7,12 @@ export default () => (
     </header>
     <h2>Educodar Belo Horizonte</h2>
     <ul>
+      <li>Bruna Castelo (Belo Horizonte)</li>
+      <li>Jimmy Andrade (Belo Horizonte) - Champion de Comunicação</li>
       <li>Leandro Victor (Belo Horizonte)</li>
-      <li>Luciano Borges (Belo Horizonte)</li>
+      <li>Luciano Borges (Belo Horizonte) - Champion de Suporte e Orçamento</li>
       <li>Maria Simas (Belo Horizonte)</li>
-      <li>Thais Nunes (Belo Horizonte)</li>
+      <li>Thais Nunes (Belo Horizonte) - Champion de Seleção de Turma</li>
       <li>Vagner dos Santos (Belo Horizonte)</li>
     </ul>
     <h2>Site Educodar.com.br</h2>
