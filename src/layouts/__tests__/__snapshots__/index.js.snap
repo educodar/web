@@ -3,22 +3,24 @@
 exports[`Default layout renders correctly 1`] = `
 Array [
   <header>
-    <h1
+    <div
       className="logo"
     >
       <a
         href="/"
       >
-        Educod@r
+        Educodar
       </a>
-    </h1>
+    </div>
     <nav />
   </header>,
   <main />,
   <footer>
-    <p>
-      ThoughtWorks
-    </p>
+    <img
+      alt="Thoughtworks Logo"
+      src="test-file-stub"
+      srcSet="test-file-stub 2x,test-file-stub 3x"
+    />
   </footer>,
 ]
 `;

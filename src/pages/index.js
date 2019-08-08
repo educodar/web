@@ -1,5 +1,6 @@
 import React from "react"
 import SEO from "../components/SEO"
+import Photography from "../components/Photography"
 import Hero from "../components/Hero"
 import Lead1 from "../components/Lead1"
 import Lead2 from "../components/Lead2"
@@ -7,6 +8,7 @@ import Lead2 from "../components/Lead2"
 const HomePage = () => (
   <>
     <SEO />
+    <Photography></Photography>
     <Hero />
     <Lead1
       leadTitle="Para quem é o Educodar?"

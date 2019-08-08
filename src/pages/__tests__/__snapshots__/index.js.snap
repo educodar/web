@@ -2,72 +2,69 @@
 
 exports[`Home page renders correctly 1`] = `
 Array [
+  <section
+    id="photography"
+  />,
   <div
     className="hero"
   >
+    <img
+      className="image-hero"
+      src="test-file-stub"
+    />
     <h1>
       Aulas de programação grátis para jovens
     </h1>
+    <div>
+      <button
+        className="btn-primary"
+      >
+        Quero aprender
+      </button>
+      <button
+        className="btn-default"
+      >
+        Quero apoiar
+      </button>
+    </div>
+  </div>,
+  <div
+    className="lead1"
+  >
+    <h3>
+      Para quem é o Educodar?
+    </h3>
     <p>
-      <button
-        className="btn"
+      Se você tem pelo menos 14 anos e estuda
+em uma escola pública de Belo Horizonte (MG) ou Porto Alegre (RS), você pode participar
+como estudante no Educod@r.
+       
+      <a
+        className="call-link"
+        href="/"
       >
-        Button 1
-      </button>
-      <button
-        className="btn"
-      >
-        Button 2
-      </button>
+        Saiba mais
+      </a>
     </p>
   </div>,
-  <div>
-    <ul
-      className="striped-list"
-    >
-      <li>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-             
-            <a
-              className="call-link"
-              href="#"
-            >
-              Veja mais.
-            </a>
-          </p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-             
-            <a
-              className="call-link"
-              href="#"
-            >
-              Veja mais.
-            </a>
-          </p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-             
-            <a
-              className="call-link"
-              href="#"
-            >
-              Veja mais.
-            </a>
-          </p>
-        </div>
-      </li>
-    </ul>
+  <div
+    className="lead2"
+  >
+    <h4>
+      Como divulgar o Educodar na sua escola
+    </h4>
+    <p>
+      Se você estuda ou leciona em uma escola
+em Belo Horizonte (MG), você pode
+nos ajudar a divulgar este projeto.
+       
+      <a
+        className="call-link"
+        href="/"
+      >
+        Saiba mais
+      </a>
+    </p>
   </div>,
 ]
 `;
