@@ -1,7 +1,7 @@
 header {
   align-items: center;
   display: flex;
-  padding: 2em;
+  padding: 20px;
   background-color: var(--header-background-color);
 }
 
@@ -13,4 +13,6 @@ header {
 .logo a {
   text-decoration: none;
   color: var(--header-text-color);
+  font-weight: bold;
+  font-size: 18px;
 }

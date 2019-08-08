@@ -1,0 +1,14 @@
+.lead2 {
+  padding: 20px;
+  background-color: var(--lead2-background-color);
+  color: var(--lead2-text-color);
+}
+
+.lead2 p {
+  margin-bottom: 1em;
+  font-weight: 500;
+}
+
+.call-link {
+  color: var(--lead2-call-link);
+}

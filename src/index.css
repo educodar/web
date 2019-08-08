@@ -1,6 +1,20 @@
 :root {
   --header-background-color: #00bccd;
   --header-text-color: #ffffff;
+  --footer-background-color: #00bccd;
+  --footer-text-color: #ffffff;
+  --hero-background-color: #ffffff;
   --hero-text-color: #0078bf;
-  --call-link: #ee5ba0;
+  --hero-btn-primary-background-color: #0078bf;
+  --hero-btn-primary-text-color: #ffffff;
+  --hero-btn-primary-border-color: #0078bf;
+  --hero-btn-default-background-color: #ffffff;
+  --hero-btn-default-text-color: #0078bf;
+  --hero-btn-default-border-color: #0078bf;
+  --lead1-background-color: #eeeeee;
+  --lead1-text-color: #808184;
+  --lead1-call-link: #ee5ba0;
+  --lead2-background-color: #ffffff;
+  --lead2-text-color: #808184;
+  --lead2-call-link: #ee5ba0;
 }

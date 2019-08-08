@@ -4,9 +4,9 @@ import "./styles.css"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <h1 className="logo">
+    <div className="logo">
       <Link to="/">{siteTitle}</Link>
-    </h1>
+    </div>
     <nav></nav>
   </header>
 )

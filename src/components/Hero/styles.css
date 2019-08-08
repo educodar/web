@@ -1,9 +1,10 @@
 .hero {
-  padding: 2em 2em;
-  background-color: darkgray;
+  padding: 20px;
+  background-color: var(--hero-background-color);
   color: var(--hero-text-color);
 }
 
 .hero h1 {
-  margin-bottom: 1em;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
