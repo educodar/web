@@ -10,7 +10,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-html-attributes`,
       options: {
+        dir: `ltr`,
         lang: `pt-br`,
+        itemProp: ``,
+        itemType: `http://schema.org/WebPage`,
       },
     },
     {

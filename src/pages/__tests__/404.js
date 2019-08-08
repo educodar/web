@@ -2,7 +2,7 @@ import React from "react"
 import renderer from "react-test-renderer"
 import { StaticQuery } from "gatsby"
 
-import TeamPage from "../equipe"
+import NotFoundPage from "../404"
 
 beforeEach(() => {
   StaticQuery.mockImplementationOnce(({ render }) =>
@@ -10,9 +10,9 @@ beforeEach(() => {
   )
 })
 
-describe("Team page", () => {
+describe("404 page", () => {
   it("renders correctly", () => {
-    const tree = renderer.create(<TeamPage />).toJSON()
+    const tree = renderer.create(<NotFoundPage />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 })

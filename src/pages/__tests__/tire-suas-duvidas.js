@@ -2,7 +2,7 @@ import React from "react"
 import renderer from "react-test-renderer"
 import { StaticQuery } from "gatsby"
 
-import TeamPage from "../equipe"
+import FAQPage from "../tire-suas-duvidas"
 
 beforeEach(() => {
   StaticQuery.mockImplementationOnce(({ render }) =>
@@ -10,9 +10,9 @@ beforeEach(() => {
   )
 })
 
-describe("Team page", () => {
+describe("FAQ page", () => {
   it("renders correctly", () => {
-    const tree = renderer.create(<TeamPage />).toJSON()
+    const tree = renderer.create(<FAQPage />)
     expect(tree).toMatchSnapshot()
   })
 })
