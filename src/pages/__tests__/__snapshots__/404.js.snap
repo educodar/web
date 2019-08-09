@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`404 page renders correctly 1`] = `
+<article>
+  <h1>
+    Página não encontrada
+  </h1>
+  <p>
+    Ops! A página que você está procurando pode ter sido removida ou renomeada.
+  </p>
+  <p>
+    <a
+      href="/"
+    >
+      Voltar à página inicial
+    </a>
+  </p>
+</article>
+`;
