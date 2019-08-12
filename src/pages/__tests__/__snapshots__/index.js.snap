@@ -3,7 +3,7 @@
 exports[`Home page renders correctly 1`] = `
 Array [
   <section
-    id="photography"
+    className="photography"
   />,
   <div
     className="hero"
@@ -28,43 +28,38 @@ Array [
       </button>
     </div>
   </div>,
-  <div
-    className="lead1"
+  <section
+    className="featured-section featured-section-level-1"
   >
     <h3>
       Para quem é o Educodar?
     </h3>
     <p>
-      Se você tem pelo menos 14 anos e estuda
-em uma escola pública de Belo Horizonte (MG) ou Porto Alegre (RS), você pode participar
-como estudante no Educod@r.
-       
+      Se você tem pelo menos 14 anos e estuda em uma escola pública de Belo Horizonte (MG) ou Porto Alegre (RS), você pode participar como estudante no Educod@r.
+       
       <a
         className="call-link"
         href="/"
       >
-        Saiba mais
+        Saiba Mais
       </a>
     </p>
-  </div>,
-  <div
-    className="lead2"
+  </section>,
+  <section
+    className="featured-section featured-section-level-2"
   >
-    <h4>
+    <h3>
       Como divulgar o Educodar na sua escola
-    </h4>
+    </h3>
     <p>
-      Se você estuda ou leciona em uma escola
-em Belo Horizonte (MG), você pode
-nos ajudar a divulgar este projeto.
-       
-      <a
-        className="call-link"
-        href="/"
-      >
-        Saiba mais
-      </a>
+      Se você estuda ou leciona em uma escola em Belo Horizonte (MG), você pode nos ajudar a divulgar este projeto.
     </p>
-  </div>,
+    <a
+      className="call-link"
+      href="/"
+    >
+      Saiba Mais
+    </a>
+  </section>,
 ]
 `;

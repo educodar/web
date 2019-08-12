@@ -1,0 +1,26 @@
+.featured-section {
+  padding: 20px;
+}
+
+.featured-section p {
+  margin-bottom: 1em;
+  font-weight: 500;
+}
+
+.featured-section-level-1 {
+  background-color: var(--lead1-background-color);
+  color: var(--lead1-text-color);
+}
+
+.featured-section-level-1 .call-link {
+  color: var(--lead1-call-link);
+}
+
+.featured-section-level-2 {
+  background-color: var(--lead2-background-color);
+  color: var(--lead2-text-color);
+}
+
+.featured-section-level-2 .call-link {
+  color: var(--lead2-call-link);
+}

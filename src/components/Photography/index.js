@@ -5,7 +5,7 @@ import "./styles.css"
 class Photography extends Component {
   render() {
     return (
-      <section id="photography">
+      <section className="photography">
         {/* <img src={image_1} alt="Alunos Educodar" className="imagem-1" /> */}
       </section>
     )
