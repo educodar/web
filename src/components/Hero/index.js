@@ -9,12 +9,12 @@ const Hero = () => (
     <Photography></Photography>
     <div className="hero">
       <div className="text">
-        <h1>Aulas de programação grátis para jovens</h1>
+        <h1>Aprenda programação gratuitamente.</h1>
         <img src={ComputerImage} className="image-hero"></img>
       </div>
       <div>
         <Button text="Quero aprender" variant="primary" />{" "}
-        <Button text="Quero aprender" variant="primary" outline={true} />
+        <Button text="Quero apoiar" variant="primary" outline={true} />
       </div>
     </div>
   </div>

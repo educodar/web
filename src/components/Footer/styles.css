@@ -1,12 +1,11 @@
 footer {
-  padding: 20px;
+  padding: 20px 28px;
   background-color: var(--footer-background-color);
   display: flex;
   justify-content: space-between;
 }
 
 footer a {
-  font-size: 14px;
   font-weight: bold;
   text-decoration: none;
   color: white;

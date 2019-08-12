@@ -1,11 +1,11 @@
 .hero {
-  padding: 20px;
+  padding: 20px 28px;
   background-color: var(--hero-background-color);
   color: var(--hero-text-color);
 }
 
 .hero h1 {
-  margin-bottom: 20px;
+  margin-bottom: 28px;
   font-weight: bold;
 }
 
