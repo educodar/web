@@ -1,17 +1,11 @@
 import React from "react"
 import "./styles.css"
-import thoughtworks_logo from "../../images/thoughtworks_logo.png"
-import thoughtworks_logo2x from "../../images/thoughtworks_logo@2x.png"
-import thoughtworks_logo3x from "../../images/thoughtworks_logo@3x.png"
+import { Link } from "gatsby"
 
 const Footer = () => (
   <footer>
-    <img
-      src={thoughtworks_logo}
-      alt="Thoughtworks Logo"
-      srcSet={`${thoughtworks_logo2x} 2x,${thoughtworks_logo3x} 3x`}
-      //class="Imagem-2"
-    />
+    <Link to="/">Privacidade e Uso de Dados</Link>
+    <Link to="/">Termos de uso</Link>
   </footer>
 )
 

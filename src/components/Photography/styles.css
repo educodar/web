@@ -1,14 +1,8 @@
 .photography {
-  /*overflow: hidden;*/
   text-align: center;
   background-image: url("../../images/image_1.jpg");
   background-repeat: no-repeat;
   background-size: 776px 214px;
   background-position: center center;
   height: 200px;
-}
-
-.imagem-1 {
-  margin-bottom: 0px;
-  width: 120%;
 }

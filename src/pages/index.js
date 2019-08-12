@@ -1,6 +1,5 @@
 import React from "react"
 import SEO from "../components/SEO"
-import Photography from "../components/Photography"
 import Hero from "../components/Hero"
 import FeaturedSection from "../atoms/FeaturedSection"
 import { Link } from "gatsby"
@@ -8,7 +7,6 @@ import { Link } from "gatsby"
 const HomePage = () => (
   <>
     <SEO />
-    <Photography></Photography>
     <Hero />
     <FeaturedSection level="1" title="Para quem é o Educodar?">
       <p>

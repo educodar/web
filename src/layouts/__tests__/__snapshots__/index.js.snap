@@ -23,11 +23,16 @@ Array [
     }
   />,
   <footer>
-    <img
-      alt="Thoughtworks Logo"
-      src="test-file-stub"
-      srcSet="test-file-stub 2x,test-file-stub 3x"
-    />
+    <a
+      href="/"
+    >
+      Privacidade e Uso de Dados
+    </a>
+    <a
+      href="/"
+    >
+      Termos de uso
+    </a>
   </footer>,
 ]
 `;

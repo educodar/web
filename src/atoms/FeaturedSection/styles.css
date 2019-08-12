@@ -8,19 +8,19 @@
 }
 
 .featured-section-level-1 {
-  background-color: var(--lead1-background-color);
-  color: var(--lead1-text-color);
+  background-color: var(--featured-section-level1-background-color);
+  color: var(--featured-section-level1-text-color);
 }
 
 .featured-section-level-1 .call-link {
-  color: var(--lead1-call-link);
+  color: var(--featured-section-level1-call-link);
 }
 
 .featured-section-level-2 {
-  background-color: var(--lead2-background-color);
-  color: var(--lead2-text-color);
+  background-color: var(--featured-section-level2-background-color);
+  color: var(--featured-section-level2-text-color);
 }
 
 .featured-section-level-2 .call-link {
-  color: var(--lead2-call-link);
+  color: var(--featured-section-level2-call-link);
 }
