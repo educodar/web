@@ -1,0 +1,21 @@
+.btn {
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-primary {
+  color: var(--btn-primary-text-color);
+  background: var(--btn-primary-background-color);
+  border-color: var(--btn-primary-border-color);
+}
+
+.btn-primary.outline {
+  color: var(--hero-btn-primary-ouline-text-color);
+  background: var(--hero-btn-primary-ouline-background-color);
+  border-color: var(--hero-btn-primary-ouline-border-color);
+}

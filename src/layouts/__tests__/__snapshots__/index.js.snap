@@ -14,7 +14,14 @@ Array [
     </div>
     <nav />
   </header>,
-  <main />,
+  <main
+    style={
+      Object {
+        "margin": "0 auto",
+        "maxWidth": 768,
+      }
+    }
+  />,
   <footer>
     <img
       alt="Thoughtworks Logo"

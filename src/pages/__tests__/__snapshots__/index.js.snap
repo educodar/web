@@ -17,14 +17,14 @@ Array [
     </h1>
     <div>
       <button
-        className="btn-primary"
+        className="btn btn-primary"
       >
         Quero aprender
       </button>
       <button
-        className="btn-default"
+        className="btn btn-primary outline"
       >
-        Quero apoiar
+        Quero aprender
       </button>
     </div>
   </div>,

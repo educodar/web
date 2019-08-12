@@ -4,6 +4,7 @@
   "description": "Educodar Gatsby website",
   "main": "n/a",
   "dependencies": {
+    "classnames": "^2.2.6",
     "gatsby": "2.13.52",
     "gatsby-image": "2.2.8",
     "gatsby-plugin-csp": "^1.1.3",
@@ -16,6 +17,7 @@
     "gatsby-plugin-robots-txt": "^1.5.0",
     "gatsby-plugin-sitemap": "^2.2.3",
     "gatsby-plugin-typography": "^2.3.2",
+    "prop-types": "^15.7.2",
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-helmet": "5.2.1",
