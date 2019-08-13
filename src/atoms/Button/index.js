@@ -1,17 +1,17 @@
 import classNames from "classnames"
 import PropTypes from "prop-types"
 import React, { Component } from "react"
-import "./styles.css"
+import styles from "./button.module.css"
 
 class Button extends Component {
   render() {
-    let classes = classNames(
-      `btn`,
-      `btn-${this.props.variant}`,
-      this.props.outline && `outline`
+    let btnClasses = classNames(
+      styles.btn,
+      styles[`btn${this.props.variant}`],
+      this.props.outline && styles.outline
     )
 
-    return <button className={classes}>{this.props.text}</button>
+    return <button className={btnClasses}>{this.props.text}</button>
   }
 }
 
@@ -22,7 +22,7 @@ Button.propTypes = {
 }
 
 Button.defaultProps = {
-  variant: "primary",
+  variant: "Primary",
   outline: false,
 }
 

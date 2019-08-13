@@ -1,26 +1,26 @@
-.featured-section {
+.featuredSection {
   padding: 20px 28px;
 }
 
-.featured-section p {
+.featuredSection p {
   margin-bottom: 1em;
   font-weight: 500;
 }
 
-.featured-section-level-1 {
+.featuredSectionLevel1 {
   background-color: var(--featured-section-level1-background-color);
   color: var(--featured-section-level1-text-color);
 }
 
-.featured-section-level-1 .call-link {
+.featuredSectionLevel1 .callLink {
   color: var(--featured-section-level1-call-link);
 }
 
-.featured-section-level-2 {
+.featuredSectionLevel2 {
   background-color: var(--featured-section-level2-background-color);
   color: var(--featured-section-level2-text-color);
 }
 
-.featured-section-level-2 .call-link {
+.featuredSectionLevel2 .callLink {
   color: var(--featured-section-level2-call-link);
 }

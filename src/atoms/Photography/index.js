@@ -1,9 +1,9 @@
 import React, { Component } from "react"
-import "./styles.css"
+import styles from "./photography.module.css"
 
 class Photography extends Component {
   render() {
-    return <section className="photography"></section>
+    return <section className={styles.photography}></section>
   }
 }
 

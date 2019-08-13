@@ -2,51 +2,58 @@
 
 exports[`Home page renders correctly 1`] = `
 Array [
-  <section
-    className="photography"
-  />,
-  <div
-    className="hero"
-  >
-    <img
-      className="image-hero"
-      src="test-file-stub"
+  <div>
+    <section
+      className="photography"
     />
-    <h1>
-      Aulas de programação grátis para jovens
-    </h1>
-    <div>
-      <button
-        className="btn btn-primary"
+    <div
+      className="hero"
+    >
+      <div
+        className="text"
       >
-        Quero aprender
-      </button>
-      <button
-        className="btn btn-primary outline"
-      >
-        Quero aprender
-      </button>
+        <h1>
+          Aprenda programação gratuitamente.
+        </h1>
+        <img
+          alt="computer"
+          src="test-file-stub"
+        />
+      </div>
+      <div>
+        <button
+          className="btn btnPrimary"
+        >
+          Quero aprender
+        </button>
+         
+        <button
+          className="btn btnPrimary outline"
+        >
+          Quero apoiar
+        </button>
+      </div>
     </div>
   </div>,
   <section
-    className="featured-section featured-section-level-1"
+    className="featuredSection featuredSectionLevel1"
   >
     <h3>
       Para quem é o Educodar?
     </h3>
     <p>
       Se você tem pelo menos 14 anos e estuda em uma escola pública de Belo Horizonte (MG) ou Porto Alegre (RS), você pode participar como estudante no Educod@r.
-       
-      <a
-        className="call-link"
-        href="/"
-      >
-        Saiba Mais
-      </a>
     </p>
+     
+    <a
+      className="callLink"
+      href="/"
+    >
+      Saiba Mais
+    </a>
   </section>,
   <section
-    className="featured-section featured-section-level-2"
+    className="featuredSection featuredSectionLevel2"
   >
     <h3>
       Como divulgar o Educodar na sua escola
@@ -54,8 +61,9 @@ Array [
     <p>
       Se você estuda ou leciona em uma escola em Belo Horizonte (MG), você pode nos ajudar a divulgar este projeto.
     </p>
+     
     <a
-      className="call-link"
+      className="callLink"
       href="/"
     >
       Saiba Mais
