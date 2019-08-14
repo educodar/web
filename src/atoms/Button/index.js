@@ -5,13 +5,13 @@ import styles from "./button.module.css"
 
 class Button extends Component {
   render() {
-    let btnClasses = classNames(
-      styles.btn,
-      styles[`btn${this.props.variant}`],
+    let buttonClasses = classNames(
+      styles.button,
+      styles[`button${this.props.variant}`],
       this.props.outline && styles.outline
     )
 
-    return <button className={btnClasses}>{this.props.text}</button>
+    return <button className={buttonClasses}>{this.props.text}</button>
   }
 }
 

@@ -1,4 +1,4 @@
-.btn {
+.button {
   border-style: solid;
   border-width: 3px;
   border-radius: 8px;
@@ -8,14 +8,14 @@
   cursor: pointer;
 }
 
-.btnPrimary {
-  color: var(--btn-primary-text-color);
-  background: var(--btn-primary-background-color);
-  border-color: var(--btn-primary-border-color);
+.buttonPrimary {
+  color: var(--button-primary-text-color);
+  background: var(--button-primary-background-color);
+  border-color: var(--button-primary-border-color);
 }
 
-.btnPrimary.outline {
-  color: var(--hero-btn-primary-ouline-text-color);
-  background: var(--hero-btn-primary-ouline-background-color);
-  border-color: var(--hero-btn-primary-ouline-border-color);
+.buttonPrimary.outline {
+  color: var(--button-primary-ouline-text-color);
+  background: var(--button-primary-ouline-background-color);
+  border-color: var(--button-primary-ouline-border-color);
 }
