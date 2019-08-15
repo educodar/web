@@ -1,9 +1,8 @@
 .featuredSection {
-  padding: 20px 28px;
+  padding: calc(var(--layout-base) * 3) calc(var(--layout-base) * 4);
 }
 
 .featuredSection p {
-  margin-bottom: 1em;
   font-weight: 500;
 }
 

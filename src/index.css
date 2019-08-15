@@ -17,4 +17,12 @@
   --featured-section-level2-background-color: #ffffff;
   --featured-section-level2-text-color: #808184;
   --featured-section-level2-call-link: #ee5ba0;
+  --layout-base: 8px;
+
+  --base-color: #00bccd;
+  --default-color: #ffffff;
+  --highlight-color:#eeeeee;
+  --link-color: #ee5ba0;
+  --primary-color: #0078bf;
+  --text-color: #808184;
 }

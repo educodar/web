@@ -1,21 +1,22 @@
 .button {
   border-style: solid;
-  border-width: 3px;
-  border-radius: 8px;
-  padding: 8px 10px;
+  border-width: calc(var(--layout-base) / 2);
+  border-radius: var(--layout-base);
+  cursor: pointer;
   font-size: 18px;
   font-weight: bold;
-  cursor: pointer;
+  line-height: 20px;
+  padding: var(--layout-base) calc(var(--layout-base) + 2px);
 }
 
-.buttonPrimary {
-  color: var(--button-primary-text-color);
+.buttonprimary {
   background: var(--button-primary-background-color);
   border-color: var(--button-primary-border-color);
+  color: var(--button-primary-text-color);
 }
 
-.buttonPrimary.outline {
-  color: var(--button-primary-ouline-text-color);
+.buttonprimary.outline {
   background: var(--button-primary-ouline-background-color);
   border-color: var(--button-primary-ouline-border-color);
+  color: var(--button-primary-ouline-text-color);
 }

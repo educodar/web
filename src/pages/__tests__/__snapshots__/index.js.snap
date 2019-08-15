@@ -22,13 +22,13 @@ Array [
       </div>
       <div>
         <button
-          className="btn btnPrimary"
+          className="button buttonprimary"
         >
           Quero aprender
         </button>
          
         <button
-          className="btn btnPrimary outline"
+          className="button buttonprimary outline"
         >
           Quero apoiar
         </button>
