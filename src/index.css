@@ -1,28 +1,22 @@
 :root {
-  --header-background-color: #00bccd;
-  --header-text-color: #ffffff;
-  --footer-background-color: #00bccd;
-  --footer-text-color: #ffffff;
-  --hero-background-color: #ffffff;
-  --hero-text-color: #0078bf;
-  --button-primary-background-color: #0078bf;
-  --button-primary-text-color: #ffffff;
-  --button-primary-border-color: #0078bf;
-  --button-primary-ouline-background-color: #ffffff;
-  --button-primary-ouline-text-color: #0078bf;
-  --button-primary-ouline-border-color: #0078bf;
-  --featured-section-level1-background-color: #eeeeee;
-  --featured-section-level1-text-color: #808184;
-  --featured-section-level1-call-link: #ee5ba0;
-  --featured-section-level2-background-color: #ffffff;
-  --featured-section-level2-text-color: #808184;
-  --featured-section-level2-call-link: #ee5ba0;
   --layout-base: 8px;
 
-  --base-color: #00bccd;
-  --default-color: #ffffff;
-  --highlight-color:#eeeeee;
-  --link-color: #ee5ba0;
+  --space-1x: var(--layout-base);
+  --space-2x: calc(var(--layout-base) * 2);
+  --space-3x: calc(var(--layout-base) * 3);
+  --space-4x: calc(var(--layout-base) * 4);
+
+  --vertical-spacing-1x: var(--layout-base);
+  --vertical-spacing-2x: calc(var(--layout-base) * 2);
+
   --primary-color: #0078bf;
+  --primary-variant-color: #00bccd;
+  --secondary-color: #ee5ba0;
+  --background-color: #ffffff;
+  --background-variant-color: #eeeeee;
   --text-color: #808184;
+}
+
+.container :global {
+  padding: var(--space-3x) var(--space-4x);
 }

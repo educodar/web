@@ -1,0 +1,14 @@
+.footer {
+  composes: container from global;
+  background-color: var(--primary-variant-color);
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer a:any-link,
+.footer a:link,
+.footer a:visited {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}

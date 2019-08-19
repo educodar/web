@@ -1,41 +1,33 @@
-import classNames from "classnames"
+import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import styles from "./featuredSection.module.css"
-import { Link } from "gatsby"
 
-const getStyles = props => {
-  const level = props.level
-
-  return classNames(
-    styles.featuredSection,
-    styles[`featuredSectionLevel${level}`]
-  )
+const propTypes = {
+  children: PropTypes.node,
+  level: PropTypes.oneOf([1, 2]),
+  title: PropTypes.string,
 }
 
-const FeaturedSection = props => {
-  let sectionClass = getStyles(props)
+const defaultProps = {
+  level: 1,
+}
+
+const FeaturedSection = ({ children, level, title }) => {
+  let className = `featuredSectionLevel${level}`
 
   return (
-    <section className={sectionClass}>
-      <h3>{props.title}</h3>
-      {props.children}{" "}
-      <Link to="/" className={styles.callLink}>
+    <section className={styles[className]}>
+      <h2 className={styles.featuredSectionHeading}>{title}</h2>
+      {children}{" "}
+      <Link to="/" className={styles.featuredSectionCallLink}>
         Saiba Mais
       </Link>
     </section>
   )
 }
 
-FeaturedSection.propTypes = {
-  callToAction: PropTypes.any,
-  children: PropTypes.node,
-  level: PropTypes.oneOf([1, 2]),
-  title: PropTypes.string,
-}
-
-FeaturedSection.defaultProps = {
-  level: 1,
-}
+FeaturedSection.propTypes = propTypes
+FeaturedSection.defaultProps = defaultProps
 
 export default FeaturedSection

@@ -2,15 +2,15 @@
 
 exports[`Home page renders correctly 1`] = `
 Array [
-  <div>
+  <section>
     <section
-      className="photography"
+      className="heroImage"
     />
     <div
       className="hero"
     >
       <div
-        className="text"
+        className="container"
       >
         <h1>
           Aprenda programação gratuitamente.
@@ -20,50 +20,81 @@ Array [
           src="test-file-stub"
         />
       </div>
+      <div
+        className="verticalSpacing1x"
+      />
       <div>
         <button
-          className="button buttonprimary"
+          className="buttonPrimary"
         >
           Quero aprender
         </button>
          
         <button
-          className="button buttonprimary outline"
+          className="buttonPrimaryOutline"
         >
           Quero apoiar
         </button>
       </div>
     </div>
-  </div>,
+  </section>,
   <section
-    className="featuredSection featuredSectionLevel1"
+    className="featuredSectionLevel1"
   >
-    <h3>
+    <h2
+      className="featuredSectionHeading"
+    >
       Para quem é o Educodar?
-    </h3>
+    </h2>
     <p>
-      Se você tem pelo menos 14 anos e estuda em uma escola pública de Belo Horizonte (MG) ou Porto Alegre (RS), você pode participar como estudante no Educod@r.
+      Se você tem pelo menos 14 anos e estuda em uma escola pública de Belo Horizonte (
+      <abbr
+        title="Minas Gerais"
+      >
+        MG
+      </abbr>
+      ) 
+      <wbr />
+      ou Porto Alegre (
+      <abbr
+        title="Rio Grande do Sul"
+      >
+        RS
+      </abbr>
+      ), você pode participar como estudante no 
+      <strong>
+        Educodar
+      </strong>
+      .
     </p>
      
     <a
-      className="callLink"
+      className="featuredSectionCallLink"
       href="/"
     >
       Saiba Mais
     </a>
   </section>,
   <section
-    className="featuredSection featuredSectionLevel2"
+    className="featuredSectionLevel2"
   >
-    <h3>
+    <h2
+      className="featuredSectionHeading"
+    >
       Como divulgar o Educodar na sua escola
-    </h3>
+    </h2>
     <p>
-      Se você estuda ou leciona em uma escola em Belo Horizonte (MG), você pode nos ajudar a divulgar este projeto.
+      Se você estuda ou leciona em uma escola em Belo Horizonte (
+      <abbr
+        title="Minas Gerais"
+      >
+        MG
+      </abbr>
+      ), você pode nos ajudar a divulgar este projeto.
     </p>
      
     <a
-      className="callLink"
+      className="featuredSectionCallLink"
       href="/"
     >
       Saiba Mais

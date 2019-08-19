@@ -2,8 +2,10 @@
 
 exports[`Default layout renders correctly 1`] = `
 Array [
-  <header>
-    <div
+  <header
+    className="header"
+  >
+    <h1
       className="logo"
     >
       <a
@@ -11,25 +13,22 @@ Array [
       >
         Educodar
       </a>
-    </div>
+    </h1>
     <nav />
   </header>,
   <main
-    style={
-      Object {
-        "margin": "0 auto",
-        "maxWidth": 768,
-      }
-    }
+    className="main"
   />,
-  <footer>
+  <footer
+    className="footer"
+  >
     <a
-      href="/"
+      href="/privacidade"
     >
       Privacidade e Uso de Dados
     </a>
     <a
-      href="/"
+      href="/termos-de-uso"
     >
       Termos de uso
     </a>

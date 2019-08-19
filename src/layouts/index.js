@@ -1,11 +1,12 @@
+import Footer from "../organisms/Footer"
+import Header from "../organisms/Header"
+import Main from "../organisms/Main"
 import React from "react"
-import Header from "../molecules/Header"
-import Footer from "../molecules/Footer"
 
 export default ({ children }) => (
   <>
     <Header siteTitle={"Educodar"} />
-    <main style={{ margin: `0 auto`, maxWidth: 768 }}>{children}</main>
+    <Main>{children}</Main>
     <Footer />
   </>
 )

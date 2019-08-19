@@ -1,16 +1,15 @@
 .hero {
-  padding: 20px 28px;
-  background-color: var(--hero-background-color);
-  color: var(--hero-text-color);
+  composes: container from global;
+  background-color: var(--background-color);
+  color: var(--primary-color);
 }
 
 .hero h1 {
-  margin-bottom: 28px;
   font-weight: bold;
 }
 
-.hero .text {
+.hero .container {
+  align-items: flex-end;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
 }

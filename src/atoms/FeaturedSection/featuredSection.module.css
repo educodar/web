@@ -1,25 +1,22 @@
 .featuredSection {
-  padding: calc(var(--layout-base) * 3) calc(var(--layout-base) * 4);
-}
-
-.featuredSection p {
-  font-weight: 500;
+  composes: container from global;
+  color: var(--text-color);
 }
 
 .featuredSectionLevel1 {
-  background-color: var(--featured-section-level1-background-color);
-  color: var(--featured-section-level1-text-color);
+  composes: featuredSection;
+  background-color: var(--background-variant-color);
 }
 
-.featuredSectionLevel1 .callLink {
-  color: var(--featured-section-level1-call-link);
+.featuredSectionCallLink {
+  color: var(--secondary-color);
 }
 
 .featuredSectionLevel2 {
-  background-color: var(--featured-section-level2-background-color);
-  color: var(--featured-section-level2-text-color);
+  composes: featuredSection;
+  background-color: var(--background-color);
 }
 
-.featuredSectionLevel2 .callLink {
-  color: var(--featured-section-level2-call-link);
+.featuredSectionHeading {
+  font-size: 18px;
 }
