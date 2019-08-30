@@ -1,10 +1,10 @@
-import React from "react"
 import { Link } from "gatsby"
-import "./styles.css"
+import React from "react"
+import styles from "./header.module.css"
 
 const Header = ({ siteTitle }) => (
-  <header>
-    <h1 className="logo">
+  <header className={styles.header}>
+    <h1 className={styles.logo}>
       <Link to="/">{siteTitle}</Link>
     </h1>
     <nav></nav>

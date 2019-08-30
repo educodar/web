@@ -1,0 +1,27 @@
+.button {
+  border-style: solid;
+  border-width: calc(var(--space-1x) / 2);
+  border-radius: var(--space-1x);
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  padding: var(--space-1x) calc(var(--space-1x) + 2px);
+}
+
+.buttonOutline {
+  composes: button;
+  background: transparent !important;
+}
+
+.buttonPrimary {
+  composes: button;
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+  color: white;
+}
+
+.buttonPrimaryOutline {
+  composes: buttonPrimary buttonOutline;
+  color: var(--primary-color);
+}

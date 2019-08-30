@@ -2,23 +2,36 @@
 
 exports[`Default layout renders correctly 1`] = `
 Array [
-  <header>
+  <header
+    className="header"
+  >
     <h1
       className="logo"
     >
       <a
         href="/"
       >
-        Educod@r
+        Educodar
       </a>
     </h1>
     <nav />
   </header>,
-  <main />,
-  <footer>
-    <p>
-      ThoughtWorks
-    </p>
+  <main
+    className="main"
+  />,
+  <footer
+    className="footer"
+  >
+    <a
+      href="/privacidade"
+    >
+      Privacidade e Uso de Dados
+    </a>
+    <a
+      href="/termos-de-uso"
+    >
+      Termos de uso
+    </a>
   </footer>,
 ]
 `;

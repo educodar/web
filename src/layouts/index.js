@@ -1,11 +1,12 @@
+import Footer from "../organisms/Footer"
+import Header from "../organisms/Header"
+import Main from "../organisms/Main"
 import React from "react"
-import Header from "../components/Header/header"
-import Footer from "../components/Footer/footer"
 
 export default ({ children }) => (
   <>
-    <Header siteTitle={"Educod@r"} />
-    <main>{children}</main>
+    <Header siteTitle={"Educodar"} />
+    <Main>{children}</Main>
     <Footer />
   </>
 )

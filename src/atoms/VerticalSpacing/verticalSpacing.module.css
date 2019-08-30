@@ -1,0 +1,7 @@
+.verticalSpacing1x {
+  margin-bottom: var(--vertical-spacing-1x);
+}
+
+.verticalSpacing2x {
+  margin-bottom: var(--vertical-spacing-2x);
+}
