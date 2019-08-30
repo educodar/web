@@ -30,5 +30,5 @@ coverage
 # Compiled binary addons
 build/Release
 
-# Ignore dev environment file
+# Environment files
 .env.development

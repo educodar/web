@@ -1,3 +1,37 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Default layout renders correctly 1`] = `null`;
+exports[`Default layout renders correctly 1`] = `
+Array [
+  <header
+    className="header"
+  >
+    <h1
+      className="logo"
+    >
+      <a
+        href="/"
+      >
+        Educodar
+      </a>
+    </h1>
+    <nav />
+  </header>,
+  <main
+    className="main"
+  />,
+  <footer
+    className="footer"
+  >
+    <a
+      href="/privacidade"
+    >
+      Privacidade e Uso de Dados
+    </a>
+    <a
+      href="/termos-de-uso"
+    >
+      Termos de uso
+    </a>
+  </footer>,
+]
+`;

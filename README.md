@@ -1,6 +1,21 @@
 # Educodar
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c9a59a91-8853-4246-944b-a5d9ec66c2c7/deploy-status)](https://app.netlify.com/sites/educodar/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c9a59a91-8853-4246-944b-a5d9ec66c2c7/deploy-status)](https://app.netlify.com/sites/educodar/deploys) [![CircleCI Status](https://circleci.com/gh/educodar/website.svg?style=svg)](https://circleci.com/gh/educodar/website) [![Travis Status](https://travis-ci.org/educodar/website.svg?branch=master)](https://travis-ci.org/educodar/website) 
+
+## Sobre os objetivos do negócio
+
+Este site está sendo desenvolvido com o objetivo de ajudar o Educodar a se tornar um 
+projeto de impacto nas cidades onde há escritórios da ThoughtWorks, levando o 
+conhecimento de Tecnologia da Informação para o maior número de estudantes, 
+principalmente a partir do ano de 2020.
+
+O site é pensado para três públicos: a pessoa voluntária, a pessoa estudante e escola.
+As pessoas precisam entender que o projeto está ativo e como fazer parte.
+
+## Sobre as tecnologias
+
+Este projeto é desenvolvido em React utilizando o toolchain Gatsby (para construção de websites estáticos).
+O site gerado por este projeto é hospedado no Netlify, uma ferramenta gratuita que também é utilizada para CI/CD.
 
 ## Como utilizar este repositório
 
@@ -9,7 +24,7 @@
 Você precisa ter o Git instalado em seu Windows, macOS ou Linux.
 Então, execute o seguinte comando no terminal de sua máquina:
 
-```bash
+```shell
 git clone https://github.com/educodar/educodar.github.io.git
 ```
 
@@ -19,7 +34,7 @@ Aguarde a clonagem ser finalizada.
 
 Execute o seguinte comando em seu terminal do Windows, macOS ou Linux.
 
-```bash
+```shell
 git checkout nomedobranch
 git pull
 ```
@@ -31,13 +46,13 @@ Então execute o comando `ls` para verificar os arquivos.
 Você precisa ter o Node instalado em seu Windows, macOS ou Linux.
 Então, execute o seguinte comando no macOS ou Linux.
 
-```bash
+```shell
 make install
 ```
 
 No Windows, você deve executar o seguinte comando para instalar:
 
-```bash
+```shell
 npm install
 ```
 
@@ -49,13 +64,13 @@ Se, durante o processo de instalação, você encontrar algum warning sobre paco
 
 No macOS ou Linux, execute o seguinte comando em seu terminal:
 
-```bash
+```shell
 make develop
 ```
 
 No Windows, você deve executar o seguinte:
 
-```
+```shell
 npm start
 ```
 

@@ -1,16 +1,12 @@
+import Footer from "../organisms/Footer"
+import Header from "../organisms/Header"
+import Main from "../organisms/Main"
 import React from "react"
-import { Helmet } from "react-helmet"
 
 export default ({ children }) => (
   <>
-    <Helmet
-      meta={[
-        {
-          name: "google-site-verification",
-          content: "d56gI8ef4vlvD5c60_X2KNMV7KNNlgEalpcH84eWbs8",
-        },
-      ]}
-    />
-    {children}
+    <Header siteTitle={"Educodar"} />
+    <Main>{children}</Main>
+    <Footer />
   </>
 )

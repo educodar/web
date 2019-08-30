@@ -4,7 +4,7 @@ RUN apt-get update \
     && apt-get -y install --no-install-recommends apt-utils 2>&1 \
     #
     # Verify git and needed tools are installed
-    && apt-get install -y git procps \
+    && apt-get install -y git procps git-flow \
     #
     # Remove outdated yarn from /opt and install via package
     # so it can be easily updated via apt-get upgrade yarn
@@ -23,7 +23,8 @@ RUN apt-get update \
     # Clean up
     && apt-get autoremove -y \
     && apt-get clean -y \
-    && rm -rf /var/lib/apt/lists/*
+    && rm -rf /var/lib/apt/lists/* \
+    && npm install -g npm
 
 ENV \
     # Switch back to dialog for any ad-hoc use of apt-get

@@ -1,7 +1,104 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Home page renders correctly 1`] = `
-<h1>
-  Educodar
-</h1>
+Array [
+  <section>
+    <section
+      className="heroImage"
+    />
+    <div
+      className="hero"
+    >
+      <div
+        className="container"
+      >
+        <h1>
+          Aprenda programação gratuitamente.
+        </h1>
+        <img
+          alt="computer"
+          src="test-file-stub"
+        />
+      </div>
+      <div
+        className="verticalSpacing1x"
+      />
+      <div>
+        <button
+          className="buttonPrimary"
+        >
+          Quero aprender
+        </button>
+         
+        <button
+          className="buttonPrimaryOutline"
+        >
+          Quero apoiar
+        </button>
+      </div>
+    </div>
+  </section>,
+  <section
+    className="featuredSectionLevel1"
+  >
+    <h2
+      className="featuredSectionHeading"
+    >
+      Para quem é o Educodar?
+    </h2>
+    <p>
+      Se você tem pelo menos 14 anos e estuda em uma escola pública de Belo Horizonte (
+      <abbr
+        title="Minas Gerais"
+      >
+        MG
+      </abbr>
+      ) 
+      <wbr />
+      ou Porto Alegre (
+      <abbr
+        title="Rio Grande do Sul"
+      >
+        RS
+      </abbr>
+      ), você pode participar como estudante no 
+      <strong>
+        Educodar
+      </strong>
+      .
+    </p>
+     
+    <a
+      className="featuredSectionCallLink"
+      href="/"
+    >
+      Saiba Mais
+    </a>
+  </section>,
+  <section
+    className="featuredSectionLevel2"
+  >
+    <h2
+      className="featuredSectionHeading"
+    >
+      Como divulgar o Educodar na sua escola
+    </h2>
+    <p>
+      Se você estuda ou leciona em uma escola em Belo Horizonte (
+      <abbr
+        title="Minas Gerais"
+      >
+        MG
+      </abbr>
+      ), você pode nos ajudar a divulgar este projeto.
+    </p>
+     
+    <a
+      className="featuredSectionCallLink"
+      href="/"
+    >
+      Saiba Mais
+    </a>
+  </section>,
+]
 `;
