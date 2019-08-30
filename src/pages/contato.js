@@ -1,10 +1,18 @@
 import React from "react"
 
 const ContactPage = () => (
-  <form method="post" action="#">
+  <form
+    action="#"
+    data-netlify="true"
+    data-netlify-honeypot="bot-field"
+    method="post"
+    name="contact"
+  >
+    <input name="bot-field" type="hidden" />
+    <input name="form-name" type="hidden" value="contact" />
     <div>
       <label>
-        Nome:
+        Nome
         <input
           id="name"
           aria-required={true}
