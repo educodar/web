@@ -9,10 +9,6 @@ export default () => (
           Antes de realizar a indicação, saiba que priorizamos os seguintes
           perfis:
         </summary>
-        <p>
-          Antes de realizar a indicação, saiba que priorizamos os seguintes
-          perfis:
-        </p>
         <ul>
           <li>Pessoas que estudam em escolas públicas;</li>
           <li>Pessoas que estudam em escolas privadas com bolsa;</li>
@@ -34,19 +30,23 @@ export default () => (
       <fieldset>
         <legend>Quem está indicando?</legend>
         <div>
-          <label for="name">Qual é o seu nome?</label>
-          <input
-            aria-required={true}
-            id="name"
-            name="name"
-            placeholder="Nome e sobrenome"
-            required={true}
-            type="text"
-          />
+          <label for="name">
+            Qual é o seu nome?
+            <input
+              aria-required={true}
+              id="name"
+              name="name"
+              placeholder="Nome e sobrenome"
+              required={true}
+              type="text"
+            />
+          </label>
         </div>
         <div>
-          <label>Qual é o seu número de telefone celular?</label>
-          <input type="tel" />
+          <label>
+            Qual é o seu número de telefone celular?
+            <input type="tel" />
+          </label>
         </div>
       </fieldset>
       <fieldset>
@@ -75,30 +75,33 @@ export default () => (
       <fieldset>
         <legend>Dados da pessoa indicada</legend>
         <div>
-          <label>Qual é o nome da pessoa que você quer indicar?</label>
-          <input type="text" />
-        </div>
-        <div>
-          <label>Qual é o número de telefone celular dela?</label>
-          <input type="tel" />
+          <label>
+            Qual é o nome da pessoa que você quer indicar?
+            <input type="text" />
+          </label>
         </div>
         <div>
           <label>
-            Por que você acredita que essa pessoa deveria participar do
-            Educodar?
+            Qual é o número de telefone celular dela?
+            <input type="tel" />
           </label>
-          <textarea></textarea>
+        </div>
+        <div>
+          <label>
+            Por que essa pessoa deveria participar do <strong>Educodar</strong>?
+            <textarea></textarea>
+          </label>
         </div>
         <div>
           <label>
             Você sabe se existe algo que pode atrapalhar a participação e
             frequência dessa pessoa?
+            <textarea></textarea>
           </label>
           <span>
             Exemplo: distância até sua casa, horário das aulas, transporte,
             emprego
           </span>
-          <textarea></textarea>
         </div>
       </fieldset>
       <fieldset>
