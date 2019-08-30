@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./heroImage.module.css"
+import styles from "./index.module.css"
 
 const HeroImage = () => <section className={styles.heroImage}></section>
 
