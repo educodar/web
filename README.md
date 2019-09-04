@@ -1,6 +1,6 @@
 # Educodar
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c9a59a91-8853-4246-944b-a5d9ec66c2c7/deploy-status)](https://app.netlify.com/sites/educodar/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c9a59a91-8853-4246-944b-a5d9ec66c2c7/deploy-status)](https://app.netlify.com/sites/educodar/deploys) [![CircleCI Status](https://circleci.com/gh/educodar/website.svg?style=svg)](https://circleci.com/gh/educodar/website) [![Travis Status](https://travis-ci.org/educodar/website.svg?branch=master)](https://travis-ci.org/educodar/website) 
 
 ## Sobre os objetivos do negócio
 

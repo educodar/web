@@ -1,0 +1,18 @@
+.header {
+  composes: container from global;
+  align-items: center;
+  background-color: var(--primary-variant-color);
+  display: flex;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+}
+
+.logo a {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}

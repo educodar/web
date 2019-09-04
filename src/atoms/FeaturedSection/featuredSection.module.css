@@ -1,0 +1,22 @@
+.featuredSection {
+  composes: container from global;
+  color: var(--text-color);
+}
+
+.featuredSectionLevel1 {
+  composes: featuredSection;
+  background-color: var(--background-variant-color);
+}
+
+.featuredSectionCallLink {
+  color: var(--secondary-color);
+}
+
+.featuredSectionLevel2 {
+  composes: featuredSection;
+  background-color: var(--background-color);
+}
+
+.featuredSectionHeading {
+  font-size: 18px;
+}

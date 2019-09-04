@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Question Text component renders correctly 1`] = `
+<dt
+  itemProp="name"
+/>
+`;

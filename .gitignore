@@ -30,5 +30,5 @@ coverage
 # Compiled binary addons
 build/Release
 
-# Environment variables
+# Environment files
 .env*
