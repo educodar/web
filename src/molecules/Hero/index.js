@@ -19,11 +19,12 @@ const Hero = props => (
         <ButtonLink to="/quero-aprender" variant="primary">
           Quero aprender
         </ButtonLink>{" "}
-        <Button variant="primary" outline={true}>
+        {/*<ButtonLink variant="primary" outline={true}>
           Quero apoiar
-        </Button>
+</ButtonLink>*/}
       </div>
     </div>
+    <VerticalSpacing size="4x" />
   </section>
 )
 

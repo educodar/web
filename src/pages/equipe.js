@@ -1,9 +1,14 @@
 import React from "react"
 import SEO from "../components/SEO"
+import { Link } from "gatsby"
 
 export default () => (
   <>
     <SEO />
+    <nav itemProp="breadcrumb">
+      <Link to="/">Página inicial</Link>
+      <span aria-current="page">Equipe</span>
+    </nav>
     <article>
       <header>
         <h1>Quem faz o Educodar</h1>

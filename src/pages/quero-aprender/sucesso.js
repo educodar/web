@@ -9,8 +9,8 @@ export default () => (
       </hgroup>
     </header>
     <p>
-      Enquanto isso, olha só essas dicas de leitura pra você aprender mais sobre
-      programação:
+      Enquanto isso, olha só esses <em lang="en">links</em> interessantes pra
+      você aprender mais sobre programação:
     </p>
     <ul>
       <li>

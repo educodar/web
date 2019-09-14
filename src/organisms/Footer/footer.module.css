@@ -1,6 +1,7 @@
 .footer {
   composes: container from global;
   background-color: var(--primary-variant-color);
+  color: white;
   display: flex;
   justify-content: space-between;
   width: 100vw;
