@@ -1,7 +1,8 @@
 import React from "react"
 import renderer from "react-test-renderer"
-import HomePage from ".."
 import { StaticQuery } from "gatsby"
+
+import HomePage from ".."
 
 beforeEach(() => {
   StaticQuery.mockImplementationOnce(({ render }) =>

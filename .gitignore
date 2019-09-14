@@ -1,3 +1,11 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
 # Dependency directory
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
@@ -31,4 +39,8 @@ coverage
 build/Release
 
 # Environment files
-.env.development
+.env*
+
+# Google Verification generated files
+static/google*.html
+static/undefined.html

@@ -2,15 +2,38 @@
 
 exports[`Default layout renders correctly 1`] = `
 Array [
-  <header>
-    <h1>
-      Educodar
+  <header
+    className="header"
+  >
+    <h1
+      className="logo"
+    >
+      <a
+        href="/"
+      >
+        Educodar
+      </a>
     </h1>
-    <p>
-      Aulas de programação grátis para jovens
-    </p>
+    <nav />
   </header>,
-  <main />,
-  <footer />,
+  <div
+    className="verticalSpacing4x"
+  />,
+  <main
+    className="main"
+  />,
+  <div
+    className="verticalSpacing4x"
+  />,
+  <footer
+    className="footer"
+  >
+    <div>
+      2019 
+      <strong>
+        Educodar
+      </strong>
+    </div>
+  </footer>,
 ]
 `;

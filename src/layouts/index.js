@@ -1,12 +1,15 @@
+import Footer from "../organisms/Footer"
+import Header from "../organisms/Header"
+import Main from "../organisms/Main"
 import React from "react"
+import VerticalSpacing from "../atoms/VerticalSpacing"
 
 export default ({ children }) => (
   <>
-    <header>
-      <h1>Educodar</h1>
-      <p>Aulas de programação grátis para jovens</p>
-    </header>
-    <main>{children}</main>
-    <footer></footer>
+    <Header siteTitle={"Educodar"} />
+    <VerticalSpacing size="4x" />
+    <Main>{children}</Main>
+    <VerticalSpacing size="4x" />
+    <Footer />
   </>
 )
