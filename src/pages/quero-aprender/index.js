@@ -36,6 +36,7 @@ const ContactPage = () => (
               maxLength={50}
               minLength={5}
               placeholder="Nome completo"
+              required={true}
               type="text"
             />
           </label>
@@ -65,6 +66,7 @@ const ContactPage = () => (
               aria-required={false}
               autoFocus={false}
               placeholder="E-mail"
+              required={false}
               type="email"
             />
           </label>
@@ -81,6 +83,7 @@ const ContactPage = () => (
               aria-required={false}
               autoFocus={false}
               placeholder="Telefone com DDD"
+              required={false}
               type="tel"
             />
           </label>
@@ -90,7 +93,14 @@ const ContactPage = () => (
           <label>
             Em qual cidade você mora?
             <VerticalSpacing size="1x" />
-            <select id="city" name="city" autoComplete="city" autoFocus={false}>
+            <select
+              id="city"
+              name="city"
+              aria-required={true}
+              autoComplete="city"
+              autoFocus={false}
+              required={true}
+            >
               <option value="">Escolha uma cidade&hellip;</option>
               <option value="BH">Belo Horizonte (MG)</option>
               <option value="POA">Porto Alegre (PR)</option>
@@ -107,10 +117,12 @@ const ContactPage = () => (
             <Input
               id="address-line3"
               name="address-line3"
+              aria-required={true}
               autoCapitalize="words"
               autoComplete="address-line3"
               autoCorrect="on"
               autoFocus={false}
+              required={true}
             />
           </label>
         </div>
