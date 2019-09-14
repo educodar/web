@@ -4,6 +4,7 @@ import HeroImage from "../../atoms/HeroImage"
 import React from "react"
 import styles from "./hero.module.css"
 import VerticalSpacing from "../../atoms/VerticalSpacing"
+import ButtonLink from "../../atoms/ButtonLink"
 
 const Hero = props => (
   <section>
@@ -15,12 +16,16 @@ const Hero = props => (
       </div>
       <VerticalSpacing size={"1x"}></VerticalSpacing>
       <div>
-        <Button variant="primary">Quero aprender</Button>{" "}
-        <Button variant="primary" outline={true}>
-          Quero apoiar
-        </Button>
+        <ButtonLink to="/quero-aprender" variant="primary">
+          Quero aprender
+        </ButtonLink>
+
+        {/*<ButtonLink to="/tire-suas-duvidas" variant="primary" outline={true}>
+          Tire suas dúvidas
+</ButtonLink>*/}
       </div>
     </div>
+    <VerticalSpacing size="4x" />
   </section>
 )
 

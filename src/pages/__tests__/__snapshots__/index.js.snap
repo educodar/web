@@ -24,19 +24,17 @@ Array [
         className="verticalSpacing1x"
       />
       <div>
-        <button
+        <a
           className="buttonPrimary"
+          href="/quero-aprender"
         >
           Quero aprender
-        </button>
-         
-        <button
-          className="buttonPrimaryOutline"
-        >
-          Quero apoiar
-        </button>
+        </a>
       </div>
     </div>
+    <div
+      className="verticalSpacing4x"
+    />
   </section>,
   <section
     className="featuredSectionLevel1"
@@ -47,7 +45,7 @@ Array [
       Para quem é o Educodar?
     </h2>
     <p>
-      Se você tem pelo menos 14 anos e estuda em uma escola pública de Belo Horizonte (
+      Tem pelo menos 14 anos e estuda em uma escola pública de Belo Horizonte (
       <abbr
         title="Minas Gerais"
       >
@@ -61,19 +59,22 @@ Array [
       >
         RS
       </abbr>
-      ), você pode participar como estudante no 
-      <strong>
-        Educodar
-      </strong>
+      )?
+    </p>
+    <p>
+      Então você pode se
+       
+      <a
+        href="/quero-aprender"
+      >
+        inscrever para estudar no 
+        <strong>
+          Educodar
+        </strong>
+      </a>
       .
     </p>
      
-    <a
-      className="featuredSectionCallLink"
-      href="/"
-    >
-      Saiba Mais
-    </a>
   </section>,
   <section
     className="featuredSectionLevel2"
@@ -92,13 +93,17 @@ Array [
       </abbr>
       ), você pode nos ajudar a divulgar este projeto.
     </p>
+    <p>
+      Divulgue as
+       
+      <a
+        href="/tire-suas-duvidas"
+      >
+        informações sobre o Educodar
+      </a>
+       para sua escola.
+    </p>
      
-    <a
-      className="featuredSectionCallLink"
-      href="/"
-    >
-      Saiba Mais
-    </a>
   </section>,
 ]
 `;

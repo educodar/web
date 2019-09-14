@@ -20,9 +20,9 @@ const FeaturedSection = ({ children, level, title }) => {
     <section className={styles[className]}>
       <h2 className={styles.featuredSectionHeading}>{title}</h2>
       {children}{" "}
-      <Link to="/" className={styles.featuredSectionCallLink}>
+      {/*<Link to="/" className={styles.featuredSectionCallLink}>
         Saiba Mais
-      </Link>
+  </Link>*/}
     </section>
   )
 }

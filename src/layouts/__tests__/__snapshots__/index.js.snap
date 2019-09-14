@@ -16,22 +16,24 @@ Array [
     </h1>
     <nav />
   </header>,
+  <div
+    className="verticalSpacing4x"
+  />,
   <main
     className="main"
+  />,
+  <div
+    className="verticalSpacing4x"
   />,
   <footer
     className="footer"
   >
-    <a
-      href="/privacidade"
-    >
-      Privacidade e Uso de Dados
-    </a>
-    <a
-      href="/termos-de-uso"
-    >
-      Termos de uso
-    </a>
+    <div>
+      2019 
+      <strong>
+        Educodar
+      </strong>
+    </div>
   </footer>,
 ]
 `;

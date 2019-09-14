@@ -9,6 +9,9 @@ exports[`FAQ Item component renders correctly 1`] = `
   <dt
     itemProp="name"
   />
+  <div
+    className="verticalSpacing1x"
+  />
   <dd
     itemProp="acceptedAnswer"
     itemScope={true}
@@ -18,5 +21,6 @@ exports[`FAQ Item component renders correctly 1`] = `
       itemProp="text"
     />
   </dd>
+  <hr />
 </div>
 `;

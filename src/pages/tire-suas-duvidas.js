@@ -1,23 +1,20 @@
 import React from "react"
 import SEO from "../components/SEO"
-import { Link } from "gatsby"
-import Question from "../atoms/QuestionText"
+import ButtonLink from "../atoms/ButtonLink"
 import FAQItem from "../molecules/FAQItem"
 
 const FAQPage = () => (
   <>
     <SEO />
-    <nav itemProp="breadcrumb">
-      <Link to="/">Página inicial</Link>
-      <span aria-current="page">Tire suas dúvidas</span>
-    </nav>
     <article>
       <h1>Tire suas dúvidas</h1>
       <dl>
-        <FAQItem question="O que é Educodar?">
-          É um projeto voluntário que&hellip;
+        <FAQItem question="O que é o Educodar">
+          É um projeto voluntário que é realizado por pessoas que trabalham na
+          ThoughtWorks, que introduz a pessoas a partir de 14 anos conceitos de
+          lógica de programação e outros conteúdos relacionados a tecnologia da
+          informação. Porém, o Educodar não é um curso.
         </FAQItem>
-        <FAQItem question="O Educodar é um curso?">Não.</FAQItem>
         <FAQItem question="Tenho que pagar para estudar no Educodar?">
           Não, ele é 100% gratuito.
         </FAQItem>
@@ -44,27 +41,33 @@ const FAQPage = () => (
           Nós dividimos o Educodar em duas fases. Na primeira, fazemos um
           <em lang="en">workshop</em> super divertido, que vai ajudar você a
           aprender conceitos básicos de programação (como lógica de programação,
-          por exemplo). Na segunda fase, você aprenderá a programar.
+          por exemplo). Na segunda fase, você aprenderá a programar em aulas que
+          acontecem semanalmente.
         </FAQItem>
         <FAQItem question="O que aprenderei no Educodar?">
           No início, você aprenderá 3 linguagens que são utilizadas para
           construir sites e até alguns aplicativos. Elas são o HTML, CSS e
-          JavaScript. Se você quiser saber mais sobre essas linguagens, pode
-          acessar&hellip;
+          JavaScript.{" "}
+          {/*Se você quiser saber mais sobre essas linguagens, pode
+          acessar&hellip;*/}
         </FAQItem>
         <FAQItem question="Não sei nada de informática ou programação. Posso me candidatar?">
           Sim. Todas as pessoas são bem-vindas.
         </FAQItem>
         <FAQItem question="Eu não tenho um computador. Posso participar?">
           Sim. Enquanto você estiver em nosso local de aprendizado, você poderá
-          usar um computador que ficará reservado para você. Porém, por questões
-          de segurança, nós não podemos emprestar o computador para você levar
-          para casa.
+          usar um computador que ficará reservado para você. Porém, nós não
+          podemos emprestar o computador para você levar para casa.
         </FAQItem>
         <FAQItem question="O Educodar é um processo de recrutamento?">
-          Não. O programa Educodar não tem vínculo&hellip;
+          Não. O programa Educodar não tem vínculo com nenhum processo de
+          recrutamento. Porém, ele pode te ajudar indiretamente a se sair melhor
+          em algum processo.
         </FAQItem>
       </dl>
+      <ButtonLink to="/quero-aprender" variant="primary">
+        Quero aprender a programar
+      </ButtonLink>
     </article>
   </>
 )
