@@ -8,7 +8,8 @@ const ContactPage = () => (
     <article>
       <hgroup>
         <h1>
-          Gostaria de participar do <strong>Educodar</strong>&nbsp;2020!
+          Inscreva-se para saber mais sobre o <strong>Educodar</strong>
+          &nbsp;2020
         </h1>
       </hgroup>
       <form
