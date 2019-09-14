@@ -18,10 +18,11 @@ const Hero = props => (
       <div>
         <ButtonLink to="/quero-aprender" variant="primary">
           Quero aprender
-        </ButtonLink>{" "}
-        <ButtonLink to="/tire-suas-duvidas" variant="primary" outline={true}>
-          Tire suas dúvidas
         </ButtonLink>
+
+        {/*<ButtonLink to="/tire-suas-duvidas" variant="primary" outline={true}>
+          Tire suas dúvidas
+</ButtonLink>*/}
       </div>
     </div>
     <VerticalSpacing size="4x" />
