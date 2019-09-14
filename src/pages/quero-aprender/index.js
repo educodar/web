@@ -16,11 +16,7 @@ const ContactPage = () => (
       name="studentInterest"
     >
       <input name="bot-field" type="hidden" />
-      <input
-        name="form-name"
-        type="hidden"
-        value="Registro de interesse de estudante"
-      />
+      <input name="form-name" type="hidden" value="studentInterest" />
       <fieldset>
         <div>
           <label>
