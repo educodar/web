@@ -3,6 +3,7 @@
   background-color: var(--primary-variant-color);
   display: flex;
   justify-content: space-between;
+  width: 100vw;
 }
 
 .footer a:any-link,

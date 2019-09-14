@@ -6,9 +6,6 @@
   --space-3x: calc(var(--layout-base) * 3);
   --space-4x: calc(var(--layout-base) * 4);
 
-  --vertical-spacing-1x: var(--layout-base);
-  --vertical-spacing-2x: calc(var(--layout-base) * 2);
-
   --primary-color: #0078bf;
   --primary-variant-color: #00bccd;
   --secondary-color: #ee5ba0;

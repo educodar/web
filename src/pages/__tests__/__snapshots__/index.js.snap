@@ -24,11 +24,12 @@ Array [
         className="verticalSpacing1x"
       />
       <div>
-        <button
+        <a
           className="buttonPrimary"
+          href="/quero-aprender"
         >
           Quero aprender
-        </button>
+        </a>
          
         <button
           className="buttonPrimaryOutline"

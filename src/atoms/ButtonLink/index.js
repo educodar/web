@@ -1,6 +1,8 @@
 import PropTypes from "prop-types"
 import React from "react"
-import styles from "./button.module.css"
+import styles from "../Button/button.module.css"
+import { Link } from "gatsby"
+import Button from "../Button"
 
 const propTypes = {
   children: PropTypes.node.isRequired,
@@ -13,18 +15,18 @@ const defaultProps = {
   variant: "primary",
 }
 
-const Button = ({ children, outline, variant, ...props }) => {
+const ButtonLink = ({ children, outline, variant, ...props }) => {
   let className = "button"
   className = variant === "primary" ? className.concat("Primary") : className
   className = outline === true ? className.concat("Outline") : className
   return (
-    <button className={styles[className]} {...props}>
+    <Link className={styles[className]} {...props}>
       {children}
-    </button>
+    </Link>
   )
 }
 
 Button.propTypes = propTypes
 Button.defaultProps = defaultProps
 
-export default Button
+export default ButtonLink

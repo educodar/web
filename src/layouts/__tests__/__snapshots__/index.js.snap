@@ -16,8 +16,14 @@ Array [
     </h1>
     <nav />
   </header>,
+  <div
+    className="verticalSpacing4x"
+  />,
   <main
     className="main"
+  />,
+  <div
+    className="verticalSpacing4x"
   />,
   <footer
     className="footer"
