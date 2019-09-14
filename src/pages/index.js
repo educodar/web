@@ -2,6 +2,7 @@ import FeaturedSection from "../atoms/FeaturedSection"
 import Hero from "../molecules/Hero"
 import React from "react"
 import SEO from "../components/SEO"
+import { Link } from "gatsby"
 
 const HomePage = () => (
   <>
@@ -15,7 +16,11 @@ const HomePage = () => (
         <abbr title="Rio Grande do Sul">RS</abbr>)?
       </p>
       <p>
-        Então você pode se inscrever para estudar no <strong>Educodar</strong>.
+        Então você pode se{" "}
+        <Link to="/quero-aprender">
+          inscrever para estudar no <strong>Educodar</strong>
+        </Link>
+        .
       </p>
     </FeaturedSection>
     <FeaturedSection level={2} title="Como divulgar o Educodar na sua escola">
@@ -24,7 +29,11 @@ const HomePage = () => (
         <abbr title="Minas Gerais">MG</abbr>), você pode nos ajudar a divulgar
         este projeto.
       </p>
-      <p>Divulgue este site para sua escola.</p>
+      <p>
+        Divulgue as{" "}
+        <Link to="/tire-suas-duvidas">informações sobre o Educodar</Link> para
+        sua escola.
+      </p>
     </FeaturedSection>
   </>
 )

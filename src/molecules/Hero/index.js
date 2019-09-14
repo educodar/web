@@ -19,9 +19,9 @@ const Hero = props => (
         <ButtonLink to="/quero-aprender" variant="primary">
           Quero aprender
         </ButtonLink>{" "}
-        {/*<ButtonLink variant="primary" outline={true}>
-          Quero apoiar
-</ButtonLink>*/}
+        <ButtonLink to="/tire-suas-duvidas" variant="primary" outline={true}>
+          Tire suas dúvidas
+        </ButtonLink>
       </div>
     </div>
     <VerticalSpacing size="4x" />
