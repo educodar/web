@@ -253,5 +253,11 @@ exports[`FAQ page renders correctly 1`] = `
       <hr />
     </div>
   </dl>
+  <a
+    className="buttonPrimary"
+    href="/quero-aprender"
+  >
+    Quero aprender a programar
+  </a>
 </article>
 `;

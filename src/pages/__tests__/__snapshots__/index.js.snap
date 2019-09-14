@@ -30,13 +30,6 @@ Array [
         >
           Quero aprender
         </a>
-         
-        <a
-          className="buttonPrimaryOutline"
-          href="/tire-suas-duvidas"
-        >
-          Tire suas dúvidas
-        </a>
       </div>
     </div>
     <div
@@ -69,10 +62,16 @@ Array [
       )?
     </p>
     <p>
-      Então você pode se inscrever para estudar no 
-      <strong>
-        Educodar
-      </strong>
+      Então você pode se
+       
+      <a
+        href="/quero-aprender"
+      >
+        inscrever para estudar no 
+        <strong>
+          Educodar
+        </strong>
+      </a>
       .
     </p>
      
@@ -95,7 +94,14 @@ Array [
       ), você pode nos ajudar a divulgar este projeto.
     </p>
     <p>
-      Divulgue este site para sua escola.
+      Divulgue as
+       
+      <a
+        href="/tire-suas-duvidas"
+      >
+        informações sobre o Educodar
+      </a>
+       para sua escola.
     </p>
      
   </section>,
