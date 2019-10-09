@@ -32,7 +32,7 @@
     "netlify": "2.4.8",
     "prettier": "1.18.2",
     "react-test-renderer": "16.10.2",
-    "start-server-and-test": "1.10.2"
+    "start-server-and-test": "1.10.5"
   },
   "scripts": {
     "build": "gatsby build",
