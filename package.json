@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "babel-jest": "24.9.0",
-    "cypress": "3.6.0",
+    "cypress": "3.6.1",
     "gatsby-cli": "2.8.14",
     "identity-obj-proxy": "3.0.0",
     "jest": "24.9.0",
