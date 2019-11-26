@@ -17,8 +17,8 @@
     "gatsby-plugin-sitemap": "2.2.22",
     "gatsby-plugin-typography": "2.3.18",
     "prop-types": "15.7.2",
-    "react": "16.11.0",
-    "react-dom": "16.11.0",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
     "react-helmet": "5.2.1",
     "react-typography": "0.16.19",
     "typography": "0.16.19"
@@ -31,7 +31,7 @@
     "jest": "24.9.0",
     "netlify": "2.4.8",
     "prettier": "1.18.2",
-    "react-test-renderer": "16.11.0",
+    "react-test-renderer": "16.12.0",
     "start-server-and-test": "1.10.6"
   },
   "scripts": {
