@@ -27,6 +27,7 @@
   "devDependencies": {
     "babel-jest": "24.9.0",
     "cypress": "3.7.0",
+    "cz-conventional-changelog": "^3.0.2",
     "gatsby-cli": "2.8.18",
     "identity-obj-proxy": "3.0.0",
     "jest": "24.9.0",
@@ -43,7 +44,8 @@
     "start": "npm run develop",
     "test": "jest",
     "cy:open": "cypress open",
-    "test:e2e": "start-server-and-test develop http://localhost:8000 cy:open"
+    "test:e2e": "start-server-and-test develop http://localhost:8000 cy:open",
+    "commit": "npx git-cz"
   },
   "repository": {
     "type": "git",
@@ -59,5 +61,10 @@
   "bugs": {
     "url": "https://github.com/educodar/website/issues"
   },
-  "homepage": "https://github.com/educodar/website#readme"
+  "homepage": "https://github.com/educodar/website#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
