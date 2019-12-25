@@ -63,12 +63,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-netlify-identity`,
-      options: {
-        url: productionSiteUrl
-      }
-    },
-    {
       resolve: `gatsby-plugin-netlify-identity-widget`
     },
     {
