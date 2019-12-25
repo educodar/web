@@ -1,3 +1,16 @@
+const contentSecurityPolicy = [
+  `base-uri 'self';`,
+  `connect-src 'self';`,
+  `default-src 'self';`,
+  `form-action 'self';`,
+  `font-src 'self' data:;`,
+  `img-src 'self' data:;`,
+  `object-src 'none';`,
+  `script-src 'self' 'unsafe-inline';`,
+  `script-src-elem unpkg.com;`,
+  `style-src 'self' 'unsafe-inline';`,
+]
+
 module.exports = {
   siteMetadata: {
     title: `Educodar - Aulas de programação grátis para jovens`,
@@ -37,21 +50,12 @@ module.exports = {
       options: {
         headers: {
           "/*": [
-            `Content-Security-Policy: base-uri 'self';
-            default-src 'self';
-            script-src 'self' 'unsafe-inline';
-            style-src 'self' 'unsafe-inline';
-            object-src 'none';
-            form-action 'self';
-            font-src 'self' data:;
-            connect-src 'self';
-            img-src 'self' data:;
-            script-src-elem unpkg.com`,
+            `Content-Security-Policy: ${contentSecurityPolicy.join(" ")},
             "Feature-Policy: ambient-light-sensor 'self'; autoplay 'self'; camera 'none'; encrypted-media 'self'; fullscreen 'none'; geolocation 'self'; gyroscope 'self'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; speaker 'self'; sync-xhr 'self'; usb 'none'; vr 'none'",
             "Referrer-Policy: no-referrer",
             "X-Content-Type-Options: nosniff",
             "X-Frame-Options: DENY",
-            "X-XSS-Protection: 1; mode=block",
+            "X-XSS-Protection: 1; mode=block",`,
           ],
         },
       },
