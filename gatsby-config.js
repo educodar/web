@@ -61,6 +61,9 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-netlify-identity-widget`
+    },
+    {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
         fonts: [{ family: `Nunito`, subsets: [`latin`] }],
