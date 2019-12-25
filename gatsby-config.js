@@ -11,11 +11,13 @@ const contentSecurityPolicy = [
   `style-src 'self' 'unsafe-inline';`,
 ]
 
+const productionSiteUrl = `https://educodar.com.br`;
+
 module.exports = {
   siteMetadata: {
     title: `Educodar - Aulas de programação grátis para jovens`,
     titleTemplate: `%s · Educodar`,
-    siteUrl: `https://educodar.com.br`,
+    siteUrl: productionSiteUrl,
     description: `Projeto de ensino de programação básica e exposição a T.I. para estudantes de escolas de comunidades. Iniciativa sem fins lucrativos. Cursos e alimentação gratuitos.`,
     image: "/images/logo.png",
   },
@@ -59,6 +61,12 @@ module.exports = {
           ],
         },
       },
+    },
+    {
+      resolve: `gatsby-plugin-netlify-identity`,
+      options: {
+        url: productionSiteUrl
+      }
     },
     {
       resolve: `gatsby-plugin-netlify-identity-widget`
