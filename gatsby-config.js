@@ -37,7 +37,16 @@ module.exports = {
       options: {
         headers: {
           "/*": [
-            "Content-Security-Policy: base-uri 'self'; default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; object-src 'none'; form-action 'self'; font-src 'self' data:; connect-src 'self'; img-src 'self' data:;",
+            `Content-Security-Policy: base-uri 'self';
+            default-src 'self';
+            script-src 'self' 'unsafe-inline';
+            style-src 'self' 'unsafe-inline';
+            object-src 'none';
+            form-action 'self';
+            font-src 'self' data:;
+            connect-src 'self';
+            img-src 'self' data:;
+            script-src-elem unpkg.com`,
             "Feature-Policy: ambient-light-sensor 'self'; autoplay 'self'; camera 'none'; encrypted-media 'self'; fullscreen 'none'; geolocation 'self'; gyroscope 'self'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; speaker 'self'; sync-xhr 'self'; usb 'none'; vr 'none'",
             "Referrer-Policy: no-referrer",
             "X-Content-Type-Options: nosniff",
