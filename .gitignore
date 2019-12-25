@@ -44,3 +44,6 @@ build/Release
 # Google Verification generated files
 static/google*.html
 static/undefined.html
+
+# IDEA workspace files
+.idea/workspace.xml
