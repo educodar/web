@@ -1,3 +1,109 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Home page renders correctly 1`] = `null`;
+exports[`Home page renders correctly 1`] = `
+Array [
+  <section>
+    <section
+      className="heroImage"
+    />
+    <div
+      className="hero"
+    >
+      <div
+        className="container"
+      >
+        <h1>
+          Aprenda programação gratuitamente.
+        </h1>
+        <img
+          alt="computer"
+          src="test-file-stub"
+        />
+      </div>
+      <div
+        className="verticalSpacing1x"
+      />
+      <div>
+        <a
+          className="buttonPrimary"
+          href="/quero-aprender"
+        >
+          Quero aprender
+        </a>
+      </div>
+    </div>
+    <div
+      className="verticalSpacing4x"
+    />
+  </section>,
+  <section
+    className="featuredSectionLevel1"
+  >
+    <h2
+      className="featuredSectionHeading"
+    >
+      Para quem é o Educodar?
+    </h2>
+    <p>
+      Tem pelo menos 14 anos e estuda em uma escola pública de Belo Horizonte (
+      <abbr
+        title="Minas Gerais"
+      >
+        MG
+      </abbr>
+      ) 
+      <wbr />
+      ou Porto Alegre (
+      <abbr
+        title="Rio Grande do Sul"
+      >
+        RS
+      </abbr>
+      )?
+    </p>
+    <p>
+      Então você pode se
+       
+      <a
+        href="/quero-aprender"
+      >
+        inscrever para estudar no 
+        <strong>
+          Educodar
+        </strong>
+      </a>
+      .
+    </p>
+     
+  </section>,
+  <section
+    className="featuredSectionLevel2"
+  >
+    <h2
+      className="featuredSectionHeading"
+    >
+      Como divulgar o Educodar na sua escola
+    </h2>
+    <p>
+      Se você estuda ou leciona em uma escola em Belo Horizonte (
+      <abbr
+        title="Minas Gerais"
+      >
+        MG
+      </abbr>
+      ), você pode nos ajudar a divulgar este projeto.
+    </p>
+    <p>
+      Divulgue as
+       
+      <a
+        href="/tire-suas-duvidas"
+      >
+        informações sobre o Educodar
+      </a>
+       para sua escola.
+    </p>
+     
+  </section>,
+]
+`;

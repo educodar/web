@@ -1,0 +1,263 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FAQ page renders correctly 1`] = `
+<article>
+  <h1>
+    Tire suas dúvidas
+  </h1>
+  <dl>
+    <div
+      itemProp="mainEntity"
+      itemScope={true}
+      itemType="https://schema.org/Question"
+    >
+      <dt
+        itemProp="name"
+      >
+        O que é o Educodar
+      </dt>
+      <div
+        className="verticalSpacing1x"
+      />
+      <dd
+        itemProp="acceptedAnswer"
+        itemScope={true}
+        itemType="https://schema.org/Answer"
+      >
+        <div
+          itemProp="text"
+        >
+          É um projeto voluntário que é realizado por pessoas que trabalham na ThoughtWorks, que introduz a pessoas a partir de 14 anos conceitos de lógica de programação e outros conteúdos relacionados a tecnologia da informação. Porém, o Educodar não é um curso.
+        </div>
+      </dd>
+      <hr />
+    </div>
+    <div
+      itemProp="mainEntity"
+      itemScope={true}
+      itemType="https://schema.org/Question"
+    >
+      <dt
+        itemProp="name"
+      >
+        Tenho que pagar para estudar no Educodar?
+      </dt>
+      <div
+        className="verticalSpacing1x"
+      />
+      <dd
+        itemProp="acceptedAnswer"
+        itemScope={true}
+        itemType="https://schema.org/Answer"
+      >
+        <div
+          itemProp="text"
+        >
+          Não, ele é 100% gratuito.
+        </div>
+      </dd>
+      <hr />
+    </div>
+    <div
+      itemProp="mainEntity"
+      itemScope={true}
+      itemType="https://schema.org/Question"
+    >
+      <dt
+        itemProp="name"
+      >
+        Como o Educodar me ajuda a ingressar no mercado de trabalho?
+      </dt>
+      <div
+        className="verticalSpacing1x"
+      />
+      <dd
+        itemProp="acceptedAnswer"
+        itemScope={true}
+        itemType="https://schema.org/Answer"
+      >
+        <div
+          itemProp="text"
+        >
+          <p>
+            Se você for menor de idade e, portanto, ainda estiver na época da escola, nossa preocupação não será em arrumar um emprego pra você. Nós vamos mostrar a você que a área de tecnologia é uma possível oportunidade para o seu futuro.
+          </p>
+          <p>
+            Se você é maior de idade e está procurando uma oportunidade de trabalho, não podemos garantir que você saia daqui com um emprego. Porém, vamos te apoiar e te dar direcionamento em relação a currículo, processos seletivos e possíveis cursos.
+          </p>
+        </div>
+      </dd>
+      <hr />
+    </div>
+    <div
+      itemProp="mainEntity"
+      itemScope={true}
+      itemType="https://schema.org/Question"
+    >
+      <dt
+        itemProp="name"
+      >
+        Tenho que fazer provas e tirar nota boa?
+      </dt>
+      <div
+        className="verticalSpacing1x"
+      />
+      <dd
+        itemProp="acceptedAnswer"
+        itemScope={true}
+        itemType="https://schema.org/Answer"
+      >
+        <div
+          itemProp="text"
+        >
+          Não. Pra gente, o mais importante é que todas as pessoas aprendam. Seu desempenho será acompanhado durante as aulas, e sempre vai ter alguém para te dar apoio se você tiver alguma dúvida.
+        </div>
+      </dd>
+      <hr />
+    </div>
+    <div
+      itemProp="mainEntity"
+      itemScope={true}
+      itemType="https://schema.org/Question"
+    >
+      <dt
+        itemProp="name"
+      >
+        Como funciona o Educodar?
+      </dt>
+      <div
+        className="verticalSpacing1x"
+      />
+      <dd
+        itemProp="acceptedAnswer"
+        itemScope={true}
+        itemType="https://schema.org/Answer"
+      >
+        <div
+          itemProp="text"
+        >
+          Nós dividimos o Educodar em duas fases. Na primeira, fazemos um
+          <em
+            lang="en"
+          >
+            workshop
+          </em>
+           super divertido, que vai ajudar você a aprender conceitos básicos de programação (como lógica de programação, por exemplo). Na segunda fase, você aprenderá a programar em aulas que acontecem semanalmente.
+        </div>
+      </dd>
+      <hr />
+    </div>
+    <div
+      itemProp="mainEntity"
+      itemScope={true}
+      itemType="https://schema.org/Question"
+    >
+      <dt
+        itemProp="name"
+      >
+        O que aprenderei no Educodar?
+      </dt>
+      <div
+        className="verticalSpacing1x"
+      />
+      <dd
+        itemProp="acceptedAnswer"
+        itemScope={true}
+        itemType="https://schema.org/Answer"
+      >
+        <div
+          itemProp="text"
+        >
+          No início, você aprenderá 3 linguagens que são utilizadas para construir sites e até alguns aplicativos. Elas são o HTML, CSS e JavaScript.
+           
+        </div>
+      </dd>
+      <hr />
+    </div>
+    <div
+      itemProp="mainEntity"
+      itemScope={true}
+      itemType="https://schema.org/Question"
+    >
+      <dt
+        itemProp="name"
+      >
+        Não sei nada de informática ou programação. Posso me candidatar?
+      </dt>
+      <div
+        className="verticalSpacing1x"
+      />
+      <dd
+        itemProp="acceptedAnswer"
+        itemScope={true}
+        itemType="https://schema.org/Answer"
+      >
+        <div
+          itemProp="text"
+        >
+          Sim. Todas as pessoas são bem-vindas.
+        </div>
+      </dd>
+      <hr />
+    </div>
+    <div
+      itemProp="mainEntity"
+      itemScope={true}
+      itemType="https://schema.org/Question"
+    >
+      <dt
+        itemProp="name"
+      >
+        Eu não tenho um computador. Posso participar?
+      </dt>
+      <div
+        className="verticalSpacing1x"
+      />
+      <dd
+        itemProp="acceptedAnswer"
+        itemScope={true}
+        itemType="https://schema.org/Answer"
+      >
+        <div
+          itemProp="text"
+        >
+          Sim. Enquanto você estiver em nosso local de aprendizado, você poderá usar um computador que ficará reservado para você. Porém, nós não podemos emprestar o computador para você levar para casa.
+        </div>
+      </dd>
+      <hr />
+    </div>
+    <div
+      itemProp="mainEntity"
+      itemScope={true}
+      itemType="https://schema.org/Question"
+    >
+      <dt
+        itemProp="name"
+      >
+        O Educodar é um processo de recrutamento?
+      </dt>
+      <div
+        className="verticalSpacing1x"
+      />
+      <dd
+        itemProp="acceptedAnswer"
+        itemScope={true}
+        itemType="https://schema.org/Answer"
+      >
+        <div
+          itemProp="text"
+        >
+          Não. O programa Educodar não tem vínculo com nenhum processo de recrutamento. Porém, ele pode te ajudar indiretamente a se sair melhor em algum processo.
+        </div>
+      </dd>
+      <hr />
+    </div>
+  </dl>
+  <a
+    className="buttonPrimary"
+    href="/quero-aprender"
+  >
+    Quero aprender a programar
+  </a>
+</article>
+`;

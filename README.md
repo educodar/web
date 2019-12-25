@@ -1,6 +1,6 @@
 # Educodar
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c9a59a91-8853-4246-944b-a5d9ec66c2c7/deploy-status)](https://app.netlify.com/sites/educodar/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c9a59a91-8853-4246-944b-a5d9ec66c2c7/deploy-status)](https://app.netlify.com/sites/educodar/deploys) [![CircleCI Status](https://circleci.com/gh/educodar/website.svg?style=svg)](https://circleci.com/gh/educodar/website) [![Travis Status](https://travis-ci.org/educodar/website.svg?branch=master)](https://travis-ci.org/educodar/website) 
 
 ## Sobre os objetivos do negócio
 
@@ -78,3 +78,11 @@ Se tudo correr bem, o Gatsby executará pela primeira vez. Então, você pode ac
 A porta `8000` é utilizada durante o desenvolvimento (e não a porta 3000, que costuma ser usada na maioria dos projetos em React).
 
 A aplicação será executada no Terminal continuamente. Se você quiser parar a aplicação, pode digitar Control+C no terminal.
+
+## Continuous Deployment
+
+Nós utilizamos o [Netlify](https://www.netlify.com/) para publicar este site. Sempre que você criar e publicar um _branch_, o Netlify criará um _deploy preview_, e você terá acesso a uma URL onde poderá visualizar como seu trabalho está ficando.
+
+As URLs têm o formato `deploy-preview-000--educodar.netlify.com`, onde `000` é um número único para cada _branch_.
+
+Você pode [saber mais sobre _deploy previews_](https://www.netlify.com/blog/2016/07/20/introducing-deploy-previews-in-netlify/) no artigo [Introducing Deploy Previews in Netlify](https://www.netlify.com/blog/2016/07/20/introducing-deploy-previews-in-netlify/).

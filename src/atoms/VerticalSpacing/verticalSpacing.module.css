@@ -1,0 +1,15 @@
+.verticalSpacing1x {
+  margin-bottom: var(--space-1x);
+}
+
+.verticalSpacing2x {
+  margin-bottom: var(--space-2x);
+}
+
+.verticalSpacing3x {
+  margin-bottom: var(--space-3x);
+}
+
+.verticalSpacing4x {
+  margin-bottom: var(--space-4x);
+}

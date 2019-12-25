@@ -10,6 +10,8 @@
     "christian-kohler.npm-intellisense",
     "esbenp.prettier-vscode",
     "redhat.vscode-yaml",
-    "editorconfig.editorconfig"
+    "editorconfig.editorconfig",
+    "kisstkondoros.vscode-codemetrics",
+    "dbaeumer.vscode-eslint"
   ]
 }

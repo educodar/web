@@ -1,7 +1,12 @@
 import React from "react"
+import { Link } from "gatsby"
 
 export default () => (
   <article>
+    <nav itemProp="breadcrumb">
+      <Link to="/">Página inicial</Link>
+      <span aria-current="page">Sobre o Educodar</span>
+    </nav>
     <h1>Sobre o Educodar</h1>
     <p>
       O Educodar é um projeto realizado por pessoas que trabalham na
