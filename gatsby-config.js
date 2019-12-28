@@ -63,6 +63,9 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-netlify-cms`
+    },
+    {
       resolve: `gatsby-plugin-netlify-identity-widget`
     },
     {
