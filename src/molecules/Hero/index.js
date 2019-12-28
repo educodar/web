@@ -1,4 +1,3 @@
-import Button from "../../atoms/Button"
 import ComputerImage from "../../images/computer-line@2x.png"
 import HeroImage from "../../atoms/HeroImage"
 import React from "react"
