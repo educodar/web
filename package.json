@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "babel-jest": "25.1.0",
-    "cypress": "3.8.2",
+    "cypress": "3.8.3",
     "cz-conventional-changelog": "3.0.2",
     "gatsby-cli": "2.8.27",
     "identity-obj-proxy": "3.0.0",
