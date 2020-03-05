@@ -4,6 +4,7 @@
   ],
   "automerge": true,
   "enabled": true,
+  "labels": ["dependencies", "renovate"],
   "packageRules": [
     {
       "updateTypes": ["minor", "patch", "pin", "digest"],
