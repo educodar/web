@@ -81,6 +81,33 @@ const ContactPage = () => {
           </div>
           <VerticalSpacing size="2x" />
           <div>
+            <label htmlFor="document">
+              Qual é o número da sua identidade?
+              <VerticalSpacing size="1x" />
+              <Input
+                id="document"
+                name="document"
+                autoComplete="document"
+                autoCorrect="off"
+                aria-required={true}
+                enterkeyhint="send"
+                maxLength={15}
+                minLength={7}
+                mozactionhint="send"
+                placeholder="Número do seu RG"
+                title="Por favor, informe o número do seu documento de identidade"
+                type="text"
+              />
+            </label>
+            <div>
+              <small>
+                Se você for selecionado o número do seu documento será
+                necessário.
+              </small>
+            </div>
+          </div>
+          <VerticalSpacing size="2x" />
+          <div>
             <label htmlFor="tel-national">
               Qual é seu telefone celular?
               <VerticalSpacing size="1x" />
