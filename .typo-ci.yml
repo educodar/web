@@ -1,0 +1,27 @@
+dictionaries:
+  - en
+  - pt_BR
+
+excluded_files:
+  - "vendor/**/*"
+  - "node_modules/**/*"
+  - "*.key"
+  - "*.enc"
+  - "*.min.css"
+  - "*.css.map"
+  - "*.min.js"
+  - "*.js.map"
+  - "*.mk"
+  - "package-lock.json"
+  - "yarn.lock"
+  - "Gemfile.lock"
+  - ".typo-ci.yml"
+
+excluded_words:
+  - dev
+  - gemfile
+  - lajimmy_andrade
+  - testc
+  - testu
+  - testw
+  - typoci
