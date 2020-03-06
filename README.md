@@ -1,13 +1,15 @@
 # Educodar
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c9a59a91-8853-4246-944b-a5d9ec66c2c7/deploy-status)](https://app.netlify.com/sites/educodar/deploys) [![CircleCI Status](https://circleci.com/gh/educodar/website.svg?style=svg)](https://circleci.com/gh/educodar/website) [![Travis Status](https://travis-ci.org/educodar/website.svg?branch=master)](https://travis-ci.org/educodar/website) 
+[![codecov](https://codecov.io/gh/educodar/web/branch/master/graph/badge.svg)](https://codecov.io/gh/educodar/web) 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c9a59a91-8853-4246-944b-a5d9ec66c2c7/deploy-status)](https://app.netlify.com/sites/educodar/deploys) 
+[![CircleCI Status](https://circleci.com/gh/educodar/web.svg?style=svg)](https://circleci.com/gh/educodar/website) 
+[![Travis Build Status](https://travis-ci.org/educodar/web.svg?branch=master)](https://travis-ci.org/educodar/web)
 
 ## Sobre os objetivos do negócio
 
 Este site está sendo desenvolvido com o objetivo de ajudar o Educodar a se tornar um 
 projeto de impacto nas cidades onde há escritórios da ThoughtWorks, levando o 
-conhecimento de Tecnologia da Informação para o maior número de estudantes, 
-principalmente a partir do ano de 2020.
+conhecimento de Tecnologia da Informação para o maior número de estudantes.
 
 O site é pensado para três públicos: a pessoa voluntária, a pessoa estudante e escola.
 As pessoas precisam entender que o projeto está ativo e como fazer parte.
@@ -22,17 +24,17 @@ O site gerado por este projeto é hospedado no Netlify, uma ferramenta gratuita 
 ### 1. Clone este repositório em sua máquina
 
 Você precisa ter o Git instalado em seu Windows, macOS ou Linux.
-Então, execute o seguinte comando no terminal de sua máquina:
+Então, clone este repositório para sua máquina.
 
 ```shell
-git clone https://github.com/educodar/educodar.github.io.git
+git clone https://github.com/educodar/web.github.io.git
 ```
 
 Aguarde a clonagem ser finalizada.
 
-#### Como trabalhar num branch específico
+#### Sempre trabalhe no master
 
-Execute o seguinte comando em seu terminal do Windows, macOS ou Linux.
+Para garantir que você sempre está no master, execute os seguintes comandos em seu terminal do Windows, macOS ou Linux:
 
 ```shell
 git checkout nomedobranch
@@ -47,12 +49,6 @@ Você precisa ter o Node instalado em seu Windows, macOS ou Linux.
 Então, execute o seguinte comando no macOS ou Linux.
 
 ```shell
-make install
-```
-
-No Windows, você deve executar o seguinte comando para instalar:
-
-```shell
 npm install
 ```
 
@@ -62,20 +58,13 @@ Se, durante o processo de instalação, você encontrar algum warning sobre paco
 
 ### 3. Comece a desenvolver
 
-No macOS ou Linux, execute o seguinte comando em seu terminal:
-
-```shell
-make develop
-```
-
-No Windows, você deve executar o seguinte:
+Execute o seguinte comando em seu terminal:
 
 ```shell
 npm start
 ```
 
-Se tudo correr bem, o Gatsby executará pela primeira vez. Então, você pode acessar http://localhost:8000.
-A porta `8000` é utilizada durante o desenvolvimento (e não a porta 3000, que costuma ser usada na maioria dos projetos em React).
+Se tudo correr bem, o Gatsby executará pela primeira vez. Então, você pode acessar http://localhost:8000. A porta `8000` é utilizada durante o desenvolvimento (e não a porta 3000, que costuma ser usada na maioria dos projetos em React).
 
 A aplicação será executada no Terminal continuamente. Se você quiser parar a aplicação, pode digitar Control+C no terminal.
 
