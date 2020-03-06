@@ -27,7 +27,7 @@ Você precisa ter o Git instalado em seu Windows, macOS ou Linux.
 Então, clone este repositório para sua máquina.
 
 ```shell
-git clone https://github.com/educodar/web.github.io.git
+git clone https://github.com/educodar/web.git
 ```
 
 Aguarde a clonagem ser finalizada.
@@ -37,7 +37,7 @@ Aguarde a clonagem ser finalizada.
 Para garantir que você sempre está no master, execute os seguintes comandos em seu terminal do Windows, macOS ou Linux:
 
 ```shell
-git checkout nomedobranch
+git checkout master
 git pull
 ```
 
