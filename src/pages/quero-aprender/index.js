@@ -3,6 +3,7 @@ import VerticalSpacing from "../../atoms/VerticalSpacing"
 import Button from "../../atoms/Button"
 import Input from "../../atoms/Input"
 import BirthdayInput from "../../atoms/BirthdayInput"
+import ConductCode from "../../molecules/ConductCode"
 
 const ContactPage = () => {
   return (
@@ -212,6 +213,11 @@ const ContactPage = () => {
               </datalist>
             </label>
           </div>
+          <VerticalSpacing size="4x" />
+          <text>
+            Ao se inscrever no Educodar você concorda com o nosso{" "}
+            {<ConductCode />}.
+          </text>
 
           <VerticalSpacing size="4x" />
           <Button id="submit" name="submit" type="submit">
