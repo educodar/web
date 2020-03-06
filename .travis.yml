@@ -6,8 +6,8 @@ cache:
     - node_modules
 before_install:
   - "sudo apt-get update"
-  - "npm i -g gatsby"
 install:
-  - "npm i"
+  - "npm ci"
 script:
-  - "npm run test"
+  - "npm run ci"
+
