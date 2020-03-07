@@ -81,28 +81,28 @@ const ContactPage = () => {
           </div>
           <VerticalSpacing size="2x" />
           <div>
-            <label htmlFor="document">
+            <label htmlFor="idDocument">
               Qual é o número da sua identidade?
               <VerticalSpacing size="1x" />
               <Input
-                id="document"
-                name="document"
-                autoComplete="document"
+                id="idDocument"
+                name="idDocument"
+                autoComplete="off"
                 autoCorrect="off"
                 aria-required={true}
                 enterkeyhint="send"
-                maxLength={15}
+                maxLength={20}
                 minLength={7}
                 mozactionhint="send"
-                placeholder="Número do seu RG"
+                placeholder="Apenas números"
                 title="Por favor, informe o número do seu documento de identidade"
                 type="text"
               />
             </label>
             <div>
               <small>
-                Se você for selecionado o número do seu documento será
-                necessário.
+                Esta informação será utilizada para liberar sua entrada na portaria, caso você
+                seja uma das pessoas selecionadas.
               </small>
             </div>
           </div>
