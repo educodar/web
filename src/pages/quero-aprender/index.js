@@ -82,7 +82,7 @@ const ContactPage = () => {
           <VerticalSpacing size="2x" />
           <div>
             <label htmlFor="idDocument">
-              Qual é o número da sua identidade?
+              Qual é o número do seu documento de identidade?
               <VerticalSpacing size="1x" />
               <Input
                 id="idDocument"
