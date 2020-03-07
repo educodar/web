@@ -19,8 +19,10 @@ excluded_files:
 
 excluded_words:
   - dev
+  - enterkeyhint
   - gemfile
   - lajimmy_andrade
+  - mozactionhint
   - testc
   - testu
   - testw
