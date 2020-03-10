@@ -18,11 +18,16 @@ excluded_files:
   - ".typo-ci.yml"
 
 excluded_words:
+  - aprender
+  - Código
+  - concorda
+  - Conduta
   - dev
-  - enterkeyhint
+  - Educodar
   - gemfile
+  - inscrever
   - lajimmy_andrade
-  - mozactionhint
+  - quero
   - testc
   - testu
   - testw
