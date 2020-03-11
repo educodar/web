@@ -86,5 +86,5 @@
       "pre-commit": "npm run test:staged",
       "pre-push": "npm test && npm run test:e2e:ci"
     }
-  }
+  } 
 }
