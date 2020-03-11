@@ -26,7 +26,7 @@ export default () => (
         <li>Inajara Leppa (Porto Alegre)</li>
         <li>Jimmy Andrade (Belo Horizonte)</li>
         <li>Lucas Carvalhais (Belo Horizonte)</li>
-        <li>Vinicius Ponciano (Belo Horizonte)</li>
+        <li>Vinícius Ponciano (Belo Horizonte)</li>
       </ul>
       <h2>Já colaboraram</h2>
       <ul>
