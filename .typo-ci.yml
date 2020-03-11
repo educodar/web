@@ -19,10 +19,13 @@ excluded_files:
 
 excluded_words:
   - aparência
+  - aprender
   - assédio
   - através
   - código
   - codigo-de-conduta
+  - concorda
+  - Conduta
   - cooperação
   - crença
   - critério
@@ -30,17 +33,20 @@ excluded_words:
   - dev
   - discriminação
   - divulgação
+  - Educodar
   - espaço
   - experiência
   - física
   - gemfile
   - gênero
+  - inscrever
   - lajimmy_andrade
   - não
   - Nós
   - organização
   - orientação
   - participação
+  - quero
   - raça
   - são
   - será

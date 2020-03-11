@@ -83,6 +83,33 @@ const ContactPage = () => {
           </div>
           <VerticalSpacing size="2x" />
           <div>
+            <label htmlFor="idDocument">
+              Qual é o número do seu documento de identidade?
+              <VerticalSpacing size="1x" />
+              <Input
+                id="idDocument"
+                name="idDocument"
+                autoComplete="off"
+                autoCorrect="off"
+                aria-required={true}
+                enterkeyhint="send"
+                maxLength={20}
+                minLength={7}
+                mozactionhint="send"
+                placeholder="Apenas números"
+                title="Por favor, informe o número do seu documento de identidade"
+                type="text"
+              />
+            </label>
+            <div>
+              <small>
+                Esta informação será utilizada para liberar sua entrada na portaria, caso você
+                seja uma das pessoas selecionadas.
+              </small>
+            </div>
+          </div>
+          <VerticalSpacing size="2x" />
+          <div>
             <label htmlFor="tel-national">
               Qual é seu telefone celular?
               <VerticalSpacing size="1x" />
