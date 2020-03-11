@@ -3,7 +3,7 @@ import VerticalSpacing from "../../atoms/VerticalSpacing"
 import Button from "../../atoms/Button"
 import Input from "../../atoms/Input"
 import BirthdayInput from "../../atoms/BirthdayInput"
-import ConductCodeLink from "../../molecules/ConductCode"
+import ConductCodeLink from "../../molecules/ConductCodeLink"
 
 const ContactPage = () => {
   return (
