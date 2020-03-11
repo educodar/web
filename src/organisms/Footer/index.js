@@ -1,13 +1,14 @@
 import React from "react"
 import style from "./footer.module.css"
 
+import ConductCodeLink from "../../molecules/ConductCodeLink"
+
 const Footer = () => (
   <footer className={style.footer}>
     <div>
-      2019 <strong>Educodar</strong>
+      2019-{new Date().getFullYear()} <strong>Educodar</strong>
     </div>
-    {/*<Link to="/privacidade">Privacidade e Uso de Dados</Link>
-    <Link to="/termos-de-uso">Termos de uso</Link>*/}
+    <ConductCodeLink />
   </footer>
 )
 

@@ -29,11 +29,20 @@ Array [
     className="footer"
   >
     <div>
-      2019 
+      2019-
+      2020
+       
       <strong>
         Educodar
       </strong>
     </div>
+    <a
+      href="/codigo-de-conduta"
+      rel={null}
+      target="_self"
+    >
+      Código de Conduta
+    </a>
   </footer>,
 ]
 `;
