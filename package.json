@@ -45,7 +45,7 @@
     "build": "gatsby build",
     "ci": "npm run testc && npm run report-coverage",
     "cy:open": "cypress open",
-    "cy:run": "cypress rn",
+    "cy:run": "cypress run",
     "develop": "gatsby develop -H 0.0.0.0 --port 8000",
     "format": "prettier --write src/**/*.{js,jsx}",
     "report-coverage": "codecov",
