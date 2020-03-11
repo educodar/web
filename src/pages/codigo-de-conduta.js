@@ -80,18 +80,17 @@ export default () => (
       <ul>
         <li>
           Desconsiderar sumariamente a opinião técnica de uma pessoa em grupo
-          subrepresentado em sua área de conhecimento (ex.: mulheres, pessoas
+          sub-representado em sua área de conhecimento (ex.: mulheres, pessoas
           negras, pessoas com deficiência,{" "}
           <abbr title="Lésbicas, Gays, Bissexuais, Trans, Travestis, Queer, Assexuais, Intersexuais e mais">
             LGBTQIA+
           </abbr>
-          , <abbr title="et cetera">etc.</abbr>)
+          , <abbr>etc.</abbr>)
         </li>
         <li>
           Perguntas ou opiniões intimidadoras sobre questões de foro íntimo de
           alguém (ex.: orientação sexual, identidade de gênero, status de
-          relacionamento, visão religiosa, opinião política{" "}
-          <abbr title="et cetera">etc.</abbr>)
+          relacionamento, visão religiosa, opinião política <abbr>etc.</abbr>)
         </li>
         <li>gestos ou palavras, escritas ou faladas, de caráter sexual;</li>
         <li>contato físico não desejado.</li>
