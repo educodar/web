@@ -11,7 +11,7 @@ const contentSecurityPolicy = [
   `style-src 'self' 'unsafe-inline';`,
 ]
 
-const productionSiteUrl = `https://educodar.com.br`;
+const productionSiteUrl = `https://educodar.com.br`
 
 module.exports = {
   siteMetadata: {
@@ -63,10 +63,10 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-netlify-cms`
+      resolve: `gatsby-plugin-netlify-cms`,
     },
     {
-      resolve: `gatsby-plugin-netlify-identity-widget`
+      resolve: `gatsby-plugin-netlify-identity-widget`,
     },
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
