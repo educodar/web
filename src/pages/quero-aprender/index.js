@@ -101,8 +101,8 @@ const ContactPage = () => {
             </label>
             <div>
               <small>
-                Esta informação será utilizada para liberar sua entrada na portaria, caso você
-                seja uma das pessoas selecionadas.
+                Esta informação será utilizada para liberar sua entrada na
+                portaria, caso você seja uma das pessoas selecionadas.
               </small>
             </div>
           </div>
