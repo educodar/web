@@ -3,6 +3,7 @@ import VerticalSpacing from "../../atoms/VerticalSpacing"
 import Button from "../../atoms/Button"
 import Input from "../../atoms/Input"
 import BirthdayInput from "../../atoms/BirthdayInput"
+import ConductCodeLink from "../../molecules/ConductCodeLink"
 
 const ContactPage = () => {
   return (
@@ -10,7 +11,8 @@ const ContactPage = () => {
       <article>
         <hgroup>
           <h1>
-            Inscreva-se para saber mais sobre o <strong>Educodar</strong>
+            Cadastre-se para&nbsp;saber mais sobre o&nbsp;
+            <strong>Educodar</strong>
             &nbsp;2020
           </h1>
         </hgroup>
@@ -239,11 +241,16 @@ const ContactPage = () => {
               </datalist>
             </label>
           </div>
-
           <VerticalSpacing size="4x" />
           <Button id="submit" name="submit" type="submit">
             Tenho interesse
           </Button>
+          <VerticalSpacing size="4x" />
+          <hr />
+          <p>
+            Ao utilizar o botão "Tenho interesse", você concorda com o nosso{" "}
+            <ConductCodeLink openInNew={true} />.
+          </p>
         </form>
       </article>
     </>

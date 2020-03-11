@@ -18,17 +18,85 @@ excluded_files:
   - ".typo-ci.yml"
 
 excluded_words:
+  - ação
+  - alguém
+  - aparência
   - aprender
-  - Código
+  - área
+  - assédio
+  - atenção
+  - através
+  - Atribuição
+  - botão
+  - caráter
+  - codigo
+  - código
+  - codigo-de-conduta
+  - comentários
   - concorda
   - Conduta
+  - contrários
+  - cooperação
+  - créditos
+  - crença
+  - critério
+  - deficiência
   - dev
+  - discriminação
+  - discriminatória
+  - divulgação
+  - duração
   - Educodar
+  - espaço
+  - espaços
+  - está
+  - experiência
+  - expulsão
+  - física
+  - físico
   - gemfile
+  - gênero
+  - iml
+  - inglês
   - inscrever
+  - interrupções
+  - intimidação
+  - íntimo
   - lajimmy_andrade
+  - Lésbicas
+  - Licença
+  - não
+  - Nós
+  - opinião
+  - opiniões
+  - organização
+  - orientação
+  - participação
+  - perseguição
+  - polícia
+  - política
+  - prédio
+  - preocupação
+  - públicos
   - quero
+  - questões
+  - raça
+  - react-test-renderer
+  - relação
+  - renderer
+  - são
+  - segurança
+  - será
+  - serão
+  - técnica
   - testc
   - testu
   - testw
+  - tradução
   - typoci
+  - Versão
+  - visão
+  - vítima
+  - Você
+  - voluntárias
+  - wbr

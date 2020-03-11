@@ -29,11 +29,13 @@
     "typography": "0.16.19"
   },
   "devDependencies": {
+    "@testing-library/cypress": "5.3.0",
     "babel-jest": "25.1.0",
     "codecov": "3.6.5",
     "cypress": "4.1.0",
-    "cz-conventional-changelog": "3.1.0",
+    "eslint-plugin-cypress": "2.10.3",
     "gatsby-cli": "2.10.5",
+    "husky": "4.2.3",
     "identity-obj-proxy": "3.0.0",
     "jest": "25.1.0",
     "netlify": "3.1.0",
@@ -44,10 +46,12 @@
   "scripts": {
     "build": "gatsby build",
     "ci": "npm run testc && npm run report-coverage",
-    "commit": "npx git-cz",
     "cy:open": "cypress open",
+    "cy:run": "cypress run",
     "develop": "gatsby develop -H 0.0.0.0 --port 8000",
     "format": "prettier --write src/**/*.{js,jsx}",
+    "open:local": "open http://localhost:8000",
+    "open:prod": "open https://educodar.com.br",
     "report-coverage": "codecov",
     "serve": "gatsby serve",
     "start": "npm run develop",
@@ -55,7 +59,8 @@
     "testc": "jest --coverage",
     "testu": "jest -u",
     "testw": "jest --watch",
-    "test:e2e": "start-server-and-test develop http://localhost:8000 cy:open"
+    "test:e2e": "start-server-and-test develop http://localhost:8000 cy:open",
+    "test:e2e:ci": "start-server-and-test develop http://localhost:8000 cy:run"
   },
   "repository": {
     "type": "git",
@@ -72,9 +77,10 @@
     "url": "https://github.com/educodar/website/issues"
   },
   "homepage": "https://github.com/educodar/website#readme",
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm test && npm run test:e2e:ci"
     }
   }
 }

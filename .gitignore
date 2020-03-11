@@ -1,5 +1,6 @@
 # OS generated files
 .DS_Store
+src/.DS_Store
 .DS_Store?
 .Spotlight-V100
 .Trashes
@@ -47,3 +48,6 @@ static/undefined.html
 
 # IDEA workspace files
 .idea/workspace.xml
+
+# Cypress generated files
+cypress/videos
