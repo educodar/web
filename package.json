@@ -29,6 +29,8 @@
     "typography": "0.16.19"
   },
   "devDependencies": {
+    "@commitlint/cli": "8.3.5",
+    "@commitlint/config-conventional": "8.3.4",
     "@testing-library/cypress": "5.3.0",
     "babel-jest": "25.1.0",
     "codecov": "3.6.5",
@@ -79,6 +81,7 @@
   "homepage": "https://github.com/educodar/website#readme",
   "husky": {
     "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "pre-commit": "npm test",
       "pre-push": "npm test && npm run test:e2e:ci"
     }
