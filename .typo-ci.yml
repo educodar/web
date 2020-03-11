@@ -18,10 +18,36 @@ excluded_files:
   - ".typo-ci.yml"
 
 excluded_words:
+  - aparência
+  - assédio
+  - através
+  - código
+  - codigo-de-conduta
+  - cooperação
+  - crença
+  - critério
+  - deficiência
   - dev
+  - discriminação
+  - divulgação
+  - espaço
+  - experiência
+  - física
   - gemfile
+  - gênero
   - lajimmy_andrade
+  - não
+  - Nós
+  - organização
+  - orientação
+  - participação
+  - raça
+  - são
+  - será
   - testc
   - testu
   - testw
   - typoci
+  - Versão
+  - Você
+  - voluntárias
