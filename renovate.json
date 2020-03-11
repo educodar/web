@@ -2,13 +2,18 @@
   "extends": [
     "config:base"
   ],
+  "assignees": ["jimmyandrade"],
   "automerge": true,
   "enabled": true,
   "labels": ["dependencies", "renovate"],
   "packageRules": [
     {
-      "updateTypes": ["minor", "patch", "pin", "digest"],
+      "updateTypes": ["patch"],
       "automerge": true
+    },
+    {
+      "updateTypes": ["minor", "pin", "digest"],
+      "automerge": false
     }
   ],
   "semanticCommits": true,
