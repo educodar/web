@@ -54,6 +54,9 @@ exports[`Team page renders correctly 1`] = `
     <li>
       Lucas Carvalhais (Belo Horizonte)
     </li>
+    <li>
+      Vinicius Ponciano (Belo Horizonte)
+    </li>
   </ul>
   <h2>
     Já colaboraram
