@@ -7,3 +7,8 @@
   command = "npm start"
   port = 8000
   publish = "public"
+  
+[[redirects]]
+  from = "/código-de-conduta"
+  to = "/codigo-de-conduta"
+  status = 301
