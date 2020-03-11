@@ -1,6 +1,7 @@
 module.exports = {
   collectCoverage: true,
   coverageDirectory: "./coverage/",
+  coveragePathIgnorePatterns: ["/.cache/", "/node_modules/"],
   globals: {
     __PATH_PREFIX__: ``,
   },
