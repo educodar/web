@@ -26,6 +26,8 @@ excluded_words:
   - assédio
   - atenção
   - através
+  - Atribuição
+  - botão
   - caráter
   - codigo
   - código
@@ -55,13 +57,14 @@ excluded_words:
   - gemfile
   - gênero
   - iml
-  - inglês  
+  - inglês
   - inscrever
   - interrupções
   - intimidação
   - íntimo
   - lajimmy_andrade
   - Lésbicas
+  - Licença
   - não
   - Nós
   - opinião
