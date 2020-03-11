@@ -48,3 +48,6 @@ static/undefined.html
 
 # IDEA workspace files
 .idea/workspace.xml
+
+# Cypress generated files
+cypress/videos
