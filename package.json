@@ -29,9 +29,11 @@
     "typography": "0.16.19"
   },
   "devDependencies": {
+    "@testing-library/cypress": "5.3.0",
     "babel-jest": "25.1.0",
     "codecov": "3.6.5",
     "cypress": "4.1.0",
+    "eslint-plugin-cypress": "2.10.3",
     "gatsby-cli": "2.10.1",
     "husky": "4.2.3",
     "identity-obj-proxy": "3.0.0",
