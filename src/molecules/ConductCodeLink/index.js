@@ -1,6 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
-import { withPrefix } from "../../../.cache/gatsby-browser-entry"
+import { Link, withPrefix } from "gatsby"
 
 const ConductCodeLink = ({ openInNew, ...props }) => {
   const Component = openInNew ? "a" : Link
