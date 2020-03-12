@@ -9,6 +9,7 @@ const contentSecurityPolicy = [
   `script-src 'self' 'unsafe-inline' 'unsafe-eval';`,
   `script-src-elem 'self' 'unsafe-inline' cdn.lr-ingest.io identity.netlify.com unpkg.com;`,
   `style-src 'self' 'unsafe-inline';`,
+  `worker-src blob: data:`,
 ]
 
 const productionSiteUrl = `https://educodar.com.br`
