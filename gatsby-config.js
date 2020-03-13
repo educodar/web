@@ -1,6 +1,6 @@
 const contentSecurityPolicy = [
   `base-uri 'self';`,
-  `connect-src 'self';`,
+  `connect-src 'self' r.lr-ingest.io;`,
   `default-src 'self';`,
   `form-action 'self';`,
   `font-src 'self' data:;`,
