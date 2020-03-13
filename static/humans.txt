@@ -1,5 +1,6 @@
 # humanstxt.org/
 # The humans responsible & technology colophon
+# @todo generate humans.txt automatically via gatsby-node.js & GraphQL query
 
 # TEAM
 
