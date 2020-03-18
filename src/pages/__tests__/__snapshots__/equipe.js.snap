@@ -1,83 +1,128 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Team page renders correctly 1`] = `
-<article>
-  <header>
-    <h1>
-      Quem faz o Educodar
-    </h1>
-  </header>
-  <nav
-    itemProp="breadcrumb"
+<article
+  className="MuiBox-root MuiBox-root-2"
+>
+  <h1
+    className="MuiTypography-root MuiTypography-h1"
   >
-    <a
-      href="/"
-    >
-      Página inicial
-    </a>
-    <span
-      aria-current="page"
-    >
-      Equipe
-    </span>
-  </nav>
-  <h2>
+    Quem faz o Educodar
+  </h1>
+  <h2
+    className="MuiTypography-root MuiTypography-h2"
+  >
     Educodar Belo Horizonte
   </h2>
-  <ul>
-    <li>
+  <ul
+    className="MuiList-root MuiList-padding"
+  >
+    <li
+      className="MuiListItem-root MuiListItem-gutters"
+      disabled={false}
+    >
       Jimmy Andrade (Belo Horizonte) - Champion de Comunicação
     </li>
-    <li>
+    <li
+      className="MuiListItem-root MuiListItem-gutters"
+      disabled={false}
+    >
       Leandro Victor (Belo Horizonte)
     </li>
-    <li>
+    <li
+      className="MuiListItem-root MuiListItem-gutters"
+      disabled={false}
+    >
       Thais Nunes (Belo Horizonte) - Champion de Seleção de Turma
     </li>
-    <li>
+    <li
+      className="MuiListItem-root MuiListItem-gutters"
+      disabled={false}
+    >
       Vagner dos Santos (Belo Horizonte)
     </li>
   </ul>
-  <h2>
+  <h2
+    className="MuiTypography-root MuiTypography-h2"
+  >
     Site Educodar.com.br
   </h2>
-  <ul>
-    <li>
+  <ul
+    className="MuiList-root MuiList-padding"
+  >
+    <li
+      className="MuiListItem-root MuiListItem-gutters"
+      disabled={false}
+    >
       Daniel Nascimento (Belo Horizonte)
     </li>
-    <li>
+    <li
+      className="MuiListItem-root MuiListItem-gutters"
+      disabled={false}
+    >
       Inajara Leppa (Porto Alegre)
     </li>
-    <li>
+    <li
+      className="MuiListItem-root MuiListItem-gutters"
+      disabled={false}
+    >
       Jimmy Andrade (Belo Horizonte)
     </li>
-    <li>
+    <li
+      className="MuiListItem-root MuiListItem-gutters"
+      disabled={false}
+    >
       Lucas Carvalhais (Belo Horizonte)
     </li>
-    <li>
+    <li
+      className="MuiListItem-root MuiListItem-gutters"
+      disabled={false}
+    >
       Vinícius Ponciano (Belo Horizonte)
     </li>
   </ul>
-  <h2>
+  <h2
+    className="MuiTypography-root MuiTypography-h2"
+  >
     Já colaboraram
   </h2>
-  <ul>
-    <li>
+  <ul
+    className="MuiList-root MuiList-padding"
+  >
+    <li
+      className="MuiListItem-root MuiListItem-gutters"
+      disabled={false}
+    >
       André Araújo (Belo Horizonte)
     </li>
-    <li>
+    <li
+      className="MuiListItem-root MuiListItem-gutters"
+      disabled={false}
+    >
       Bruna Castelo (Belo Horizonte)
     </li>
-    <li>
+    <li
+      className="MuiListItem-root MuiListItem-gutters"
+      disabled={false}
+    >
       Luciano Borges (Belo Horizonte) - Suporte e Orçamento
     </li>
-    <li>
+    <li
+      className="MuiListItem-root MuiListItem-gutters"
+      disabled={false}
+    >
       Maria Simas (Belo Horizonte)
     </li>
-    <li>
+    <li
+      className="MuiListItem-root MuiListItem-gutters"
+      disabled={false}
+    >
       Nayara Souza (Belo Horizonte)
     </li>
-    <li>
+    <li
+      className="MuiListItem-root MuiListItem-gutters"
+      disabled={false}
+    >
       Paulo Gama (Belo Horizonte e Recife)
     </li>
   </ul>

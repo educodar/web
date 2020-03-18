@@ -1,4 +1,3 @@
-require("./src/index")
 const LogRocket = require("logrocket")
 
 exports.onClientEntry = () => {

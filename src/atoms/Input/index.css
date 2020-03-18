@@ -1,9 +1,0 @@
-.input {
-  border-style: solid;
-  border-radius: var(--space-1px);
-  border-width: calc(var(--space-1x) / 4);
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 20px;
-  padding: var(--space-1x) calc(var(--space-1x) + 2px);
-}

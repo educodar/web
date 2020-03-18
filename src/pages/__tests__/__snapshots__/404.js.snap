@@ -1,16 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`404 page renders correctly 1`] = `
-<article>
-  <h1>
+<article
+  className="MuiBox-root MuiBox-root-2"
+>
+  <h1
+    className="MuiTypography-root MuiTypography-h1"
+  >
     Página não encontrada
   </h1>
-  <p>
+  <p
+    className="MuiTypography-root MuiTypography-body1 MuiTypography-paragraph"
+  >
     Ops! A página que você está procurando pode ter sido removida ou renomeada.
   </p>
-  <p>
+  <p
+    className="MuiTypography-root MuiTypography-body1 MuiTypography-paragraph"
+  >
     <a
+      className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
       href="/"
+      onBlur={[Function]}
+      onFocus={[Function]}
     >
       Voltar à página inicial
     </a>

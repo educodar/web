@@ -1,82 +1,92 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`FAQ page renders correctly 1`] = `
-<article>
-  <h1>
+<article
+  className="MuiBox-root MuiBox-root-2"
+>
+  <h1
+    className="MuiTypography-root MuiTypography-h1"
+  >
     Tire suas dúvidas
   </h1>
-  <dl>
+  <dl
+    className="MuiBox-root MuiBox-root-33"
+  >
     <div
+      className="MuiBox-root MuiBox-root-34"
       itemProp="mainEntity"
       itemScope={true}
       itemType="https://schema.org/Question"
     >
       <dt
-        itemProp="name"
+        className="MuiBox-root MuiBox-root-35"
       >
         O que é o Educodar
       </dt>
-      <div
-        className="verticalSpacing1x"
-      />
       <dd
+        className="MuiBox-root MuiBox-root-36"
         itemProp="acceptedAnswer"
         itemScope={true}
         itemType="https://schema.org/Answer"
       >
         <div
+          className="MuiBox-root MuiBox-root-37"
           itemProp="text"
         >
           É um projeto voluntário que é realizado por pessoas que trabalham na ThoughtWorks, que introduz a pessoas a partir de 14 anos conceitos de lógica de programação e outros conteúdos relacionados a tecnologia da informação. Porém, o Educodar não é um curso.
         </div>
       </dd>
-      <hr />
+      <hr
+        className="MuiDivider-root"
+      />
     </div>
     <div
+      className="MuiBox-root MuiBox-root-45"
       itemProp="mainEntity"
       itemScope={true}
       itemType="https://schema.org/Question"
     >
       <dt
-        itemProp="name"
+        className="MuiBox-root MuiBox-root-46"
       >
         Tenho que pagar para estudar no Educodar?
       </dt>
-      <div
-        className="verticalSpacing1x"
-      />
       <dd
+        className="MuiBox-root MuiBox-root-47"
         itemProp="acceptedAnswer"
         itemScope={true}
         itemType="https://schema.org/Answer"
       >
         <div
+          className="MuiBox-root MuiBox-root-48"
           itemProp="text"
         >
           Não, ele é 100% gratuito.
         </div>
       </dd>
-      <hr />
+      <hr
+        className="MuiDivider-root"
+      />
     </div>
     <div
+      className="MuiBox-root MuiBox-root-49"
       itemProp="mainEntity"
       itemScope={true}
       itemType="https://schema.org/Question"
     >
       <dt
-        itemProp="name"
+        className="MuiBox-root MuiBox-root-50"
       >
         Como o Educodar me ajuda a ingressar no mercado de trabalho?
       </dt>
-      <div
-        className="verticalSpacing1x"
-      />
       <dd
+        className="MuiBox-root MuiBox-root-51"
         itemProp="acceptedAnswer"
         itemScope={true}
         itemType="https://schema.org/Answer"
       >
         <div
+          className="MuiBox-root MuiBox-root-52"
           itemProp="text"
         >
           <p>
@@ -87,53 +97,57 @@ exports[`FAQ page renders correctly 1`] = `
           </p>
         </div>
       </dd>
-      <hr />
+      <hr
+        className="MuiDivider-root"
+      />
     </div>
     <div
+      className="MuiBox-root MuiBox-root-53"
       itemProp="mainEntity"
       itemScope={true}
       itemType="https://schema.org/Question"
     >
       <dt
-        itemProp="name"
+        className="MuiBox-root MuiBox-root-54"
       >
         Tenho que fazer provas e tirar nota boa?
       </dt>
-      <div
-        className="verticalSpacing1x"
-      />
       <dd
+        className="MuiBox-root MuiBox-root-55"
         itemProp="acceptedAnswer"
         itemScope={true}
         itemType="https://schema.org/Answer"
       >
         <div
+          className="MuiBox-root MuiBox-root-56"
           itemProp="text"
         >
           Não. Pra gente, o mais importante é que todas as pessoas aprendam. Seu desempenho será acompanhado durante as aulas, e sempre vai ter alguém para te dar apoio se você tiver alguma dúvida.
         </div>
       </dd>
-      <hr />
+      <hr
+        className="MuiDivider-root"
+      />
     </div>
     <div
+      className="MuiBox-root MuiBox-root-57"
       itemProp="mainEntity"
       itemScope={true}
       itemType="https://schema.org/Question"
     >
       <dt
-        itemProp="name"
+        className="MuiBox-root MuiBox-root-58"
       >
         Como funciona o Educodar?
       </dt>
-      <div
-        className="verticalSpacing1x"
-      />
       <dd
+        className="MuiBox-root MuiBox-root-59"
         itemProp="acceptedAnswer"
         itemScope={true}
         itemType="https://schema.org/Answer"
       >
         <div
+          className="MuiBox-root MuiBox-root-60"
           itemProp="text"
         >
           Nós dividimos o Educodar em duas fases. Na primeira, fazemos um
@@ -145,119 +159,147 @@ exports[`FAQ page renders correctly 1`] = `
            super divertido, que vai ajudar você a aprender conceitos básicos de programação (como lógica de programação, por exemplo). Na segunda fase, você aprenderá a programar em aulas que acontecem semanalmente.
         </div>
       </dd>
-      <hr />
+      <hr
+        className="MuiDivider-root"
+      />
     </div>
     <div
+      className="MuiBox-root MuiBox-root-61"
       itemProp="mainEntity"
       itemScope={true}
       itemType="https://schema.org/Question"
     >
       <dt
-        itemProp="name"
+        className="MuiBox-root MuiBox-root-62"
       >
         O que aprenderei no Educodar?
       </dt>
-      <div
-        className="verticalSpacing1x"
-      />
       <dd
+        className="MuiBox-root MuiBox-root-63"
         itemProp="acceptedAnswer"
         itemScope={true}
         itemType="https://schema.org/Answer"
       >
         <div
+          className="MuiBox-root MuiBox-root-64"
           itemProp="text"
         >
           No início, você aprenderá 3 linguagens que são utilizadas para construir sites e até alguns aplicativos. Elas são o HTML, CSS e JavaScript.
            
         </div>
       </dd>
-      <hr />
+      <hr
+        className="MuiDivider-root"
+      />
     </div>
     <div
+      className="MuiBox-root MuiBox-root-65"
       itemProp="mainEntity"
       itemScope={true}
       itemType="https://schema.org/Question"
     >
       <dt
-        itemProp="name"
+        className="MuiBox-root MuiBox-root-66"
       >
         Não sei nada de informática ou programação. Posso me candidatar?
       </dt>
-      <div
-        className="verticalSpacing1x"
-      />
       <dd
+        className="MuiBox-root MuiBox-root-67"
         itemProp="acceptedAnswer"
         itemScope={true}
         itemType="https://schema.org/Answer"
       >
         <div
+          className="MuiBox-root MuiBox-root-68"
           itemProp="text"
         >
           Sim. Todas as pessoas são bem-vindas.
         </div>
       </dd>
-      <hr />
+      <hr
+        className="MuiDivider-root"
+      />
     </div>
     <div
+      className="MuiBox-root MuiBox-root-69"
       itemProp="mainEntity"
       itemScope={true}
       itemType="https://schema.org/Question"
     >
       <dt
-        itemProp="name"
+        className="MuiBox-root MuiBox-root-70"
       >
         Eu não tenho um computador. Posso participar?
       </dt>
-      <div
-        className="verticalSpacing1x"
-      />
       <dd
+        className="MuiBox-root MuiBox-root-71"
         itemProp="acceptedAnswer"
         itemScope={true}
         itemType="https://schema.org/Answer"
       >
         <div
+          className="MuiBox-root MuiBox-root-72"
           itemProp="text"
         >
           Sim. Enquanto você estiver em nosso local de aprendizado, você poderá usar um computador que ficará reservado para você. Porém, nós não podemos emprestar o computador para você levar para casa.
         </div>
       </dd>
-      <hr />
+      <hr
+        className="MuiDivider-root"
+      />
     </div>
     <div
+      className="MuiBox-root MuiBox-root-73"
       itemProp="mainEntity"
       itemScope={true}
       itemType="https://schema.org/Question"
     >
       <dt
-        itemProp="name"
+        className="MuiBox-root MuiBox-root-74"
       >
         O Educodar é um processo de recrutamento?
       </dt>
-      <div
-        className="verticalSpacing1x"
-      />
       <dd
+        className="MuiBox-root MuiBox-root-75"
         itemProp="acceptedAnswer"
         itemScope={true}
         itemType="https://schema.org/Answer"
       >
         <div
+          className="MuiBox-root MuiBox-root-76"
           itemProp="text"
         >
           Não. O programa Educodar não tem vínculo com nenhum processo de recrutamento. Porém, ele pode te ajudar indiretamente a se sair melhor em algum processo.
         </div>
       </dd>
-      <hr />
+      <hr
+        className="MuiDivider-root"
+      />
     </div>
   </dl>
   <a
-    className="buttonPrimary"
+    aria-disabled={false}
+    className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiButtonBase-root MuiButton-root makeStyles-root-77 MuiButton-text MuiButton-textPrimary MuiTypography-colorPrimary"
     href="/quero-aprender"
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="button"
+    tabIndex={0}
   >
-    Quero aprender a programar
+    <span
+      className="MuiButton-label"
+    >
+      Quero aprender a programar
+    </span>
   </a>
 </article>
 `;

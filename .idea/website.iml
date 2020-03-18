@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.cache" />
+      <excludeFolder url="file://$MODULE_DIR$/coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/reduxcache2i7V9A" />
+      <excludeFolder url="file://$MODULE_DIR$/reduxcacheFdZNGs" />
+      <excludeFolder url="file://$MODULE_DIR$/reduxcacheKHXuwn" />
+      <excludeFolder url="file://$MODULE_DIR$/reduxcacheLu896g" />
+      <excludeFolder url="file://$MODULE_DIR$/reduxcacheM8Mdrq" />
+      <excludeFolder url="file://$MODULE_DIR$/reduxcacheY3R68n" />
+      <excludeFolder url="file://$MODULE_DIR$/reduxcacheiXyEXr" />
+      <excludeFolder url="file://$MODULE_DIR$/src.old" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="@types/jest" level="application" />

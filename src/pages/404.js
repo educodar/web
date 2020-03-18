@@ -1,21 +1,10 @@
 import React from "react"
 import SEO from "../components/SEO"
-import { Link } from "gatsby"
+import NotFound from "../templates/NotFound"
 
-const NotFoundPage = () => (
+export default () => (
   <>
     <SEO />
-    <article>
-      <h1>Página não encontrada</h1>
-      <p>
-        Ops! A página que você está procurando pode ter sido removida ou
-        renomeada.
-      </p>
-      <p>
-        <Link to="/">Voltar à página inicial</Link>
-      </p>
-    </article>
+    <NotFound />
   </>
 )
-
-export default NotFoundPage

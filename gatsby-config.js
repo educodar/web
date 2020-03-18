@@ -50,6 +50,9 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-mdx`,
+    },
+    {
       resolve: `gatsby-plugin-netlify`,
       options: {
         headers: {
@@ -95,13 +98,6 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-sitemap`,
-    },
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-        omitGoogleFont: true,
-      },
     },
   ],
 }

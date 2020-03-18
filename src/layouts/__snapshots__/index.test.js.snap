@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Default layout renders correctly 1`] = `
+Array [
+  <header
+    className="MuiBox-root MuiBox-root-44 MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary MuiPaper-elevation4"
+    itemScope={true}
+    itemType="https://schema.org/WPHeader"
+    role="banner"
+  >
+    <div
+      className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+    >
+      <h1
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        <a
+          className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorInherit"
+          href="/"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          underlineHover={true}
+        >
+          <strong>
+            Educodar
+          </strong>
+        </a>
+      </h1>
+    </div>
+  </header>,
+  <hr
+    className="MuiDivider-root"
+  />,
+  <main
+    className="MuiBox-root MuiBox-root-92"
+    role="main"
+  >
+    <div
+      className="MuiContainer-root MuiContainer-maxWidthMd"
+    />
+  </main>,
+  <hr
+    className="MuiDivider-root"
+  />,
+  <footer
+    className="MuiBox-root MuiBox-root-101"
+    itemScope={true}
+    itemType="https://schema.org/WPFooter"
+  >
+    <div
+      className="MuiContainer-root MuiContainer-maxWidthMd"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 MuiTypography-paragraph"
+      >
+        2019-
+        2020
+         
+        <strong>
+          Educodar
+        </strong>
+      </p>
+      <a
+        className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+        href="/codigo-de-conduta"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        rel={null}
+        target="_self"
+      >
+        Código de Conduta
+      </a>
+    </div>
+  </footer>,
+]
+`;

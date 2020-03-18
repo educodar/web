@@ -1,109 +1,157 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Home page renders correctly 1`] = `
-Array [
-  <section>
-    <section
-      className="heroImage"
+<article
+  className="MuiBox-root MuiBox-root-2"
+>
+  <div
+    className="MuiBox-root MuiBox-root-4"
+  >
+    <img
+      alt="Estudantes"
+      className="makeStyles-root-5"
+      src="test-file-stub"
     />
-    <div
-      className="hero"
+    <h2
+      className="MuiTypography-root MuiTypography-h2 makeStyles-h2-3"
     >
-      <div
-        className="container"
+      Aprenda programação gratuitamente.
+    </h2>
+    <p
+      className="MuiTypography-root MuiTypography-body1 MuiTypography-paragraph"
+    >
+      <a
+        aria-disabled={false}
+        className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiButtonBase-root MuiButton-root makeStyles-root-37 MuiButton-contained MuiButton-containedPrimary MuiTypography-colorPrimary"
+        href="/quero-aprender"
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role="button"
+        tabIndex={0}
       >
-        <h1>
-          Aprenda programação gratuitamente.
-        </h1>
-        <img
-          alt="computer"
-          src="test-file-stub"
-        />
-      </div>
-      <div
-        className="verticalSpacing1x"
-      />
-      <div>
-        <a
-          className="buttonPrimary"
-          href="/quero-aprender"
+        <span
+          className="MuiButton-label"
         >
           Quero aprender
-        </a>
-      </div>
-    </div>
-    <div
-      className="verticalSpacing4x"
-    />
-  </section>,
-  <section
-    className="featuredSectionLevel1"
-  >
-    <h2
-      className="featuredSectionHeading"
-    >
-      Para quem é o Educodar?
-    </h2>
-    <p>
-      Tem pelo menos 14 anos e estuda em uma escola pública de Belo Horizonte (
-      <abbr
-        title="Minas Gerais"
-      >
-        MG
-      </abbr>
-      ) 
-      <wbr />
-      ou Porto Alegre (
-      <abbr
-        title="Rio Grande do Sul"
-      >
-        RS
-      </abbr>
-      )?
-    </p>
-    <p>
-      Então você pode se
-       
-      <a
-        href="/quero-aprender"
-      >
-        inscrever para estudar no 
-        <strong>
-          Educodar
-        </strong>
+        </span>
       </a>
-      .
     </p>
-     
-  </section>,
-  <section
-    className="featuredSectionLevel2"
-  >
-    <h2
-      className="featuredSectionHeading"
+    <p
+      className="MuiTypography-root MuiTypography-body1 MuiTypography-paragraph"
     >
-      Como divulgar o Educodar na sua escola
-    </h2>
-    <p>
-      Se você estuda ou leciona em uma escola em Belo Horizonte (
-      <abbr
-        title="Minas Gerais"
-      >
-        MG
-      </abbr>
-      ), você pode nos ajudar a divulgar este projeto.
-    </p>
-    <p>
-      Divulgue as
-       
       <a
+        className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
         href="/tire-suas-duvidas"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        outline={true}
       >
-        informações sobre o Educodar
+        Tire suas dúvidas
       </a>
-       para sua escola.
     </p>
-     
-  </section>,
-]
+  </div>
+  <section
+    className="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <div
+      className="MuiCardContent-root"
+    >
+      <h2
+        className="MuiTypography-root MuiTypography-h2"
+      >
+        Para quem é o Educodar?
+      </h2>
+      <p
+        className="MuiTypography-root MuiTypography-body1 MuiTypography-paragraph"
+      >
+        Tem pelo menos 14 anos e estuda em uma escola pública de Belo Horizonte (
+        <abbr
+          title="Minas Gerais"
+        >
+          MG
+        </abbr>
+        )
+         
+        <wbr />
+        ou Porto Alegre (
+        <abbr
+          title="Rio Grande do Sul"
+        >
+          RS
+        </abbr>
+        )?
+      </p>
+      <p
+        className="MuiTypography-root MuiTypography-body1 MuiTypography-paragraph"
+      >
+        Então você pode se
+         
+        <a
+          className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+          href="/quero-aprender"
+          onBlur={[Function]}
+          onFocus={[Function]}
+        >
+          inscrever para estudar no 
+          <strong>
+            Educodar
+          </strong>
+        </a>
+        .
+      </p>
+    </div>
+  </section>
+  <hr
+    className="MuiDivider-root"
+  />
+  <section
+    className="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <div
+      className="MuiCardContent-root"
+    >
+      <h2
+        className="MuiTypography-root MuiTypography-h2"
+      >
+        Como divulgar o Educodar na sua escola
+      </h2>
+      <p
+        className="MuiTypography-root MuiTypography-body1 MuiTypography-paragraph"
+      >
+        Se você estuda ou leciona em uma escola em Belo Horizonte (
+        <abbr
+          title="Minas Gerais"
+        >
+          MG
+        </abbr>
+        ), você pode nos ajudar a divulgar este projeto.
+      </p>
+      <p
+        className="MuiTypography-root MuiTypography-body1 MuiTypography-paragraph"
+      >
+        Divulgue as
+         
+        <a
+          className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+          href="/tire-suas-duvidas"
+          onBlur={[Function]}
+          onFocus={[Function]}
+        >
+          informações sobre o Educodar
+        </a>
+         
+        para sua escola.
+      </p>
+    </div>
+  </section>
+</article>
 `;

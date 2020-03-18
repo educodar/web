@@ -1,41 +1,55 @@
-import FeaturedSection from "../atoms/FeaturedSection"
-import Hero from "../molecules/Hero"
 import React from "react"
-import SEO from "../components/SEO"
-import { Link } from "gatsby"
+import { Article, Image } from "muy"
+import Hero from "../components/Hero"
+import Typography from "@material-ui/core/Typography"
+import GatsbyLink from "../components/GatsbyLink"
+import Divider from "@material-ui/core/Divider"
+import Card from "@material-ui/core/Card"
+import CardContent from "@material-ui/core/CardContent"
 
-const HomePage = () => (
-  <>
-    <SEO />
-    <Hero title="Aprenda programação gratuitamente." />
-    <FeaturedSection level={1} title="Para quem é o Educodar?">
-      <p>
-        Tem pelo menos 14 anos e estuda em uma escola pública de
-        Belo&nbsp;Horizonte&nbsp;(<abbr title="Minas Gerais">MG</abbr>) <wbr />
-        ou&nbsp;Porto&nbsp;Alegre&nbsp;(
-        <abbr title="Rio Grande do Sul">RS</abbr>)?
-      </p>
-      <p>
-        Então você pode se{" "}
-        <Link to="/quero-aprender">
-          inscrever para estudar no <strong>Educodar</strong>
-        </Link>
-        .
-      </p>
-    </FeaturedSection>
-    <FeaturedSection level={2} title="Como divulgar o Educodar na sua escola">
-      <p>
-        Se você estuda ou leciona em uma escola em Belo&nbsp;Horizonte&nbsp;(
-        <abbr title="Minas Gerais">MG</abbr>), você pode nos ajudar a divulgar
-        este projeto.
-      </p>
-      <p>
-        Divulgue as{" "}
-        <Link to="/tire-suas-duvidas">informações sobre o Educodar</Link> para
-        sua escola.
-      </p>
-    </FeaturedSection>
-  </>
+export default () => (
+  <Article>
+    <Hero title={"Aprenda programação gratuitamente."} />
+    <Card component={"section"}>
+      <CardContent>
+        <Typography component={"h2"} variant={"h2"}>
+          Para quem é o Educodar?
+        </Typography>
+        <Typography paragraph={true}>
+          Tem pelo menos 14 anos e estuda em uma escola pública de
+          Belo&nbsp;Horizonte&nbsp;(<abbr title="Minas Gerais">MG</abbr>){" "}
+          <wbr />
+          ou&nbsp;Porto&nbsp;Alegre&nbsp;(
+          <abbr title="Rio Grande do Sul">RS</abbr>)?
+        </Typography>
+        <Typography paragraph={true}>
+          Então você pode se{" "}
+          <GatsbyLink to="/quero-aprender">
+            inscrever para estudar no <strong>Educodar</strong>
+          </GatsbyLink>
+          .
+        </Typography>
+      </CardContent>
+    </Card>
+    <Divider />
+    <Card component={"section"}>
+      <CardContent>
+        <Typography component={"h2"} variant={"h2"}>
+          Como divulgar o Educodar na sua escola
+        </Typography>
+        <Typography paragraph={true}>
+          Se você estuda ou leciona em uma escola em Belo&nbsp;Horizonte&nbsp;(
+          <abbr title="Minas Gerais">MG</abbr>), você pode nos ajudar a divulgar
+          este projeto.
+        </Typography>
+        <Typography paragraph={true}>
+          Divulgue as{" "}
+          <GatsbyLink to="/tire-suas-duvidas">
+            informações sobre o Educodar
+          </GatsbyLink>{" "}
+          para sua escola.
+        </Typography>
+      </CardContent>
+    </Card>
+  </Article>
 )
-
-export default HomePage

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Answer Text component renders correctly 1`] = `
+<dd
+  className="MuiBox-root MuiBox-root-2"
+  itemProp="acceptedAnswer"
+  itemScope={true}
+  itemType="https://schema.org/Answer"
+>
+  <div
+    className="MuiBox-root MuiBox-root-3"
+    itemProp="text"
+  />
+</dd>
+`;
