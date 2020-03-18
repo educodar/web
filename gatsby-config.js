@@ -50,6 +50,9 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-material-ui`,
+    },
+    {
       resolve: `gatsby-plugin-mdx`,
     },
     {

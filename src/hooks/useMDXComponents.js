@@ -8,12 +8,19 @@ import Table from "@material-ui/core/Table"
 import TableRow from "@material-ui/core/TableRow"
 import TableCell from "@material-ui/core/TableCell"
 import Link from "@material-ui/core/Link"
+import { ListItemText } from "@material-ui/core"
 
 const Heading = level => props => (
   <Typography component={`h${level}`} variant={`h${level}`} {...props} />
 )
 
 const Paragraph = props => <Typography paragraph={true} {...props} />
+
+const ListItemWithText = props => (
+  <ListItem>
+    <ListItemText {...props} />
+  </ListItem>
+)
 
 const useMDXComponents = () => ({
   a: Link,
@@ -26,7 +33,7 @@ const useMDXComponents = () => ({
   h6: Heading(6),
   hr: Divider,
   img: Image,
-  li: ListItem,
+  li: ListItemWithText,
   p: Paragraph,
   table: Table,
   td: TableCell,

@@ -19,7 +19,7 @@ const Hero = ({ title }) => {
   const classes = useStyles()
   return (
     <Box>
-      <Image alt={"Estudantes"} src={image} />
+      <Image alt={"Estudantes"} src={image} variant={"cover"} />
       <Typography component={"h2"} classes={{ h2: classes.h2 }} variant={"h2"}>
         {title}
       </Typography>
