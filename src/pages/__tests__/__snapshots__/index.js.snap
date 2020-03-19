@@ -9,7 +9,7 @@ exports[`Home page renders correctly 1`] = `
   >
     <img
       alt="Estudantes"
-      className="makeStyles-root-5"
+      className="makeStyles-root-5 makeStyles-cover-6"
       src="test-file-stub"
     />
     <h2
