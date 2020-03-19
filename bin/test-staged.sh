@@ -4,7 +4,7 @@ if [[ "$STAGED_FILES" = "" ]]; then
     exit 0
 fi
 
-jest --bail --findRelatedTests "$STAGED_FILES"
+jest --bail --findRelatedTests --passWithNoTests "$STAGED_FILES"
 
 # shellcheck disable=SC2181
 if [[ "$?" == 0 ]]; then
