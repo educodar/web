@@ -1,11 +1,9 @@
 import image from "../../images/students.jpg"
-import { Image } from "muy"
+import { GatsbyLink, GatsbyLinkButton, Image } from "muy"
 import React from "react"
 import Typography from "@material-ui/core/Typography"
 import Box from "@material-ui/core/Box"
 import makeStyles from "@material-ui/core/styles/makeStyles"
-import GatsbyLinkButton from "../GatsbyLinkButton"
-import GatsbyLink from "../GatsbyLink"
 
 const useStyles = makeStyles(theme => ({
   h2: {
