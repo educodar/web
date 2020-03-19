@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Use MDX Components render correctly the 'h1' component returned with custom props 1`] = `
+<h1
+  className="MuiTypography-root MuiTypography-h1"
+  test="h1 component"
+/>
+`;
+
+exports[`Use MDX Components render correctly the 'h2' component returned with custom props 1`] = `
+<h2
+  className="MuiTypography-root MuiTypography-h2"
+  test="h2 component"
+/>
+`;
+
+exports[`Use MDX Components render correctly the 'h3' component returned with custom props 1`] = `
+<h3
+  className="MuiTypography-root MuiTypography-h3"
+  test="h3 component"
+/>
+`;
+
+exports[`Use MDX Components render correctly the 'h4' component returned with custom props 1`] = `
+<h4
+  className="MuiTypography-root MuiTypography-h4"
+  test="h4 component"
+/>
+`;
+
+exports[`Use MDX Components render correctly the 'h5' component returned with custom props 1`] = `
+<h5
+  className="MuiTypography-root MuiTypography-h5"
+  test="h5 component"
+/>
+`;
+
+exports[`Use MDX Components render correctly the 'h6' component returned with custom props 1`] = `
+<h6
+  className="MuiTypography-root MuiTypography-h6"
+  test="h6 component"
+/>
+`;
+
+exports[`Use MDX Components render correctly the 'li' component returned with custom props 1`] = `
+<li
+  className="MuiListItem-root MuiListItem-gutters"
+  disabled={false}
+>
+  <div
+    className="MuiListItemText-root"
+    test="li component"
+  />
+</li>
+`;
+
+exports[`Use MDX Components render correctly the 'p' component returned with custom props 1`] = `
+<p
+  className="MuiTypography-root MuiTypography-body1 MuiTypography-paragraph"
+  test="p component"
+/>
+`;
