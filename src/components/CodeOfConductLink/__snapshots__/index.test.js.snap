@@ -1,6 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Conduct Code Link component renders correctly 1`] = `
+exports[`Conduct Code Link component renders correctly with openInNew props 1`] = `
+<a
+  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+  href="/codigo-de-conduta"
+  onBlur={[Function]}
+  onFocus={[Function]}
+  rel="noopener noreferrer"
+  target="_blank"
+  to={null}
+>
+  Código de Conduta
+</a>
+`;
+
+exports[`Conduct Code Link component renders correctly without custom props 1`] = `
 <a
   className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
   href="/codigo-de-conduta"
