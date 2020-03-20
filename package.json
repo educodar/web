@@ -55,6 +55,7 @@
   "scripts": {
     "build": "gatsby build",
     "ci": "npm run testc && npm run report-coverage",
+    "clean": "gatsby clean",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
     "deploy": "git push",
@@ -62,6 +63,9 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "open:local": "open http://localhost:8000",
     "open:prod": "open https://educodar.com.br",
+    "postcheckout": "npm run clean",
+    "precommit": "npm run test:staged",
+    "prepush": "npm test && npm run test:e2e:ci && npm run build",
     "report-coverage": "codecov",
     "serve": "gatsby serve",
     "start": "npm run develop",
@@ -91,8 +95,9 @@
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "npm run test:staged",
-      "pre-push": "npm test && npm run test:e2e:ci && npm run build"
+      "post-checkout": "npm run postcheckout",
+      "pre-commit": "npm run precommit",
+      "pre-push": "npm run precommit"
     }
   }
 }
