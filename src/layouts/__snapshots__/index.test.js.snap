@@ -65,7 +65,6 @@ Array [
         href="/codigo-de-conduta"
         onBlur={[Function]}
         onFocus={[Function]}
-        rel={null}
         target="_self"
       >
         Código de Conduta

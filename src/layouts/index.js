@@ -1,5 +1,5 @@
 import React from "react"
-import { MainContent } from "muy"
+import { MainContent, useMDXComponents } from "muy"
 
 import Container from "@material-ui/core/Container"
 import CssBaseline from "@material-ui/core/CssBaseline"
@@ -11,7 +11,6 @@ import Header from "../components/Header"
 import Footer from "../components/Footer"
 import theme from "../themes"
 import { MDXProvider } from "@mdx-js/react"
-import useMDXComponents from "../hooks/useMDXComponents"
 
 export default ({ children }) => {
   const components = useMDXComponents()
