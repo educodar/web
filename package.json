@@ -4,7 +4,7 @@
   "description": "Educodar Gatsby website",
   "main": "n/a",
   "dependencies": {
-    "@material-ui/styles": "4.9.0",
+    "@material-ui/styles": "4.9.6",
     "@mdx-js/mdx": "1.5.7",
     "@mdx-js/react": "1.5.7",
     "gatsby": "2.19.43",
@@ -37,7 +37,8 @@
   "devDependencies": {
     "@commitlint/cli": "8.3.5",
     "@commitlint/config-conventional": "8.3.4",
-    "@material-ui/core": "4.9.5",
+    "@material-ui/core": "4.9.7",
+
     "@testing-library/cypress": "6.0.0",
     "babel-jest": "25.1.0",
     "codecov": "3.6.5",
