@@ -61,6 +61,7 @@
     "deploy": "git push",
     "develop": "gatsby develop -H 0.0.0.0 --port 8000",
     "format": "prettier --write src/**/*.{js,jsx}",
+    "install:clean": "npm run clean & rm -rf node_modules && rm -rf package-lock.json && npm install",
     "open:local": "open http://localhost:8000",
     "open:prod": "open https://educodar.com.br",
     "postcheckout": "npm run clean",
