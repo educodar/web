@@ -5,6 +5,7 @@ import { StaticQuery, graphql } from "gatsby"
 
 /**
  * @todo Adopt hooks for SEO component
+ * @todo Move SEO component to metax project
  * @param title
  * @param description
  * @param image

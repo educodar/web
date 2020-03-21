@@ -4,6 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.cache" />
       <excludeFolder url="file://$MODULE_DIR$/coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/public" />
       <excludeFolder url="file://$MODULE_DIR$/reduxcache2i7V9A" />
       <excludeFolder url="file://$MODULE_DIR$/reduxcacheFdZNGs" />
       <excludeFolder url="file://$MODULE_DIR$/reduxcacheKHXuwn" />

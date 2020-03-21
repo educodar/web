@@ -1,10 +1,10 @@
 import React from "react"
 import renderer from "react-test-renderer"
-import AnswerText from "."
+import Hero from "./index"
 
-describe("Answer Text component", () => {
+describe("<Hero /> component", () => {
   it("renders correctly", () => {
-    const tree = renderer.create(<AnswerText />).toJSON()
+    const tree = renderer.create(<Hero />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 })

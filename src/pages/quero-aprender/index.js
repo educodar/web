@@ -1,19 +1,14 @@
 import React, { useState } from "react"
-import { Article, Form, Header } from "muy"
-import Typography from "@material-ui/core/Typography"
+import { Article, BirthdayInput, Form, GatsbyLink, H1, Header } from "muy"
 import TextField from "@material-ui/core/TextField"
-import CodeOfConductLink from "../../components/CodeOfConductLink"
 import Button from "@material-ui/core/Button"
 import Input from "@material-ui/core/Input"
 import { Checkbox } from "@material-ui/core"
 import FormControlLabel from "@material-ui/core/FormControlLabel"
 import FormGroup from "@material-ui/core/FormGroup"
 import CityInput from "../../components/CityInput"
-import Divider from "@material-ui/core/Divider"
 import FormHelperText from "@material-ui/core/FormHelperText"
 import Fade from "@material-ui/core/Fade"
-import BirthdayInput from "../../components/BirthdayInput"
-import Box from "@material-ui/core/Box"
 
 const ContactPage = () => {
   const [state, setState] = useState({
@@ -27,11 +22,11 @@ const ContactPage = () => {
     <>
       <Article>
         <Header>
-          <Typography component={"h1"} variant={"h1"}>
+          <H1>
             Cadastre-se para&nbsp;saber mais sobre o&nbsp;
             <strong>Educodar</strong>
             &nbsp;2020
-          </Typography>
+          </H1>
         </Header>
         <Form
           action="/quero-aprender/sucesso"
@@ -42,28 +37,25 @@ const ContactPage = () => {
         >
           <Input name="bot-field" type="hidden" />
           <Input name="form-name" type="hidden" value="studentInterest" />
-
           <FormGroup row>
-            <label htmlFor="name">
-              <TextField
-                id="name"
-                name="name"
-                aria-required={true}
-                autoCapitalize="words"
-                autoComplete="name"
-                autoCorrect="off"
-                enterkeyhint="send"
-                label={"Nome completo"}
-                maxLength={50}
-                minLength={5}
-                mozactionhint="send"
-                placeholder={"Nome e sobrenome"}
-                required={true}
-                title="Por favor, informe seu nome completo, incluindo seus sobrenomes"
-                type="text"
-                variant={"outlined"}
-              />
-            </label>
+            <TextField
+              id="name"
+              name="name"
+              aria-required={true}
+              autoCapitalize="words"
+              autoComplete="name"
+              autoCorrect="off"
+              enterkeyhint="send"
+              label={"Nome completo"}
+              maxLength={50}
+              minLength={5}
+              mozactionhint="send"
+              placeholder={"Nome e sobrenome"}
+              required={true}
+              title="Por favor, informe seu nome completo, incluindo seus sobrenomes"
+              type="text"
+              variant={"outlined"}
+            />
           </FormGroup>
           <FormGroup row>
             <BirthdayInput
@@ -262,7 +254,7 @@ const ContactPage = () => {
           <FormGroup row>
             <FormHelperText>
               Ao utilizar o botão "Tenho interesse", você concorda com o nosso{" "}
-              <CodeOfConductLink openInNew={true} />
+              <GatsbyLink target={"_blank"} to={"/codigo-de-conduta"} />
             </FormHelperText>
           </FormGroup>
         </Form>

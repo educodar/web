@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page footer should render correctly 1`] = `
+<footer
+  className="MuiBox-root MuiBox-root-2"
+  itemScope={true}
+  itemType="https://schema.org/WPFooter"
+>
+  <div
+    className="MuiContainer-root MuiContainer-maxWidthMd"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 MuiTypography-paragraph"
+    >
+      2019-
+      2020
+       
+      <strong />
+    </p>
+    <a
+      className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+      href="/codigo-de-conduta"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      target="_self"
+    >
+      Código de Conduta
+    </a>
+  </div>
+</footer>
+`;

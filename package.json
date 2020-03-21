@@ -25,11 +25,11 @@
     "gatsby-plugin-typography": "2.3.24",
     "logrocket": "1.0.6",
     "moment": "2.24.0",
-    "muy": "0.4.7",
-    "netlify-cms-app": "2.11.29",
+    "muy": "0.5.5",
+    "netlify-cms-app": "2.11.32",
     "prop-types": "15.7.2",
-    "react": "16.13.0",
-    "react-dom": "16.13.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
     "react-helmet": "5.2.1",
     "react-typography": "0.16.19",
     "typography": "0.16.19"
@@ -38,10 +38,11 @@
     "@commitlint/cli": "8.3.5",
     "@commitlint/config-conventional": "8.3.4",
     "@material-ui/core": "4.9.7",
+
     "@testing-library/cypress": "6.0.0",
     "babel-jest": "25.1.0",
     "codecov": "3.6.5",
-    "cypress": "4.1.0",
+    "cypress": "4.2.0",
     "eslint-plugin-cypress": "2.10.3",
     "gatsby-cli": "2.10.10",
     "husky": "4.2.3",
@@ -49,12 +50,13 @@
     "jest": "25.1.0",
     "netlify": "3.1.0",
     "prettier": "1.19.1",
-    "react-test-renderer": "16.13.0",
-    "start-server-and-test": "1.10.10"
+    "react-test-renderer": "16.13.1",
+    "start-server-and-test": "1.10.11"
   },
   "scripts": {
     "build": "gatsby build",
     "ci": "npm run testc && npm run report-coverage",
+    "clean": "gatsby clean",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
     "deploy": "git push",
@@ -62,6 +64,9 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "open:local": "open http://localhost:8000",
     "open:prod": "open https://educodar.com.br",
+    "postcheckout": "npm run clean",
+    "precommit": "npm run test:staged",
+    "prepush": "npm test && npm run test:e2e:ci && npm run build",
     "report-coverage": "codecov",
     "serve": "gatsby serve",
     "start": "npm run develop",
@@ -91,8 +96,9 @@
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "npm run test:staged",
-      "pre-push": "npm test && npm run test:e2e:ci && npm run build"
+      "post-checkout": "npm run postcheckout",
+      "pre-commit": "npm run precommit",
+      "pre-push": "npm run precommit"
     }
   }
 }
