@@ -7,7 +7,7 @@ import ListItem from "@material-ui/core/ListItem"
 
 export default () => (
   <>
-    <SEO />
+    <SEO title={"Equipe"} />
     <Article>
       <Typography component={"h1"} variant={"h1"}>
         Quem faz o Educodar

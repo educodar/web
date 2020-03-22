@@ -12,7 +12,7 @@ exports[`Page footer should render correctly 1`] = `
     <p
       className="MuiTypography-root MuiTypography-body1 MuiTypography-paragraph"
     >
-      2019-
+      © 2019-
       2020
        
       <strong />

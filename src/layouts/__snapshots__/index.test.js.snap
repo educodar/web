@@ -19,12 +19,8 @@ Array [
           href="/"
           onBlur={[Function]}
           onFocus={[Function]}
-          underlineHover={true}
-        >
-          <strong>
-            Educodar
-          </strong>
-        </a>
+          target="_self"
+        />
       </h1>
     </div>
   </header>,
@@ -37,7 +33,9 @@ Array [
   >
     <div
       className="MuiContainer-root MuiContainer-maxWidthMd"
-    />
+    >
+      Content
+    </div>
   </main>,
   <hr
     className="MuiDivider-root"
@@ -53,7 +51,7 @@ Array [
       <p
         className="MuiTypography-root MuiTypography-body1 MuiTypography-paragraph"
       >
-        2019-
+        © 2019-
         2020
          
         <strong>

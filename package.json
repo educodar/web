@@ -1,44 +1,41 @@
 {
-  "name": "educodar",
+  "name": "@educodar/web",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "1.0.0",
-  "description": "Educodar Gatsby website",
-  "main": "n/a",
+  "author": "Educodar BH <educodar-bh@thoughtworks.com>",
   "dependencies": {
     "@material-ui/styles": "4.9.6",
     "@mdx-js/mdx": "1.5.7",
     "@mdx-js/react": "1.5.7",
-    "gatsby": "2.19.43",
-    "gatsby-image": "2.2.43",
+    "gatsby": "2.19.45",
+    "gatsby-image": "2.2.44",
     "gatsby-plugin-csp": "1.1.3",
     "gatsby-plugin-html-attributes": "1.0.5",
     "gatsby-plugin-layout": "1.1.23",
-    "gatsby-plugin-manifest": "2.2.47",
+    "gatsby-plugin-manifest": "2.2.48",
     "gatsby-plugin-material-ui": "2.1.6",
     "gatsby-plugin-mdx": "1.0.83",
-    "gatsby-plugin-netlify": "2.1.34",
-    "gatsby-plugin-netlify-cms": "4.1.41",
-    "gatsby-plugin-netlify-identity-widget": "1.1.1",
+    "gatsby-plugin-netlify": "2.2.0",
+    "gatsby-plugin-offline": "3.0.41",
     "gatsby-plugin-prefetch-google-fonts": "1.4.3",
-    "gatsby-plugin-react-helmet": "3.1.23",
+    "gatsby-plugin-react-helmet": "3.1.24",
     "gatsby-plugin-robots-txt": "1.5.0",
+    "gatsby-plugin-sharp": "2.4.13",
     "gatsby-plugin-sitemap": "2.2.29",
-    "gatsby-plugin-typography": "2.3.24",
+    "gatsby-source-filesystem": "2.1.56",
+    "gatsby-transformer-sharp": "2.3.19",
     "logrocket": "1.0.6",
-    "moment": "2.24.0",
     "muy": "0.5.5",
-    "netlify-cms-app": "2.11.32",
     "prop-types": "15.7.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-helmet": "5.2.1",
-    "react-typography": "0.16.19",
-    "typography": "0.16.19"
+    "react-helmet": "5.2.1"
   },
   "devDependencies": {
     "@commitlint/cli": "8.3.5",
     "@commitlint/config-conventional": "8.3.4",
     "@material-ui/core": "4.9.7",
-
     "@testing-library/cypress": "6.0.0",
     "babel-jest": "25.1.0",
     "codecov": "3.6.5",
@@ -53,24 +50,29 @@
     "react-test-renderer": "16.13.1",
     "start-server-and-test": "1.10.11"
   },
+  "keywords": [
+    "educodar",
+    "gatsby",
+    "react"
+  ],
+  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "ci": "npm run testc && npm run report-coverage",
-    "clean": "gatsby clean",
+    "clean": "rm -rf reduxcache*/ && gatsby clean",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
     "deploy": "git push",
-    "develop": "gatsby develop -H 0.0.0.0 --port 8000",
-    "format": "prettier --write src/**/*.{js,jsx}",
-    "install:clean": "npm run clean & rm -rf node_modules && rm -rf package-lock.json && npm install",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "open:local": "open http://localhost:8000",
     "open:prod": "open https://educodar.com.br",
     "postcheckout": "npm run clean",
     "precommit": "npm run test:staged",
     "prepush": "npm test && npm run test:e2e:ci && npm run build",
     "report-coverage": "codecov",
-    "serve": "gatsby serve",
     "start": "npm run develop",
+    "serve": "gatsby serve",
     "test": "jest",
     "testc": "jest --coverage",
     "testu": "jest -u",
@@ -81,19 +83,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/educodar/website.git"
+    "url": "git+https://github.com/educodar/web.git"
   },
-  "keywords": [
-    "educodar",
-    "gatsby",
-    "react"
-  ],
-  "author": "ThoughtWorks",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/educodar/website/issues"
+    "url": "https://github.com/educodar/web/issues"
   },
-  "homepage": "https://github.com/educodar/website#readme",
+  "homepage": "https://github.com/educodar/web#readme",
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",

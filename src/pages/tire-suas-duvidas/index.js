@@ -6,7 +6,7 @@ import SEO from "../../components/SEO"
 
 export default () => (
   <>
-    <SEO />
+    <SEO title={"Tire suas dúvidas"} />
     <Article>
       <Typography component={"h1"} variant={"h1"}>
         Tire suas dúvidas

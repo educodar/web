@@ -4,11 +4,6 @@ exports[`<Hero /> component renders correctly 1`] = `
 <div
   className="MuiBox-root MuiBox-root-3"
 >
-  <img
-    alt="Estudantes"
-    className="makeStyles-root-4 makeStyles-cover-5"
-    src="test-file-stub"
-  />
   <h2
     className="MuiTypography-root MuiTypography-h2 makeStyles-h2-1"
   />
@@ -40,19 +35,31 @@ exports[`<Hero /> component renders correctly 1`] = `
         Quero aprender
       </span>
     </a>
-  </p>
-  <p
-    className="MuiTypography-root MuiTypography-body1 MuiTypography-paragraph"
-  >
+     
     <a
-      className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+      aria-disabled={false}
+      className="MuiTypography-root MuiLink-root MuiLink-underlineNone MuiButtonBase-root MuiButton-root MuiButton-contained MuiTypography-colorPrimary"
       href="/tire-suas-duvidas"
       onBlur={[Function]}
+      onDragLeave={[Function]}
       onFocus={[Function]}
-      outline={true}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
       target="_self"
     >
-      Tire suas dúvidas
+      <span
+        className="MuiButton-label"
+      >
+        Tire suas dúvidas
+      </span>
     </a>
   </p>
 </div>
