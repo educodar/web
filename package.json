@@ -25,7 +25,7 @@
     "gatsby-plugin-sitemap": "2.3.1",
     "gatsby-source-filesystem": "2.2.2",
     "gatsby-transformer-sharp": "2.4.2",
-    "logrocket": "1.0.6",
+    "logrocket": "1.0.7",
     "muy": "0.6.0",
     "prop-types": "15.7.2",
     "react": "16.13.1",
