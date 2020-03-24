@@ -11,7 +11,7 @@ const Image = ({ name, props }) => {
       heroImage: file(relativePath: { eq: "students.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1274) {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
