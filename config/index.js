@@ -6,6 +6,12 @@ module.exports = {
   siteMetadata,
   plugins: [
     {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: productionSiteUrl,
+      },
+    },
+    {
       resolve: `gatsby-plugin-html-attributes`,
       options: {
         dir: `ltr`,
