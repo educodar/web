@@ -67,7 +67,7 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "open:local": "open http://localhost:8000",
     "open:prod": "open https://educodar.com.br",
-    "postcheckout": "npm run clean",
+    "postcheckout": "npm run clean && npm install",
     "precommit": "npm run test:staged",
     "prepush": "npm test && npm run test:e2e:ci && npm run build",
     "report-coverage": "codecov",
