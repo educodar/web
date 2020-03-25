@@ -7,7 +7,7 @@ const Footer = ({ siteTitle }) => (
   <PageFooter bgcolor={"primary"} pb={3} pt={3}>
     <Container maxWidth={"md"}>
       <Typography paragraph={true}>
-        2019-{new Date().getFullYear()} <strong>{siteTitle}</strong>
+        © 2019-{new Date().getFullYear()} <strong>{siteTitle}</strong>
       </Typography>
       <GatsbyLink target={"_self"} to={"/codigo-de-conduta"}>
         Código&nbsp;de&nbsp;Conduta

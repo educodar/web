@@ -22,6 +22,7 @@ exports[`404 page renders correctly 1`] = `
       href="/"
       onBlur={[Function]}
       onFocus={[Function]}
+      target="_self"
     >
       Voltar à página inicial
     </a>

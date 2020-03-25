@@ -6,7 +6,7 @@ import SEO from "../../components/SEO"
 
 export default () => (
   <>
-    <SEO />
+    <SEO title={"Tire suas dúvidas"} />
     <Article>
       <Typography component={"h1"} variant={"h1"}>
         Tire suas dúvidas
@@ -41,7 +41,7 @@ export default () => (
           para te dar apoio se você tiver alguma dúvida.
         </Question>
         <Question question="Como funciona o Educodar?">
-          Nós dividimos o Educodar em duas fases. Na primeira, fazemos um
+          Nós dividimos o Educodar em duas fases. Na primeira, fazemos um&nbsp;
           <em lang="en">workshop</em> super divertido, que vai ajudar você a
           aprender conceitos básicos de programação (como lógica de programação,
           por exemplo). Na segunda fase, você aprenderá a programar em aulas que

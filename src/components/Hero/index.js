@@ -1,11 +1,10 @@
-import image from "../../images/students.jpg"
-import { GatsbyLink, GatsbyLinkButton, Image } from "muy"
+import { GatsbyLinkButton, H2 } from "muy"
 import React from "react"
 import Typography from "@material-ui/core/Typography"
 import Box from "@material-ui/core/Box"
 import makeStyles from "@material-ui/core/styles/makeStyles"
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   h2: {
     color: theme.palette.primary.dark,
     fontSize: "2rem",
@@ -13,14 +12,12 @@ const useStyles = makeStyles(theme => ({
   },
 }))
 
-const Hero = ({ title }) => {
+const Hero = ({ heroImage, title }) => {
   const classes = useStyles()
   return (
     <Box>
-      <Image alt={"Estudantes"} src={image} variant={"cover"} />
-      <Typography component={"h2"} classes={{ h2: classes.h2 }} variant={"h2"}>
-        {title}
-      </Typography>
+      {heroImage}
+      <H2 classes={{ h2: classes.h2 }}>{title}</H2>
       <Typography paragraph={true}>
         <GatsbyLinkButton
           color={"primary"}
@@ -29,11 +26,14 @@ const Hero = ({ title }) => {
         >
           Quero aprender
         </GatsbyLinkButton>
-      </Typography>
-      <Typography paragraph={true}>
-        <GatsbyLink outline={true} to="/tire-suas-duvidas" variant="primary">
+        &nbsp;
+        <GatsbyLinkButton
+          color={"initial "}
+          to="/tire-suas-duvidas"
+          variant={"contained"}
+        >
           Tire suas dúvidas
-        </GatsbyLink>
+        </GatsbyLinkButton>
       </Typography>
     </Box>
   )

@@ -1,91 +1,119 @@
+/**
+ * SEO component that queries for data with
+ *  Gatsby's useStaticQuery React hook
+ *
+ * See: https://www.gatsbyjs.org/docs/use-static-query/
+ */
+
 import React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
-import { StaticQuery, graphql } from "gatsby"
+import useSiteMetadata from "../../hooks/useSiteMetadata"
 
 /**
- * @todo Adopt hooks for SEO component
  * @todo Move SEO component to metax project
- * @param title
  * @param description
  * @param image
+ * @param lang
+ * @param meta
  * @param pathname
- * @param pageType
- * @param article
+ * @param title
+ * @return {*}
+ * @constructor
  */
-const SEO = ({ title, description, image, pathname, pageType, article }) => (
-  <StaticQuery
-    query={query}
-    render={({
-      site: {
-        siteMetadata: {
-          defaultTitle,
-          titleTemplate,
-          defaultDescription,
-          siteUrl,
-          defaultImage,
+function SEO({
+  author,
+  article,
+  description,
+  image,
+  lang,
+  meta,
+  pageType,
+  pathname,
+  title,
+  titleTemplate,
+}) {
+  const siteMetadata = useSiteMetadata()
+
+  title = title || (siteMetadata && siteMetadata.defaultTitle)
+  titleTemplate = titleTemplate || (siteMetadata && siteMetadata.titleTemplate)
+
+  const metaAuthor = author || (siteMetadata && siteMetadata.author)
+  const metaDescription =
+    description || (siteMetadata && siteMetadata.defaultDescription)
+  const metaImage = image || (siteMetadata && siteMetadata.defaultImage)
+
+  return (
+    <Helmet
+      defer={false}
+      htmlAttributes={{
+        lang,
+      }}
+      meta={[
+        {
+          name: `description`,
+          content: metaDescription,
         },
-      },
-    }) => {
-      const seo = {
-        title: title || defaultTitle,
-        description: description || defaultDescription,
-        image: `${siteUrl}${image || defaultImage}`,
-        url: `${siteUrl}${pathname || "/"}`,
-      }
-      return (
-        <Helmet
-          defer={false}
-          title={seo.title}
-          titleTemplate={titleTemplate}
-          meta={[
-            {
-              name: "description",
-              content: seo.description,
-            },
-            {
-              name: "image",
-              content: seo.image,
-            },
-            {
-              name: "google-site-verification",
-              content: "d56gI8ef4vlvD5c60_X2KNMV7KNNlgEalpcH84eWbs8",
-            },
-          ]}
-        />
-      )
-    }}
-  />
-)
-
-export default SEO
-
-const query = graphql`
-  query SEO {
-    site {
-      siteMetadata {
-        defaultTitle: title
-        titleTemplate
-        defaultDescription: description
-        siteUrl
-        defaultImage: image
-      }
-    }
-  }
-`
-
-SEO.propTypes = {
-  title: PropTypes.string,
-  description: PropTypes.string,
-  image: PropTypes.string,
-  pathname: PropTypes.string,
-  article: PropTypes.bool,
+        {
+          name: "google-site-verification",
+          content: "d56gI8ef4vlvD5c60_X2KNMV7KNNlgEalpcH84eWbs8",
+        },
+        {
+          name: "image",
+          content: metaImage,
+        },
+        {
+          property: `og:title`,
+          content: title,
+        },
+        {
+          property: `og:description`,
+          content: metaDescription,
+        },
+        {
+          property: `og:type`,
+          content: article ? `article` : pageType ? pageType : `website`,
+        },
+        {
+          name: `twitter:card`,
+          content: `summary`,
+        },
+        {
+          name: `twitter:creator`,
+          content: author,
+        },
+        {
+          name: `twitter:title`,
+          content: title,
+        },
+        {
+          name: `twitter:description`,
+          content: metaDescription,
+        },
+      ].concat(meta)}
+      title={title}
+      titleTemplate={titleTemplate}
+    />
+  )
 }
 
 SEO.defaultProps = {
-  title: null,
-  description: null,
-  image: null,
-  pathname: null,
   article: false,
+  description: ``,
+  image: null,
+  lang: `en`,
+  meta: [],
+  pathname: null,
 }
+
+SEO.propTypes = {
+  article: PropTypes.bool,
+  description: PropTypes.string,
+  lang: PropTypes.string,
+  image: PropTypes.string,
+  meta: PropTypes.arrayOf(PropTypes.object),
+  pathname: PropTypes.string,
+  title: PropTypes.string.isRequired,
+}
+
+export default SEO

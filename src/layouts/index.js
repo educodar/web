@@ -1,24 +1,36 @@
+/**
+ * Layout component that queries for data
+ * with Gatsby's useStaticQuery component
+ *
+ * See: https://www.gatsbyjs.org/docs/use-static-query/
+ */
+
 import React from "react"
+import PropTypes from "prop-types"
+import { useStaticQuery, graphql } from "gatsby"
+
 import { MainContent, useMDXComponents } from "muy"
 
 import Container from "@material-ui/core/Container"
 import CssBaseline from "@material-ui/core/CssBaseline"
 import Divider from "@material-ui/core/Divider"
 
-import MuiThemeProvider from "@material-ui/core/styles/MuiThemeProvider"
-
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import theme from "../themes"
 import { MDXProvider } from "@mdx-js/react"
+import useSiteMetadata from "../hooks/useSiteMetadata"
+import ThemeProvider from "@material-ui/styles/ThemeProvider"
 
-export default ({ children }) => {
+const Layout = ({ children }) => {
   const components = useMDXComponents()
+  const siteMetadata = useSiteMetadata()
+
   return (
-    <MuiThemeProvider theme={theme}>
+    <ThemeProvider theme={theme}>
       <MDXProvider components={components}>
         <CssBaseline />
-        <Header siteTitle={"Educodar"} />
+        <Header siteTitle={siteMetadata && siteMetadata.title} />
         <Divider />
         <MainContent>
           <Container maxWidth={"md"}>{children}</Container>
@@ -26,6 +38,12 @@ export default ({ children }) => {
         <Divider />
         <Footer siteTitle={"Educodar"} />
       </MDXProvider>
-    </MuiThemeProvider>
+    </ThemeProvider>
   )
 }
+
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
+}
+
+export default Layout

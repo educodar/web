@@ -4,7 +4,7 @@ import NotFound from "../templates/NotFound"
 
 export default () => (
   <>
-    <SEO />
+    <SEO title={"Página não encontrada"} />
     <NotFound />
   </>
 )
