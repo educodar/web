@@ -90,4 +90,5 @@ static/undefined.html
 .old
 
 # Cypress generated files
+cypress/screenshots
 cypress/videos
