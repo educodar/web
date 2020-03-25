@@ -98,7 +98,7 @@
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "post-checkout": "npm run postcheckout",
       "pre-commit": "npm run precommit",
-      "pre-push": "npm run precommit"
+      "pre-push": "npm run prepush"
     }
   }
 }
