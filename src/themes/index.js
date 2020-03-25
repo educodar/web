@@ -27,49 +27,26 @@ const theme = createMuiTheme({
   ...baseTheme,
   overrides: {
     MuiAppBar: {
-      alignItems: "center",
-      display: "flex",
-      fontSize: "18px",
+      root: {
+        alignItems: "center",
+        display: "flex",
+        fontSize: "18px",
+      },
     },
     MuiButton: {
       outlinedPrimary: {
         backgroundColor: baseTheme.palette.primary,
-        borderColor: baseTheme.palette.primary,
-        color: baseTheme.palette.primary,
-      },
-      outlined: {
-        backgroundColor: "transparent",
-        borderRadius: `${baseTheme.spacing(0.5)}px`,
-        borderStyle: "solid",
-        borderWidth: `${baseTheme.spacing(0.5)}px`,
       },
       root: {
-        cursor: "pointer",
-        fontWeight: "bold",
-        lineHeight: `${baseTheme.spacing(2.5)}px`,
         padding: `${baseTheme.spacing(1)}px ${baseTheme.spacing(1.25)}px`,
-        textDecoration: "none",
       },
       textPrimary: {
         color: baseTheme.palette.primary.contrastText,
       },
     },
-    MuiFormGroup: {
-      row: {
-        marginBottom: baseTheme.spacing(2),
-      },
-    },
-    MuiInputBase: {
-      input: {
-        fontWeight: "normal",
-        lineHeight: "20px",
-      },
-    },
     MuiOutlinedInput: {
       notchedOutline: {
         borderRadius: baseTheme.spacing(1),
-        borderStyle: "solid",
-        borderWidth: baseTheme.spacing(0.25),
       },
     },
     MuiTypography: {
