@@ -2,14 +2,17 @@
 
 exports[`<Hero /> component renders correctly 1`] = `
 <div
-  className="MuiBox-root MuiBox-root-3"
+  className="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
 >
-  <h2
-    className="MuiTypography-root MuiTypography-h2 makeStyles-h2-1"
+  <div
+    className="MuiCardMedia-root"
   />
-  <p
-    className="MuiTypography-root MuiTypography-body1 MuiTypography-paragraph"
+  <div
+    className="MuiCardContent-root"
   >
+    <h2
+      className="MuiTypography-root MuiTypography-h2 makeStyles-h2-1 MuiTypography-gutterBottom"
+    />
     <a
       aria-disabled={false}
       className="MuiTypography-root MuiLink-root MuiLink-underlineNone MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiTypography-colorPrimary"
@@ -61,6 +64,6 @@ exports[`<Hero /> component renders correctly 1`] = `
         Tire suas dúvidas
       </span>
     </a>
-  </p>
+  </div>
 </div>
 `;

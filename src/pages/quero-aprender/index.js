@@ -15,7 +15,7 @@ const ContactPage = () => {
     currentlyStudies: false,
   })
 
-  const handleChange = name => event =>
+  const handleChange = (name) => (event) =>
     setState({ ...state, [name]: event.target.checked })
 
   return (
@@ -254,7 +254,9 @@ const ContactPage = () => {
           <FormGroup row>
             <FormHelperText>
               Ao utilizar o botão "Tenho interesse", você concorda com o nosso{" "}
-              <GatsbyLink target={"_blank"} to={"/codigo-de-conduta"} />
+              <GatsbyLink target={"_blank"} to={"/codigo-de-conduta"}>
+                Código&nbsp;de&nbsp;Conduta
+              </GatsbyLink>
             </FormHelperText>
           </FormGroup>
         </Form>

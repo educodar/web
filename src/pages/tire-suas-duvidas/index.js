@@ -1,6 +1,5 @@
 import React from "react"
-import { Article, GatsbyLinkButton, Question } from "muy"
-import Typography from "@material-ui/core/Typography"
+import { Article, GatsbyLinkButton, H1, Header, Question } from "muy"
 import { Box } from "@material-ui/core"
 import SEO from "../../components/SEO"
 
@@ -8,9 +7,9 @@ export default () => (
   <>
     <SEO title={"Tire suas dúvidas"} />
     <Article>
-      <Typography component={"h1"} variant={"h1"}>
-        Tire suas dúvidas
-      </Typography>
+      <Header>
+        <H1 gutterBottom={true}>Tire suas dúvidas</H1>
+      </Header>
       <Box component={"dl"}>
         <Question question="O que é o Educodar">
           É um projeto voluntário que é realizado por pessoas que trabalham na
@@ -68,7 +67,11 @@ export default () => (
           em algum processo.
         </Question>
       </Box>
-      <GatsbyLinkButton color={"primary"} to="/quero-aprender">
+      <GatsbyLinkButton
+        color={"primary"}
+        to="/quero-aprender"
+        variant={"contained"}
+      >
         Quero aprender a programar
       </GatsbyLinkButton>
     </Article>

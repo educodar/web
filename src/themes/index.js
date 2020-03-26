@@ -1,4 +1,5 @@
 import createMuiTheme from "@material-ui/core/styles/createMuiTheme"
+import { getThemeOptions } from "muy"
 
 const baseTheme = createMuiTheme({
   palette: {
@@ -12,6 +13,12 @@ const baseTheme = createMuiTheme({
       main: "#FF8225",
       light: "#ff9b50",
     },
+    code: {
+      background: "#FFFFFF",
+    },
+    mark: {
+      main: "#FFFFFF",
+    },
     text: {
       primary: "#0B132B",
     },
@@ -23,8 +30,7 @@ const baseTheme = createMuiTheme({
   },
 })
 
-const theme = createMuiTheme({
-  ...baseTheme,
+const options = {
   overrides: {
     MuiAppBar: {
       root: {
@@ -61,6 +67,10 @@ const theme = createMuiTheme({
       },
     },
   },
-})
+}
+
+const theme = createMuiTheme(
+  getThemeOptions({ baseTheme: { ...baseTheme, ...options } })
+)
 
 export default theme

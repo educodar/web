@@ -1,8 +1,10 @@
-import { GatsbyLinkButton, H2 } from "muy"
+import { GatsbyLinkButton, H2, Paragraph } from "muy"
 import React from "react"
-import Typography from "@material-ui/core/Typography"
-import Box from "@material-ui/core/Box"
 import makeStyles from "@material-ui/core/styles/makeStyles"
+import { Card } from "@material-ui/core"
+import CardMedia from "@material-ui/core/CardMedia"
+import CardContent from "@material-ui/core/CardContent"
+import CardActions from "@material-ui/core/CardActions"
 
 const useStyles = makeStyles((theme) => ({
   h2: {
@@ -15,10 +17,12 @@ const useStyles = makeStyles((theme) => ({
 const Hero = ({ heroImage, title }) => {
   const classes = useStyles()
   return (
-    <Box>
-      {heroImage}
-      <H2 classes={{ h2: classes.h2 }}>{title}</H2>
-      <Typography paragraph={true}>
+    <Card>
+      <CardMedia>{heroImage}</CardMedia>
+      <CardContent>
+        <H2 classes={{ h2: classes.h2 }} gutterBottom={true}>
+          {title}
+        </H2>
         <GatsbyLinkButton
           color={"primary"}
           to={"/quero-aprender"}
@@ -34,8 +38,8 @@ const Hero = ({ heroImage, title }) => {
         >
           Tire suas dúvidas
         </GatsbyLinkButton>
-      </Typography>
-    </Box>
+      </CardContent>
+    </Card>
   )
 }
 
