@@ -79,6 +79,7 @@ excluded_words:
   - política
   - prédio
   - preocupação
+  - prepush
   - públicos
   - quero
   - questões
@@ -104,3 +105,4 @@ excluded_words:
   - Você
   - voluntárias
   - wbr
+  - xit
