@@ -44,7 +44,7 @@ const Layout = ({ children }) => {
     <PureLayout
       children={children}
       markdownComponents={components}
-      siteMetadata={metadata}
+      metadata={metadata}
       theme={theme}
     />
   )
