@@ -150,7 +150,7 @@ exports[`FAQ page renders correctly 1`] = `
           className="MuiBox-root MuiBox-root-60"
           itemProp="text"
         >
-          Nós dividimos o Educodar em duas fases. Na primeira, fazemos um
+          Nós dividimos o Educodar em duas fases. Na primeira, fazemos um 
           <em
             lang="en"
           >

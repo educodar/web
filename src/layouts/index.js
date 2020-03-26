@@ -7,7 +7,6 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 
 import { MainContent, useMDXComponents } from "muy"
 
@@ -19,26 +18,35 @@ import Header from "../components/Header"
 import Footer from "../components/Footer"
 import theme from "../themes"
 import { MDXProvider } from "@mdx-js/react"
-import useSiteMetadata from "../hooks/useSiteMetadata"
 import ThemeProvider from "@material-ui/styles/ThemeProvider"
+import useSiteMetadata from "../hooks/useSiteMetadata"
+
+const PureLayout = ({ children, markdownComponents, metadata, theme }) => (
+  <ThemeProvider theme={theme}>
+    <MDXProvider components={markdownComponents}>
+      <CssBaseline />
+      <Header siteTitle={metadata.title} />
+      <Divider />
+      <MainContent>
+        <Container maxWidth={"md"}>{children}</Container>
+      </MainContent>
+      <Divider />
+      <Footer siteTitle={"Educodar"} />
+    </MDXProvider>
+  </ThemeProvider>
+)
 
 const Layout = ({ children }) => {
   const components = useMDXComponents()
-  const siteMetadata = useSiteMetadata()
+  const metadata = useSiteMetadata()
 
   return (
-    <ThemeProvider theme={theme}>
-      <MDXProvider components={components}>
-        <CssBaseline />
-        <Header siteTitle={siteMetadata && siteMetadata.title} />
-        <Divider />
-        <MainContent>
-          <Container maxWidth={"md"}>{children}</Container>
-        </MainContent>
-        <Divider />
-        <Footer siteTitle={"Educodar"} />
-      </MDXProvider>
-    </ThemeProvider>
+    <PureLayout
+      children={children}
+      markdownComponents={components}
+      metadata={metadata}
+      theme={theme}
+    />
   )
 }
 

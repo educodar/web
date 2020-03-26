@@ -27,7 +27,7 @@ const gatsbyMock = {
   useStaticQuery: jest.fn(),
 }
 
-gatsbyMock.StaticQuery.mockImplementationOnce(({ render }) =>
+gatsbyMock.StaticQuery.mockImplementation(({ render }) =>
   render({
     site: {
       siteMetadata: {
