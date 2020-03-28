@@ -2,7 +2,7 @@ import React from "react"
 import renderer from "react-test-renderer"
 import { StaticQuery } from "gatsby"
 
-import NotFoundPage from "../404"
+import NotFoundPage from "."
 
 beforeEach(() => {
   StaticQuery.mockImplementationOnce(({ render }) =>

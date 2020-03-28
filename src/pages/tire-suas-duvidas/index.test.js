@@ -1,7 +1,7 @@
 import React from "react"
 import renderer from "react-test-renderer"
 
-import FAQPage from "../tire-suas-duvidas"
+import FAQPage from "."
 
 describe("FAQ page", () => {
   it("renders correctly", () => {

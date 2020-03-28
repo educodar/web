@@ -5,7 +5,7 @@ import { PageHeader } from "muy"
 import { SiteTitle } from "muy"
 import Toolbar from "@material-ui/core/Toolbar"
 
-const Index = ({ siteTitle }) => (
+const Header = ({ siteTitle }) => (
   <AppBar component={PageHeader} position="static">
     <Toolbar>
       <SiteTitle>{siteTitle}</SiteTitle>
@@ -13,12 +13,12 @@ const Index = ({ siteTitle }) => (
   </AppBar>
 )
 
-Index.propTypes = {
+Header.propTypes = {
   siteTitle: PropTypes.string,
 }
 
-Index.defaultProps = {
+Header.defaultProps = {
   siteTitle: ``,
 }
 
-export default Index
+export default Header

@@ -1,8 +1,7 @@
 import React from "react"
 import renderer from "react-test-renderer"
 import { StaticQuery } from "gatsby"
-
-import HomePage from ".."
+import IndexPage from "."
 
 beforeEach(() => {
   StaticQuery.mockImplementationOnce(({ render }) =>
@@ -10,9 +9,9 @@ beforeEach(() => {
   )
 })
 
-describe("Home page", () => {
+describe("Index page", () => {
   it("renders correctly", () => {
-    const tree = renderer.create(<HomePage />).toJSON()
+    const tree = renderer.create(<IndexPage />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 })
