@@ -47,7 +47,7 @@
     "eslint-plugin-cypress": "2.10.3",
     "gatsby-cli": "2.11.5",
     "gatsby-plugin-canonical-urls": "2.2.1",
-    "husky": "4.2.3",
+    "husky": "4.2.5",
     "identity-obj-proxy": "3.0.0",
     "jest": "25.2.7",
     "netlify": "4.0.4",
