@@ -43,7 +43,7 @@
     "@testing-library/cypress": "6.0.0",
     "babel-jest": "25.3.0",
     "codecov": "3.6.5",
-    "cypress": "4.2.0",
+    "cypress": "4.3.0",
     "eslint-plugin-cypress": "2.10.3",
     "gatsby-cli": "2.11.5",
     "gatsby-plugin-canonical-urls": "2.2.1",
