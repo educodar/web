@@ -27,7 +27,7 @@
     "gatsby-source-filesystem": "2.2.2",
     "gatsby-transformer-sharp": "2.4.4",
     "logrocket": "1.0.7",
-    "metax": "0.15.3",
+    "metax": "0.15.5",
     "moment": "2.24.0",
     "muy": "0.15.4",
     "netlify-cms-app": "2.12.6",
