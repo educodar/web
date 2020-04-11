@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "author": "Educodar BH <educodar-bh@thoughtworks.com>",
   "dependencies": {
-    "@material-ui/styles": "4.9.6",
+    "@material-ui/styles": "4.9.10",
     "@mdx-js/mdx": "1.5.8",
     "@mdx-js/react": "1.5.8",
     "gatsby": "2.20.17",
@@ -39,7 +39,7 @@
   "devDependencies": {
     "@commitlint/cli": "8.3.5",
     "@commitlint/config-conventional": "8.3.4",
-    "@material-ui/core": "4.9.9",
+    "@material-ui/core": "4.9.10",
     "@testing-library/cypress": "6.0.0",
     "babel-jest": "25.3.0",
     "codecov": "3.6.5",
