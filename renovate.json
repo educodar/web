@@ -8,12 +8,12 @@
   "labels": ["dependencies", "renovate"],
   "packageRules": [
     {
-      "updateTypes": ["patch"],
-      "automerge": true
+      "updateTypes": ["major"],
+      "automerge": false
     },
     {
-      "updateTypes": ["minor", "pin", "digest"],
-      "automerge": false
+      "updateTypes": ["digest", "minor", "patch", "pin"],
+      "automerge": true
     }
   ],
   "schedule": "every weekend",
