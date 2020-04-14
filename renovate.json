@@ -16,7 +16,7 @@
       "automerge": true
     }
   ],
-  "schedule": "every weekend",
+  "schedule": "before 3am on the first monday of the month",
   "semanticCommits": true,
   "unicodeEmoji": true,
   "updateLockFiles": true
