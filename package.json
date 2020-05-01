@@ -34,7 +34,8 @@
     "prop-types": "15.7.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-helmet": "6.0.0"
+    "react-helmet": "6.0.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@commitlint/cli": "8.3.5",
@@ -84,7 +85,9 @@
     "testw": "jest --watch",
     "test:e2e": "start-server-and-test develop http://localhost:8000 cy:open",
     "test:e2e:ci": "start-server-and-test develop http://localhost:8000 cy:run",
-    "test:staged": "sh bin/test-staged.sh"
+    "test:staged": "sh bin/test-staged.sh",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -101,5 +104,6 @@
       "pre-commit": "npm run precommit",
       "pre-push": "npm run prepush"
     }
-  }
+  },
+  "snyk": true
 }
