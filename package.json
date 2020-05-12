@@ -45,7 +45,7 @@
     "codecov": "3.6.5",
     "cypress": "4.5.0",
     "eslint-plugin-cypress": "2.10.3",
-    "gatsby-cli": "2.11.7",
+    "gatsby-cli": "^2.12.17",
     "gatsby-plugin-canonical-urls": "2.2.1",
     "husky": "4.2.5",
     "identity-obj-proxy": "3.0.0",
