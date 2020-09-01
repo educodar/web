@@ -50,7 +50,7 @@
     "gatsby-plugin-canonical-urls": "2.2.1",
     "husky": "4.2.5",
     "identity-obj-proxy": "3.0.0",
-    "jest": "25.5.3",
+    "jest": "25.5.4",
     "netlify": "4.1.1",
     "prettier": "2.0.5",
     "react-test-renderer": "16.13.1",
