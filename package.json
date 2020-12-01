@@ -52,7 +52,7 @@
     "identity-obj-proxy": "3.0.0",
     "jest": "25.5.4",
     "netlify": "4.9.0",
-    "prettier": "2.1.2",
+    "prettier": "2.2.1",
     "react-test-renderer": "16.13.1",
     "start-server-and-test": "1.11.5"
   },
