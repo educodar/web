@@ -730,3 +730,11 @@ patch:
         patched: '2020-08-19T12:30:25.841Z'
     - gatsby-plugin-mdx > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
         patched: '2020-08-19T12:30:25.841Z'
+    - gatsby > @typescript-eslint/eslint-plugin > lodash:
+        patched: '2021-03-18T17:26:47.665Z'
+    - gatsby > babel-plugin-lodash > lodash:
+        patched: '2021-03-18T17:26:47.665Z'
+    - gatsby > babel-plugin-lodash > @babel/types > lodash:
+        patched: '2021-03-18T17:26:47.665Z'
+    - gatsby > babel-plugin-lodash > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2021-03-18T17:26:47.665Z'
