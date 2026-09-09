@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "author": "Educodar BH <educodar-bh@thoughtworks.com>",
   "dependencies": {
-    "@material-ui/styles": "4.11.4",
+    "@mui/styles": "5.0.0",
     "@mdx-js/mdx": "1.5.8",
     "@mdx-js/react": "1.5.8",
     "gatsby": "3.0.0",
